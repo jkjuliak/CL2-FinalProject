@@ -1,0 +1,516 @@
+---
+title: "Analysis of Spanish article/noun agreement"
+# author: "Sean Trott"
+date: "03/09/2024"
+output:
+  html_document:
+    keep_md: yes
+    toc: yes
+    toc_float: yes
+    # code_folding: hide
+  # pdf_document: 
+  #    fig_caption: yes
+  #    keep_md: yes
+  #    keep_tex: yes
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dpi = 300, fig.format = "pdf")
+```
+
+
+```{r include=FALSE}
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(ggridges)
+library(viridis)
+```
+
+
+# Load data
+
+```{r}
+### Whole
+# setwd("/Users/seantrott/Dropbox/UCSD/Research/NLMs/morphology/spanish_pl_embeddings/organized_files/analysis")
+df_st = read_csv("../results_article-agreement/results_singletok.csv")
+nrow(df_st)
+head(df_st, 2)
+
+table(df_st$word_number, df_st$tokenization_type)
+table(df_st$word_number, df_st$article_type)
+
+### Non-morph, multi-token
+df_mt_nm = read_csv("../results_article-agreement/results_multitok_nonmorph.csv") 
+nrow(df_mt_nm)
+
+head(df_mt_nm, 2)
+
+table(df_mt_nm$word_number, df_mt_nm$tokenization_type)
+table(df_mt_nm$word_number, df_mt_nm$article_type)
+
+
+## Morph, multi-token
+df_mt_m = read_csv("../results_article-agreement/results_multitok_morph.csv")
+nrow(df_mt_m)
+
+head(df_mt_m, 2)
+
+table(df_mt_m$word_number, df_mt_m$tokenization_type)
+table(df_mt_m$word_number, df_mt_m$article_type)
+
+### Exclude artificial morphs, since they are the same as the regular morphs
+df_mt_m = df_mt_m%>%
+  filter(tokenization_type != "artificial")
+nrow(df_mt_m)
+
+
+### Merge into a single dataframe
+df_all = df_st %>%
+  bind_rows(df_mt_nm) %>%
+  bind_rows(df_mt_m)
+
+nrow(df_all)
+
+table(df_all$source, df_all$word_number)
+table(df_all$source, df_all$tokenization_type)
+```
+
+## Data processing
+
+Here, we build a *wide* version of the DataFrame that includes `log_odds`, i.e., `log(p(plural)/p(singular))`.
+
+This also allows us to calculate an `accuracy` score.
+
+```{r}
+### Pivot
+df_wider = df_all %>%
+  select(-...1, -article) %>%  
+  pivot_wider(names_from = c(article_number),
+               values_from = c(article_probs, surprisal),
+              names_sep = "_") %>%
+  mutate(log_odds = log(article_probs_plural / article_probs_singular),
+         surprisal_diff =  surprisal_plural - surprisal_singular)
+
+nrow(df_wider)
+
+### Accuracy
+df_wider = df_wider %>%
+  mutate(accuracy = case_when(
+    word_number == "sing" & log_odds < 0 ~ 1,
+    word_number == "sing" & log_odds > 0 ~ 0,
+    word_number == "plur" & log_odds < 0 ~ 0,
+    word_number == "plur" & log_odds > 0 ~ 1
+  ))
+
+mean(df_wider$accuracy)
+
+### Broken down
+df_wider %>%
+  group_by(source, word_number, tokenization_type) %>%
+  summarise(m_accuracy = mean(accuracy))
+
+df_wider %>%
+  filter(word_number == "plur") %>%
+  group_by(source, tokenization_type) %>%
+  summarise(m_accuracy = mean(accuracy))
+
+```
+
+
+## Initial visualizations
+
+```{r density_plots}
+df_wider %>%
+  ggplot(aes(x = log_odds,
+             y = word_number,
+             fill = tokenization_type)) +
+  geom_density_ridges2(aes(height = ..density..), color=gray(0.25), 
+                       alpha = 0.5, scale=.85, 
+                       size=1, 
+                       stat="density") +
+  labs(x = "Log Odds (plural vs. singular)",
+       y = "Noun Number",
+       fill = "Tokenization Type") +
+  geom_vline(xintercept = 0, linetype = "dotted") +
+  theme_minimal()+
+  scale_fill_viridis(option = "mako", discrete=TRUE) +
+  theme(text = element_text(size = 15),
+        legend.position="bottom") +
+  facet_wrap(~source)
+
+df_wider %>%
+  filter(word_number == "plur") %>%
+  ggplot(aes(x = log_odds,
+             y = source,
+             fill = tokenization_type)) +
+  geom_density_ridges2(aes(height = ..density..), color=gray(0.25), 
+                       alpha = 0.5, scale=.85, 
+                       size=1, 
+                       stat="density") +
+  labs(x = "Log Odds (plural vs. singular)",
+       y = "Noun Number",
+       fill = "Tokenization Type",
+       title = "Plural Nouns Only") +
+  geom_vline(xintercept = 0, linetype = "dotted") +
+  theme_minimal()+
+  scale_fill_viridis(option = "mako", discrete=TRUE) +
+  theme(text = element_text(size = 15),
+        legend.position="bottom") 
+
+df_wider %>%
+  filter(tokenization_type == "default") %>%
+  ggplot(aes(x = log_odds,
+             y = source,
+             fill = word_number)) +
+  geom_density_ridges2(aes(height = ..density..), color=gray(0.25), 
+                       alpha = 0.5, scale=.85, 
+                       size=1, 
+                       stat="density") +
+  labs(x = "Log Odds (plural vs. singular)",
+       y = "Tokenization Type",
+       fill = "Noun Number",
+       title = "Default Tokenization Only") +
+  geom_vline(xintercept = 0, linetype = "dotted") +
+  theme_minimal()+
+  scale_fill_viridis(option = "mako", discrete=TRUE) +
+  theme(text = element_text(size = 15),
+        legend.position="bottom") 
+```
+
+
+# Analysis 1: effect of original tokenization
+
+Here, we consider only the `default` tokenization scheme, and ask whether there is an effect on successful prediction of the article.
+
+There is a significant interaction between `source:word_number`. Accuracy is slightly lower in the `morphemic` cases, interestingly.
+
+
+```{r}
+df_default = df_wider %>%
+  filter(tokenization_type == "default")
+nrow(df_default)
+table(df_default$word_number, df_default$source)
+
+
+
+### Maximal model that would converge
+mod_full = lmer(data = df_default,
+                log_odds ~ source * word_number + article_type +
+                  (1 | lemma) + (1 | sentence),
+                REML = FALSE)
+
+mod_reduced = lmer(data = df_default,
+                log_odds ~ source + word_number + article_type +
+                  (1 | lemma) + (1 | sentence),
+                REML = FALSE)
+
+summary(mod_full)
+anova(mod_full, mod_reduced)
+
+### Broken down into accuracy
+df_default %>%
+  group_by(source, word_number) %>%
+  summarise(m_accuracy = mean(accuracy))
+```
+
+
+
+# Analysis 2: does the compositional strategy work?
+
+Here, we ask whether the **modified** approach works, i.e., focusing on the `comp_plur` `word_type` and comparing the `log_odds` to that obtained from the `sing` comparisons from an equivalent group (i.e., excluding the `morphemic` cases). 
+
+We also ask whether this effect is larger as a function of `source`.
+
+
+```{r comp_plural_comparison}
+### First, restrict to compositional plurals or singular nouns
+df_comp_plur = df_wider %>%
+  filter(word_number == "sing" | tokenization_type == "artificial") %>%
+  filter(source != "morphemic")
+
+## Modeling: note that more complex models resulted in singular fit or lack of convergence
+mod_full = lmer(data = df_comp_plur,
+                log_odds ~ article_type + word_number * source + affix +
+                  (1 | lemma) + (1|sentence),
+                REML = FALSE)
+
+mod_just_fe = lmer(data = df_comp_plur,
+                log_odds ~ article_type + affix + word_number + source +
+                  (1 | lemma) + (1|sentence),
+                REML = FALSE)
+
+mod_no_wn = lmer(data = df_comp_plur,
+                log_odds ~ article_type + affix + source +
+                  (1 | lemma) + (1|sentence),
+                REML = FALSE)
+
+summary(mod_full)
+anova(mod_full, mod_just_fe)
+anova(mod_just_fe, mod_no_wn)
+```
+
+We also check for interaction with `article_type`, which there is. (Prediction is worse for `indefinite` articles in general.)
+
+```{r}
+## Modeling: note that more complex models resulted in singular fit or lack of convergence
+mod_interaction = lmer(data = df_comp_plur,
+                log_odds ~article_type *word_number + word_number * source + affix +
+                  (1 | lemma) + (1|sentence),
+                REML = FALSE)
+summary(mod_interaction)
+anova(mod_full, mod_interaction)
+```
+
+
+# Analysis 3: Modified vs. original
+
+Here, we ask whether the *modified* versions are "better" than the original versions.
+
+The answer is that the original versions seem  better in the sense that `log-odds` is significantly higher for the `default` plurals than the `artificial` plurals.
+
+
+```{r tokenizer_version}
+## Validating
+table(df_wider$tokenization_type, df_wider$word_number)
+
+## Just plurals
+df_plurals = df_wider %>%
+  filter(word_number != "sing") %>%
+  filter(source != "morphemic")
+
+## Descriptive statistics
+df_plurals %>%
+  group_by(tokenization_type) %>%
+  summarise(m_log_odds = mean(log_odds),
+            sd_log_odds = sd(log_odds))
+  
+
+## Modeling: note that more complex models resulted in singular fit
+mod_full = lmer(data = df_plurals,
+                log_odds ~ tokenization_type + affix + source + 
+                  (1 + tokenization_type | lemma) + (1 | sentence) + (1|word_form),
+                REML = FALSE)
+
+mod_reduced = lmer(data = df_plurals,
+                log_odds ~  # tokenizer_version + 
+                  affix + source +
+                  (1 + tokenization_type | lemma) + (1 | sentence) + (1|word_form),
+                REML = FALSE)
+
+summary(mod_full)
+anova(mod_full, mod_reduced)
+```
+
+
+# Supplementary analyses
+
+## Frequency
+
+### Descriptive statistics relating to frequency
+
+First, create a new DataFrame with frequency data:
+
+```{r supp_freq_dist}
+df_freq = read_csv("../datasets/lexical_statistics/spanish_frequency.csv") %>%
+  mutate(log_freq = `Log10(freq count+1)`)
+
+df_freq %>%
+  ggplot(aes(x = log_freq)) +
+  geom_histogram(alpha = .4) +
+  theme_minimal() +
+    scale_fill_viridis(option = "mako", discrete=TRUE) +
+  theme(text = element_text(size = 15),
+        legend.position="bottom")
+
+
+### to merge with lemma
+df_lemma_freq = df_freq %>%
+  mutate(lemma = Word,
+         log_freq_lemma = log_freq) %>%
+  select(lemma, log_freq_lemma)
+
+### to merge with wordform
+df_wordform_freq = df_freq %>%
+  mutate(word_form = Word,
+         log_freq_wordform = log_freq) %>%
+  select(word_form, log_freq_wordform)
+
+
+df_all_freq = df_all %>%
+  inner_join(df_lemma_freq, on = "lemma") %>%
+  inner_join(df_wordform_freq, on = "word_form")
+
+nrow(df_all_freq)
+
+
+### Lemma frequency (i.e., singular) and plural are correlated
+df_all_freq %>%
+  filter(word_number == "plur") %>%
+  ggplot(aes(x = log_freq_lemma,
+             y = log_freq_wordform)) +
+  geom_point(alpha = .2) +
+  geom_smooth(method = "lm") +
+  theme_minimal()  +
+  labs(x = "Lemma Log Frequency",
+       y = "Wordform Log Frequency") +
+  theme(text = element_text(size = 15),
+        legend.position="bottom")
+
+cor.test(filter(df_all_freq, word_number=="plur")$log_freq_lemma,
+         filter(df_all_freq, word_number=="plur")$log_freq_wordform)
+```
+
+For the subset of words we have frequency data for, we ask about the impact on tokenization.
+
+As expected, `non_morphemic` plural words tend to be less frequent.
+
+```{r supp_freq}
+
+df_grouped = df_all_freq %>%
+  filter(word_number == "plur") %>%
+  group_by(word_form, source) %>%
+  summarise(m_freq = mean(log_freq_wordform),
+            sd_freq = sd(log_freq_wordform))
+
+nrow(df_grouped)
+
+### modeling *wordform* frequency
+mod_freq = lm(data = df_grouped,
+              m_freq ~ source)
+summary(mod_freq)
+
+df_grouped %>%
+  ggplot(aes(x = reorder(source, m_freq),
+             y = m_freq)) +
+  stat_summary (fun = function(x){mean(x)},
+                geom = "col",
+                position=position_dodge(width=0.95),
+                size = .5, alpha = .9) +
+  stat_summary (fun = function(x){mean(x)},
+                geom = "errorbar",
+                fun.min = function(x){mean(x) - 2*sd(x)/sqrt(length(x))},
+                fun.max = function(x){mean(x) + 2*sd(x)/sqrt(length(x))},
+                position=position_dodge(width=0.95),
+                width = .2, alpha = .7) +
+  geom_jitter(alpha = .2, width = .2) +
+  labs(x = "Initial Tokenization Type",
+       y = "Wordform Frequency",
+       title = "Log Frequency by Tokenization Type") +
+  theme_minimal() +
+  theme(text = element_text(size = 15),
+        legend.position="bottom")
+```
+
+
+### Frequency and agreement
+
+```{r}
+df_wider_freq = df_all_freq %>%
+  select(-...1, -article) %>%  
+  pivot_wider(names_from = c(article_number),
+               values_from = c(article_probs, surprisal),
+              names_sep = "_") %>%
+  mutate(log_odds = log(article_probs_plural / article_probs_singular),
+         surprisal_diff =  surprisal_plural - surprisal_singular)
+nrow(df_wider_freq)
+
+df_wider_freq = df_wider_freq %>%
+  mutate(accuracy = case_when(
+    word_number == "sing" & log_odds < 0 ~ 1,
+    word_number == "sing" & log_odds > 0 ~ 0,
+    word_number == "plur" & log_odds < 0 ~ 0,
+    word_number == "plur" & log_odds > 0 ~ 1,
+    word_number == "comp_plur" & log_odds < 0 ~ 0,
+    word_number == "comp_plur" & log_odds > 0 ~ 1
+  ))
+```
+
+
+Does token frequency predict successful agreement for that token? Yes: log-odds of singular, more frequent wordforms is more negative than log-odds of singular, less frequent wordforms. But within `plur` it does not appear to make a difference.
+
+```{r supp_freq_log_odds}
+### is there an interaction between the frequency of the wordform and the word number
+df_wider_freq_og = df_wider_freq %>%
+  filter(tokenization_type == "default")
+
+mod_freq_lo = lmer(data = df_wider_freq_og,
+                     log_odds ~ log_freq_wordform * word_number + source * word_number +
+                       (1 | lemma) + (1 | sentence),
+                     REML = FALSE)
+
+mod_freq_lo_null = lmer(data = df_wider_freq_og,
+                     log_odds ~ log_freq_wordform  + word_number + source * word_number +
+                       (1 | lemma) + (1 | sentence),
+                     REML = FALSE)
+
+mod_no_freq_int = lmer(data = df_wider_freq_og,
+                     log_odds ~ log_freq_wordform  * word_number + source  +
+                       (1 | lemma) + (1 | sentence),
+                     REML = FALSE)
+
+summary(mod_freq_lo)
+anova(mod_freq_lo, mod_freq_lo_null)
+anova(mod_freq_lo, mod_no_freq_int)
+
+
+df_wider_freq %>%
+  ggplot(aes(x = log_freq_wordform,
+             y = log_odds,
+             color = word_number)) +
+  geom_point(alpha = .4) +
+  geom_smooth(method = "lm") +
+  theme_minimal()+
+ scale_color_viridis(option = "mako", discrete=TRUE) +
+  theme(text = element_text(size = 15),
+        legend.position="bottom") +
+  facet_wrap(~source)
+
+```
+
+Note, also, that there is variance in which articles are most frequent. We see that as expected, surprisal is higher for these ones.
+
+```{r article_freq_surprisal}
+df_articles = df_freq %>%
+  filter(Word %in% c("un", "unos", 
+                     "la", "las",
+                     "el", "los",
+                     "una", "unas")) %>%
+  mutate(article_type = case_when(
+    Word %in% c("un", "unos", "una", "unas") ~ "indefinite",
+    Word %in% c("el", "los", "la", "las") ~ "definite"
+  )) %>%
+  mutate(article_number = case_when(
+    Word %in% c("un", "el", "una", "la") ~ "singular",
+    Word %in% c("unos", "los", "unas", "las") ~ "plural"
+  ))
+
+df_summ = df_articles %>%
+  group_by(article_type, article_number) %>%
+  summarize(log_freq_article = mean(log_freq),
+            sd_freq_article = sd(log_freq))
+
+### Combine with mean frequency by definite/number
+df_all = df_all %>%
+  left_join(df_summ)
+
+## Modeling: note that more complex models resulted in singular fit or lack of convergence
+mod_freq = lmer(data = df_all,
+                surprisal ~ word_number * article_number + affix + log_freq_article +
+                  (1 | lemma) + (1 | sentence),
+                REML = FALSE)
+
+mod_reduced = lmer(data = df_all,
+                surprisal ~ word_number * article_number + affix + # log_freq_article +
+                  (1 | lemma) + (1 | sentence),
+                REML = FALSE)
+
+summary(mod_freq)
+anova(mod_freq, mod_reduced)
+
+```
+
+
+
