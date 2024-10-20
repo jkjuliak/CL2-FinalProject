@@ -1,0 +1,47 @@
+import numpy as np
+
+
+instructor_hmm = []
+my_hmm = []
+
+with open("spanish-plural-agreement/AgreementTask/results_article-agreement/results_singletok.csv", "r") as instructor:
+    for line in instructor:
+        line = line.split()
+        if line[0] == "E":
+            # emission
+            state = line[1]
+            obs = line[2]
+            value = line[4]
+            instructor_hmm.append("E " + str(state) + " " + str(obs) + " " + str(value))
+        if line[0] == "T":
+            # transmission
+            state1 = line[1]
+            state2 = line[2]
+            value = line[4]
+            instructor_hmm.append(
+                "T " + str(state1) + " " + str(state2) + " " + str(value)
+            )
+
+with open("original_results/results_singletok.csv", "r") as my:
+    for line in my:
+        line = line.split()
+        if line[0] == "E":
+            # emission
+            state = line[1]
+            obs = line[2]
+            value = line[4]
+            my_hmm.append("E " + str(state) + " " + str(obs) + " " + str(value))
+        if line[0] == "T":
+            # transmission
+            state1 = line[1]
+            state2 = line[2]
+            value = line[4]
+            my_hmm.append("T " + str(state1) + " " + str(state2) + " " + str(value))
+
+
+instructor_hmm = np.array(instructor_hmm)
+my_hmm = np.array(my_hmm)
+
+difference = np.setdiff1d(instructor_hmm, my_hmm)
+
+print(difference)
