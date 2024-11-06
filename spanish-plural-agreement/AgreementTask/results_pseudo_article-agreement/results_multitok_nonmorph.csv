@@ -1,0 +1,781 @@
+,lemma,word_form,word_number,n_tokens,tokenization_type,article_probs,article_number,article_type,article,affix,sentence,model_token_inputs,source,surprisal
+0,neia,neia,sing,2,default,0.012577731162309647,singular,definite,La,s,[MASK] neia,"[CLS] , [MASK] , ne , ##ia , [SEP]",nonmorphemic,4.375827396732936
+1,neia,neia,sing,2,default,6.589334952877834e-05,plural,definite,Las,s,[MASK] neia,"[CLS] , [MASK] , ne , ##ia , [SEP]",nonmorphemic,9.627473039169304
+2,neia,neias,plur,2,default,0.00026397817418910563,singular,definite,La,s,[MASK] neias,"[CLS] , [MASK] , ne , ##ias , [SEP]",nonmorphemic,8.239644131761718
+3,neia,neias,plur,2,default,0.014295561239123344,plural,definite,Las,s,[MASK] neias,"[CLS] , [MASK] , ne , ##ias , [SEP]",nonmorphemic,4.247806192759722
+4,neia,neia##s,plur,3,artificial,0.0006536318687722087,singular,definite,La,s,[MASK] neia##s,"[CLS] , [MASK] , ne , ##ia , ##s , [SEP]",nonmorphemic,7.332966256775745
+5,neia,neia##s,plur,3,artificial,0.006263404618948698,plural,definite,Las,s,[MASK] neia##s,"[CLS] , [MASK] , ne , ##ia , ##s , [SEP]",nonmorphemic,5.073031372871541
+6,neia,neia,sing,2,default,0.0011151772923767567,singular,indefinite,Una,s,[MASK] neia,"[CLS] , [MASK] , ne , ##ia , [SEP]",nonmorphemic,6.798741880094342
+7,neia,neia,sing,2,default,2.3850166144256946e-06,plural,indefinite,Unas,s,[MASK] neia,"[CLS] , [MASK] , ne , ##ia , [SEP]",nonmorphemic,12.94630446743201
+8,neia,neias,plur,2,default,1.7196120097651146e-05,singular,indefinite,Una,s,[MASK] neias,"[CLS] , [MASK] , ne , ##ias , [SEP]",nonmorphemic,10.970826775308852
+9,neia,neias,plur,2,default,8.699826139491051e-05,plural,indefinite,Unas,s,[MASK] neias,"[CLS] , [MASK] , ne , ##ias , [SEP]",nonmorphemic,9.349622423475918
+10,neia,neia##s,plur,3,artificial,5.578368291025981e-05,singular,indefinite,Una,s,[MASK] neia##s,"[CLS] , [MASK] , ne , ##ia , ##s , [SEP]",nonmorphemic,9.794029152303441
+11,neia,neia##s,plur,3,artificial,6.952833064133301e-05,plural,indefinite,Unas,s,[MASK] neia##s,"[CLS] , [MASK] , ne , ##ia , ##s , [SEP]",nonmorphemic,9.573776253327061
+12,mcco,mcco,sing,3,default,0.0003177061735186726,singular,definite,El,s,[MASK] mcco,"[CLS] , [MASK] , m , ##c , ##co , [SEP]",nonmorphemic,8.054383584964876
+13,mcco,mcco,sing,3,default,7.063813882268732e-06,plural,definite,Los,s,[MASK] mcco,"[CLS] , [MASK] , m , ##c , ##co , [SEP]",nonmorphemic,11.860525442366914
+14,mcco,mccos,plur,3,default,0.00020075589418411255,singular,definite,El,s,[MASK] mccos,"[CLS] , [MASK] , m , ##c , ##cos , [SEP]",nonmorphemic,8.513420844750927
+15,mcco,mccos,plur,3,default,0.003085656324401498,plural,definite,Los,s,[MASK] mccos,"[CLS] , [MASK] , m , ##c , ##cos , [SEP]",nonmorphemic,5.780990897282522
+16,mcco,mcco##s,plur,4,artificial,5.092974970466457e-05,singular,definite,El,s,[MASK] mcco##s,"[CLS] , [MASK] , m , ##c , ##co , ##s , [SEP]",nonmorphemic,9.8850633315769
+17,mcco,mcco##s,plur,4,artificial,0.00017127659521065652,plural,definite,Los,s,[MASK] mcco##s,"[CLS] , [MASK] , m , ##c , ##co , ##s , [SEP]",nonmorphemic,8.67223079237963
+18,mcco,mcco,sing,3,default,7.929394632810727e-05,singular,indefinite,Un,s,[MASK] mcco,"[CLS] , [MASK] , m , ##c , ##co , [SEP]",nonmorphemic,9.442348771101148
+19,mcco,mcco,sing,3,default,2.9104307941452134e-07,plural,indefinite,Unos,s,[MASK] mcco,"[CLS] , [MASK] , m , ##c , ##co , [SEP]",nonmorphemic,15.049794541506484
+20,mcco,mccos,plur,3,default,3.086755532422103e-05,singular,indefinite,Un,s,[MASK] mccos,"[CLS] , [MASK] , m , ##c , ##cos , [SEP]",nonmorphemic,10.385804915193134
+21,mcco,mccos,plur,3,default,2.4280450816149823e-05,plural,indefinite,Unos,s,[MASK] mccos,"[CLS] , [MASK] , m , ##c , ##cos , [SEP]",nonmorphemic,10.625839024558617
+22,mcco,mcco##s,plur,4,artificial,1.3055988347332459e-05,singular,indefinite,Un,s,[MASK] mcco##s,"[CLS] , [MASK] , m , ##c , ##co , ##s , [SEP]",nonmorphemic,11.246263652257285
+23,mcco,mcco##s,plur,4,artificial,2.7572514227358624e-06,plural,indefinite,Unos,s,[MASK] mcco##s,"[CLS] , [MASK] , m , ##c , ##co , ##s , [SEP]",nonmorphemic,12.80127623576215
+24,spia,spia,sing,2,default,0.008338391780853271,singular,definite,La,s,[MASK] spia,"[CLS] , [MASK] , sp , ##ia , [SEP]",nonmorphemic,4.78688491323795
+25,spia,spia,sing,2,default,0.0003119146858807653,plural,definite,Las,s,[MASK] spia,"[CLS] , [MASK] , sp , ##ia , [SEP]",nonmorphemic,8.072780850236915
+26,spia,spias,plur,2,default,0.0005077921668998897,singular,definite,La,s,[MASK] spias,"[CLS] , [MASK] , sp , ##ias , [SEP]",nonmorphemic,7.585438314374133
+27,spia,spias,plur,2,default,0.017919443547725677,plural,definite,Las,s,[MASK] spias,"[CLS] , [MASK] , sp , ##ias , [SEP]",nonmorphemic,4.021868923941714
+28,spia,spia##s,plur,3,artificial,0.0026341236662119627,singular,definite,La,s,[MASK] spia##s,"[CLS] , [MASK] , sp , ##ia , ##s , [SEP]",nonmorphemic,5.939204726796587
+29,spia,spia##s,plur,3,artificial,0.002748046535998583,plural,definite,Las,s,[MASK] spia##s,"[CLS] , [MASK] , sp , ##ia , ##s , [SEP]",nonmorphemic,5.89686497026812
+30,spia,spia,sing,2,default,0.0011801421642303467,singular,indefinite,Una,s,[MASK] spia,"[CLS] , [MASK] , sp , ##ia , [SEP]",nonmorphemic,6.742120369600164
+31,spia,spia,sing,2,default,2.3902104658191092e-05,plural,indefinite,Unas,s,[MASK] spia,"[CLS] , [MASK] , sp , ##ia , [SEP]",nonmorphemic,10.641544041891773
+32,spia,spias,plur,2,default,4.564512346405536e-05,singular,indefinite,Una,s,[MASK] spias,"[CLS] , [MASK] , sp , ##ias , [SEP]",nonmorphemic,9.994613781075099
+33,spia,spias,plur,2,default,0.0002809909638017416,plural,indefinite,Unas,s,[MASK] spias,"[CLS] , [MASK] , sp , ##ias , [SEP]",nonmorphemic,8.177188046436761
+34,spia,spia##s,plur,3,artificial,0.00030340428929775953,singular,indefinite,Una,s,[MASK] spia##s,"[CLS] , [MASK] , sp , ##ia , ##s , [SEP]",nonmorphemic,8.100444353714838
+35,spia,spia##s,plur,3,artificial,9.52210757532157e-05,plural,indefinite,Unas,s,[MASK] spia##s,"[CLS] , [MASK] , sp , ##ia , ##s , [SEP]",nonmorphemic,9.259309256706418
+36,splio,splio,sing,2,default,0.009998281486332417,singular,definite,El,s,[MASK] splio,"[CLS] , [MASK] , sp , ##lio , [SEP]",nonmorphemic,4.605342052122988
+37,splio,splio,sing,2,default,0.000444822566350922,plural,definite,Los,s,[MASK] splio,"[CLS] , [MASK] , sp , ##lio , [SEP]",nonmorphemic,7.7178350826122
+38,splio,splios,plur,2,default,0.0003463011234998703,singular,definite,El,s,[MASK] splios,"[CLS] , [MASK] , sp , ##lios , [SEP]",nonmorphemic,7.968201862264682
+39,splio,splios,plur,2,default,0.021016599610447884,plural,definite,Los,s,[MASK] splios,"[CLS] , [MASK] , sp , ##lios , [SEP]",nonmorphemic,3.8624426958654445
+40,splio,splio##s,plur,3,artificial,0.0012378375977277756,singular,definite,El,s,[MASK] splio##s,"[CLS] , [MASK] , sp , ##lio , ##s , [SEP]",nonmorphemic,6.694389294481619
+41,splio,splio##s,plur,3,artificial,0.0027129275258630514,plural,definite,Los,s,[MASK] splio##s,"[CLS] , [MASK] , sp , ##lio , ##s , [SEP]",nonmorphemic,5.909726959313817
+42,splio,splio,sing,2,default,0.001960843801498413,singular,indefinite,Un,s,[MASK] splio,"[CLS] , [MASK] , sp , ##lio , [SEP]",nonmorphemic,6.234380387414392
+43,splio,splio,sing,2,default,2.924791715486208e-06,plural,indefinite,Unos,s,[MASK] splio,"[CLS] , [MASK] , sp , ##lio , [SEP]",nonmorphemic,12.742287288196675
+44,splio,splios,plur,2,default,8.742493082536384e-05,singular,indefinite,Un,s,[MASK] splios,"[CLS] , [MASK] , sp , ##lios , [SEP]",nonmorphemic,9.34473006626063
+45,splio,splios,plur,2,default,0.00013658287934958935,plural,indefinite,Unos,s,[MASK] splios,"[CLS] , [MASK] , sp , ##lios , [SEP]",nonmorphemic,8.898578952872985
+46,splio,splio##s,plur,3,artificial,0.0002044787397608161,singular,indefinite,Un,s,[MASK] splio##s,"[CLS] , [MASK] , sp , ##lio , ##s , [SEP]",nonmorphemic,8.495046549935646
+47,splio,splio##s,plur,3,artificial,7.535567419836298e-06,plural,indefinite,Unos,s,[MASK] splio##s,"[CLS] , [MASK] , sp , ##lio , ##s , [SEP]",nonmorphemic,11.795876424164154
+48,spreo,spreo,sing,2,default,0.0024375049397349358,singular,definite,El,s,[MASK] spreo,"[CLS] , [MASK] , sp , ##reo , [SEP]",nonmorphemic,6.016780328536403
+49,spreo,spreo,sing,2,default,0.00018684391397982836,plural,definite,Los,s,[MASK] spreo,"[CLS] , [MASK] , sp , ##reo , [SEP]",nonmorphemic,8.58523697425269
+50,spreo,spreos,plur,2,default,0.0003956144500989467,singular,definite,El,s,[MASK] spreos,"[CLS] , [MASK] , sp , ##reos , [SEP]",nonmorphemic,7.835070431837953
+51,spreo,spreos,plur,2,default,0.017427051439881325,plural,definite,Los,s,[MASK] spreos,"[CLS] , [MASK] , sp , ##reos , [SEP]",nonmorphemic,4.0497315995732475
+52,spreo,spreo##s,plur,3,artificial,0.0010925069218501449,singular,definite,El,s,[MASK] spreo##s,"[CLS] , [MASK] , sp , ##reo , ##s , [SEP]",nonmorphemic,6.819280295224994
+53,spreo,spreo##s,plur,3,artificial,0.0007977149216458201,plural,definite,Los,s,[MASK] spreo##s,"[CLS] , [MASK] , sp , ##reo , ##s , [SEP]",nonmorphemic,7.133759265385587
+54,spreo,spreo,sing,2,default,0.0008223096374422312,singular,indefinite,Un,s,[MASK] spreo,"[CLS] , [MASK] , sp , ##reo , [SEP]",nonmorphemic,7.1033935459512385
+55,spreo,spreo,sing,2,default,8.416896548624209e-07,plural,indefinite,Unos,s,[MASK] spreo,"[CLS] , [MASK] , sp , ##reo , [SEP]",nonmorphemic,13.98785447157022
+56,spreo,spreos,plur,2,default,0.00015365800936706364,singular,indefinite,Un,s,[MASK] spreos,"[CLS] , [MASK] , sp , ##reos , [SEP]",nonmorphemic,8.78078114339808
+57,spreo,spreos,plur,2,default,0.00016227508604060858,plural,indefinite,Unos,s,[MASK] spreos,"[CLS] , [MASK] , sp , ##reos , [SEP]",nonmorphemic,8.72621760083007
+58,spreo,spreo##s,plur,3,artificial,0.0003469998191576451,singular,indefinite,Un,s,[MASK] spreo##s,"[CLS] , [MASK] , sp , ##reo , ##s , [SEP]",nonmorphemic,7.966186299177075
+59,spreo,spreo##s,plur,3,artificial,2.263205260533141e-06,plural,indefinite,Unos,s,[MASK] spreo##s,"[CLS] , [MASK] , sp , ##reo , ##s , [SEP]",nonmorphemic,12.998728492583378
+60,doa,doa,sing,2,default,0.03133557364344597,singular,definite,La,s,[MASK] doa,"[CLS] , [MASK] , do , ##a , [SEP]",nonmorphemic,3.463001288677279
+61,doa,doa,sing,2,default,0.00022791765513829887,plural,definite,Las,s,[MASK] doa,"[CLS] , [MASK] , do , ##a , [SEP]",nonmorphemic,8.386526155918546
+62,doa,doas,plur,2,default,0.001282209879718721,singular,definite,La,s,[MASK] doas,"[CLS] , [MASK] , do , ##as , [SEP]",nonmorphemic,6.659170221154014
+63,doa,doas,plur,2,default,0.0243311058729887,plural,definite,Las,s,[MASK] doas,"[CLS] , [MASK] , do , ##as , [SEP]",nonmorphemic,3.715999670158066
+64,doa,doa##s,plur,3,artificial,0.003478166414424777,singular,definite,La,s,[MASK] doa##s,"[CLS] , [MASK] , do , ##a , ##s , [SEP]",nonmorphemic,5.661250016459008
+65,doa,doa##s,plur,3,artificial,0.0034298491664230824,plural,definite,Las,s,[MASK] doa##s,"[CLS] , [MASK] , do , ##a , ##s , [SEP]",nonmorphemic,5.6752389935749745
+66,doa,doa,sing,2,default,0.001505139865912497,singular,indefinite,Una,s,[MASK] doa,"[CLS] , [MASK] , do , ##a , [SEP]",nonmorphemic,6.498869450938282
+67,doa,doa,sing,2,default,4.1210300878447015e-06,plural,indefinite,Unas,s,[MASK] doa,"[CLS] , [MASK] , do , ##a , [SEP]",nonmorphemic,12.39940740453143
+68,doa,doas,plur,2,default,4.336160418461077e-05,singular,indefinite,Una,s,[MASK] doas,"[CLS] , [MASK] , do , ##as , [SEP]",nonmorphemic,10.045936204639696
+69,doa,doas,plur,2,default,9.106330981012434e-05,plural,indefinite,Unas,s,[MASK] doas,"[CLS] , [MASK] , do , ##as , [SEP]",nonmorphemic,9.303955581143802
+70,doa,doa##s,plur,3,artificial,0.0003161257482133806,singular,indefinite,Una,s,[MASK] doa##s,"[CLS] , [MASK] , do , ##a , ##s , [SEP]",nonmorphemic,8.059370486149328
+71,doa,doa##s,plur,3,artificial,5.787483314634301e-05,plural,indefinite,Unas,s,[MASK] doa##s,"[CLS] , [MASK] , do , ##a , ##s , [SEP]",nonmorphemic,9.757227928562585
+72,dweia,dweia,sing,4,default,0.001717223203741014,singular,definite,La,s,[MASK] dweia,"[CLS] , [MASK] , d , ##w , ##ei , ##a , [SEP]",nonmorphemic,6.3670467091608955
+73,dweia,dweia,sing,4,default,2.928013236669358e-05,plural,definite,Las,s,[MASK] dweia,"[CLS] , [MASK] , d , ##w , ##ei , ##a , [SEP]",nonmorphemic,10.438601348160972
+74,dweia,dweias,plur,4,default,0.0006644173408858478,singular,definite,La,s,[MASK] dweias,"[CLS] , [MASK] , d , ##w , ##ei , ##as , [SEP]",nonmorphemic,7.316600080496729
+75,dweia,dweias,plur,4,default,9.394808148499578e-05,plural,definite,Las,s,[MASK] dweias,"[CLS] , [MASK] , d , ##w , ##ei , ##as , [SEP]",nonmorphemic,9.27276825290941
+76,dweia,dweia##s,plur,5,artificial,0.0005604752223007381,singular,definite,La,s,[MASK] dweia##s,"[CLS] , [MASK] , d , ##w , ##ei , ##a , ##s , [SEP]",nonmorphemic,7.486725522850712
+77,dweia,dweia##s,plur,5,artificial,4.6007313358131796e-05,plural,definite,Las,s,[MASK] dweia##s,"[CLS] , [MASK] , d , ##w , ##ei , ##a , ##s , [SEP]",nonmorphemic,9.986710188065778
+78,dweia,dweia,sing,4,default,7.282388105522841e-05,singular,indefinite,Una,s,[MASK] dweia,"[CLS] , [MASK] , d , ##w , ##ei , ##a , [SEP]",nonmorphemic,9.527466620080917
+79,dweia,dweia,sing,4,default,1.0130438568012323e-06,plural,indefinite,Unas,s,[MASK] dweia,"[CLS] , [MASK] , d , ##w , ##ei , ##a , [SEP]",nonmorphemic,13.802551039655386
+80,dweia,dweias,plur,4,default,4.400554462336004e-05,singular,indefinite,Una,s,[MASK] dweias,"[CLS] , [MASK] , d , ##w , ##ei , ##as , [SEP]",nonmorphemic,10.031194917817858
+81,dweia,dweias,plur,4,default,2.4050730189628666e-06,plural,indefinite,Unas,s,[MASK] dweias,"[CLS] , [MASK] , d , ##w , ##ei , ##as , [SEP]",nonmorphemic,12.937930293552323
+82,dweia,dweia##s,plur,5,artificial,3.602734432206489e-05,singular,indefinite,Una,s,[MASK] dweia##s,"[CLS] , [MASK] , d , ##w , ##ei , ##a , ##s , [SEP]",nonmorphemic,10.231232343329488
+83,dweia,dweia##s,plur,5,artificial,1.8105141634805477e-06,plural,indefinite,Unas,s,[MASK] dweia##s,"[CLS] , [MASK] , d , ##w , ##ei , ##a , ##s , [SEP]",nonmorphemic,13.221899684804981
+84,maia,maia,sing,2,default,0.05535981059074402,singular,definite,La,s,[MASK] maia,"[CLS] , [MASK] , ma , ##ia , [SEP]",nonmorphemic,2.8939013890885468
+85,maia,maia,sing,2,default,0.0002989195636473596,plural,definite,Las,s,[MASK] maia,"[CLS] , [MASK] , ma , ##ia , [SEP]",nonmorphemic,8.115336038667202
+86,maia,maias,plur,2,default,0.0011075169313699007,singular,definite,La,s,[MASK] maias,"[CLS] , [MASK] , ma , ##ias , [SEP]",nonmorphemic,6.805634768243197
+87,maia,maias,plur,2,default,0.047871869057416916,plural,definite,Las,s,[MASK] maias,"[CLS] , [MASK] , ma , ##ias , [SEP]",nonmorphemic,3.0392272318983853
+88,maia,maia##s,plur,3,artificial,0.00126680510584265,singular,definite,La,s,[MASK] maia##s,"[CLS] , [MASK] , ma , ##ia , ##s , [SEP]",nonmorphemic,6.671257212803767
+89,maia,maia##s,plur,3,artificial,0.018949441611766815,plural,definite,Las,s,[MASK] maia##s,"[CLS] , [MASK] , ma , ##ia , ##s , [SEP]",nonmorphemic,3.965980814285374
+90,maia,maia,sing,2,default,0.004771200940012932,singular,indefinite,Una,s,[MASK] maia,"[CLS] , [MASK] , ma , ##ia , [SEP]",nonmorphemic,5.345157236375738
+91,maia,maia,sing,2,default,7.5053399086755235e-06,plural,indefinite,Unas,s,[MASK] maia,"[CLS] , [MASK] , ma , ##ia , [SEP]",nonmorphemic,11.799895802941693
+92,maia,maias,plur,2,default,0.00013923936057835817,singular,indefinite,Una,s,[MASK] maias,"[CLS] , [MASK] , ma , ##ias , [SEP]",nonmorphemic,8.879316087258251
+93,maia,maias,plur,2,default,0.0005082440911792219,plural,indefinite,Unas,s,[MASK] maias,"[CLS] , [MASK] , ma , ##ias , [SEP]",nonmorphemic,7.584548731338997
+94,maia,maia##s,plur,3,artificial,8.944661385612562e-05,singular,indefinite,Una,s,[MASK] maia##s,"[CLS] , [MASK] , ma , ##ia , ##s , [SEP]",nonmorphemic,9.321868603883972
+95,maia,maia##s,plur,3,artificial,0.00012359993706922978,plural,indefinite,Unas,s,[MASK] maia##s,"[CLS] , [MASK] , ma , ##ia , ##s , [SEP]",nonmorphemic,8.99846052208944
+96,croo,croo,sing,2,default,0.031113214790821075,singular,definite,El,s,[MASK] croo,"[CLS] , [MASK] , cro , ##o , [SEP]",nonmorphemic,3.470122637158728
+97,croo,croo,sing,2,default,0.00014465325511991978,plural,definite,Los,s,[MASK] croo,"[CLS] , [MASK] , cro , ##o , [SEP]",nonmorphemic,8.84117102337383
+98,croo,croos,plur,2,default,0.003691611113026738,singular,definite,El,s,[MASK] croos,"[CLS] , [MASK] , cro , ##os , [SEP]",nonmorphemic,5.601692300222324
+99,croo,croos,plur,2,default,0.0159470085054636,plural,definite,Los,s,[MASK] croos,"[CLS] , [MASK] , cro , ##os , [SEP]",nonmorphemic,4.13848402185822
+100,croo,croo##s,plur,3,artificial,0.00806234497576952,singular,definite,El,s,[MASK] croo##s,"[CLS] , [MASK] , cro , ##o , ##s , [SEP]",nonmorphemic,4.820550824856635
+101,croo,croo##s,plur,3,artificial,0.0009339452371932566,plural,definite,Los,s,[MASK] croo##s,"[CLS] , [MASK] , cro , ##o , ##s , [SEP]",nonmorphemic,6.976092754009787
+102,croo,croo,sing,2,default,0.002321481704711914,singular,indefinite,Un,s,[MASK] croo,"[CLS] , [MASK] , cro , ##o , [SEP]",nonmorphemic,6.0655496313400405
+103,croo,croo,sing,2,default,2.2737756353308214e-06,plural,indefinite,Unos,s,[MASK] croo,"[CLS] , [MASK] , cro , ##o , [SEP]",nonmorphemic,12.994068832705587
+104,croo,croos,plur,2,default,0.00035126740112900734,singular,indefinite,Un,s,[MASK] croos,"[CLS] , [MASK] , cro , ##os , [SEP]",nonmorphemic,7.953962797962609
+105,croo,croos,plur,2,default,8.527757745468989e-05,plural,indefinite,Unos,s,[MASK] croos,"[CLS] , [MASK] , cro , ##os , [SEP]",nonmorphemic,9.369599004907426
+106,croo,croo##s,plur,3,artificial,0.0008063917048275471,singular,indefinite,Un,s,[MASK] croo##s,"[CLS] , [MASK] , cro , ##o , ##s , [SEP]",nonmorphemic,7.122940947372267
+107,croo,croo##s,plur,3,artificial,9.402474461239763e-06,plural,indefinite,Unos,s,[MASK] croo##s,"[CLS] , [MASK] , cro , ##o , ##s , [SEP]",nonmorphemic,11.574537662772611
+108,mccreo,mccreo,sing,4,default,0.006054730154573917,singular,definite,El,s,[MASK] mccreo,"[CLS] , [MASK] , m , ##c , ##cre , ##o , [SEP]",nonmorphemic,5.106915468688756
+109,mccreo,mccreo,sing,4,default,0.0001666879397816956,plural,definite,Los,s,[MASK] mccreo,"[CLS] , [MASK] , m , ##c , ##cre , ##o , [SEP]",nonmorphemic,8.699387117665143
+110,mccreo,mccreos,plur,4,default,0.0011278529418632388,singular,definite,El,s,[MASK] mccreos,"[CLS] , [MASK] , m , ##c , ##cre , ##os , [SEP]",nonmorphemic,6.787439505093885
+111,mccreo,mccreos,plur,4,default,0.004081561230123043,plural,definite,Los,s,[MASK] mccreos,"[CLS] , [MASK] , m , ##c , ##cre , ##os , [SEP]",nonmorphemic,5.501275709317684
+112,mccreo,mccreo##s,plur,5,artificial,0.0007406143704429269,singular,definite,El,s,[MASK] mccreo##s,"[CLS] , [MASK] , m , ##c , ##cre , ##o , ##s , [SEP]",nonmorphemic,7.208030485888343
+113,mccreo,mccreo##s,plur,5,artificial,0.00011716660810634494,plural,definite,Los,s,[MASK] mccreo##s,"[CLS] , [MASK] , m , ##c , ##cre , ##o , ##s , [SEP]",nonmorphemic,9.051913635185388
+114,mccreo,mccreo,sing,4,default,0.0018278253264725208,singular,indefinite,Un,s,[MASK] mccreo,"[CLS] , [MASK] , m , ##c , ##cre , ##o , [SEP]",nonmorphemic,6.3046283649619
+115,mccreo,mccreo,sing,4,default,2.6336188057030085e-06,plural,indefinite,Unos,s,[MASK] mccreo,"[CLS] , [MASK] , m , ##c , ##cre , ##o , [SEP]",nonmorphemic,12.847151685806056
+116,mccreo,mccreos,plur,4,default,0.0004449865373317152,singular,indefinite,Un,s,[MASK] mccreos,"[CLS] , [MASK] , m , ##c , ##cre , ##os , [SEP]",nonmorphemic,7.717466529442827
+117,mccreo,mccreos,plur,4,default,4.406745210872032e-05,plural,indefinite,Unos,s,[MASK] mccreos,"[CLS] , [MASK] , m , ##c , ##cre , ##os , [SEP]",nonmorphemic,10.029789095423862
+118,mccreo,mccreo##s,plur,5,artificial,0.00020084406423848122,singular,indefinite,Un,s,[MASK] mccreo##s,"[CLS] , [MASK] , m , ##c , ##cre , ##o , ##s , [SEP]",nonmorphemic,8.512981750802155
+119,mccreo,mccreo##s,plur,5,artificial,2.709437012526905e-06,plural,indefinite,Unos,s,[MASK] mccreo##s,"[CLS] , [MASK] , m , ##c , ##cre , ##o , ##s , [SEP]",nonmorphemic,12.81876968910955
+120,blaa,blaa,sing,2,default,0.0061109340749681,singular,definite,La,s,[MASK] blaa,"[CLS] , [MASK] , bla , ##a , [SEP]",nonmorphemic,5.097675641056186
+121,blaa,blaa,sing,2,default,5.007490108255297e-05,plural,definite,Las,s,[MASK] blaa,"[CLS] , [MASK] , bla , ##a , [SEP]",nonmorphemic,9.901990651800205
+122,blaa,blaas,plur,2,default,0.0004626812587957829,singular,definite,La,s,[MASK] blaas,"[CLS] , [MASK] , bla , ##as , [SEP]",nonmorphemic,7.678472166879015
+123,blaa,blaas,plur,2,default,0.007187276147305965,plural,definite,Las,s,[MASK] blaas,"[CLS] , [MASK] , bla , ##as , [SEP]",nonmorphemic,4.935443018066324
+124,blaa,blaa##s,plur,3,artificial,0.000281192478723824,singular,definite,La,s,[MASK] blaa##s,"[CLS] , [MASK] , bla , ##a , ##s , [SEP]",nonmorphemic,8.176471145455801
+125,blaa,blaa##s,plur,3,artificial,0.0006224974640645087,plural,definite,Las,s,[MASK] blaa##s,"[CLS] , [MASK] , bla , ##a , ##s , [SEP]",nonmorphemic,7.381771003425663
+126,blaa,blaa,sing,2,default,0.00024914281675592065,singular,indefinite,Una,s,[MASK] blaa,"[CLS] , [MASK] , bla , ##a , [SEP]",nonmorphemic,8.297484264654205
+127,blaa,blaa,sing,2,default,7.201898597486434e-07,plural,indefinite,Unas,s,[MASK] blaa,"[CLS] , [MASK] , bla , ##a , [SEP]",nonmorphemic,14.14375096560215
+128,blaa,blaas,plur,2,default,1.653532854106743e-05,singular,indefinite,Una,s,[MASK] blaas,"[CLS] , [MASK] , bla , ##as , [SEP]",nonmorphemic,11.01001134229535
+129,blaa,blaas,plur,2,default,1.3102520824759267e-05,plural,indefinite,Unas,s,[MASK] blaas,"[CLS] , [MASK] , bla , ##as , [SEP]",nonmorphemic,11.24270591689839
+130,blaa,blaa##s,plur,3,artificial,3.224387182854116e-05,singular,indefinite,Una,s,[MASK] blaa##s,"[CLS] , [MASK] , bla , ##a , ##s , [SEP]",nonmorphemic,10.342182553599166
+131,blaa,blaa##s,plur,3,artificial,8.41867586132139e-06,plural,indefinite,Unas,s,[MASK] blaa##s,"[CLS] , [MASK] , bla , ##a , ##s , [SEP]",nonmorphemic,11.685058003202592
+132,czoia,czoia,sing,3,default,0.038843169808387756,singular,definite,La,s,[MASK] czoia,"[CLS] , [MASK] , c , ##zo , ##ia , [SEP]",nonmorphemic,3.248223026932657
+133,czoia,czoia,sing,3,default,0.0002167178608942777,plural,definite,Las,s,[MASK] czoia,"[CLS] , [MASK] , c , ##zo , ##ia , [SEP]",nonmorphemic,8.43691423060216
+134,czoia,czoias,plur,3,default,0.0010542909149080515,singular,definite,La,s,[MASK] czoias,"[CLS] , [MASK] , c , ##zo , ##ias , [SEP]",nonmorphemic,6.85488685659762
+135,czoia,czoias,plur,3,default,0.04936341568827629,plural,definite,Las,s,[MASK] czoias,"[CLS] , [MASK] , c , ##zo , ##ias , [SEP]",nonmorphemic,3.008545702259807
+136,czoia,czoia##s,plur,4,artificial,0.000519479566719383,singular,definite,La,s,[MASK] czoia##s,"[CLS] , [MASK] , c , ##zo , ##ia , ##s , [SEP]",nonmorphemic,7.562683080788754
+137,czoia,czoia##s,plur,4,artificial,0.007776307407766581,plural,definite,Las,s,[MASK] czoia##s,"[CLS] , [MASK] , c , ##zo , ##ia , ##s , [SEP]",nonmorphemic,4.8566736797136105
+138,czoia,czoia,sing,3,default,0.0034163929522037506,singular,indefinite,Una,s,[MASK] czoia,"[CLS] , [MASK] , c , ##zo , ##ia , [SEP]",nonmorphemic,5.679169976825053
+139,czoia,czoia,sing,3,default,8.015108505787794e-06,plural,indefinite,Unas,s,[MASK] czoia,"[CLS] , [MASK] , c , ##zo , ##ia , [SEP]",nonmorphemic,11.73418223415437
+140,czoia,czoias,plur,3,default,0.0001300217118114233,singular,indefinite,Una,s,[MASK] czoias,"[CLS] , [MASK] , c , ##zo , ##ias , [SEP]",nonmorphemic,8.94780910751994
+141,czoia,czoias,plur,3,default,0.0003546334046404809,plural,indefinite,Unas,s,[MASK] czoias,"[CLS] , [MASK] , c , ##zo , ##ias , [SEP]",nonmorphemic,7.9444259650371984
+142,czoia,czoia##s,plur,4,artificial,4.993816401110962e-05,singular,indefinite,Una,s,[MASK] czoia##s,"[CLS] , [MASK] , c , ##zo , ##ia , ##s , [SEP]",nonmorphemic,9.904725037682937
+143,czoia,czoia##s,plur,4,artificial,7.222835120046511e-05,plural,indefinite,Unas,s,[MASK] czoia##s,"[CLS] , [MASK] , c , ##zo , ##ia , ##s , [SEP]",nonmorphemic,9.535677913235782
+144,grao,grao,sing,2,default,0.0029598334804177284,singular,definite,El,s,[MASK] grao,"[CLS] , [MASK] , gra , ##o , [SEP]",nonmorphemic,5.822622268844263
+145,grao,grao,sing,2,default,3.055797060369514e-05,plural,definite,Los,s,[MASK] grao,"[CLS] , [MASK] , gra , ##o , [SEP]",nonmorphemic,10.395885002818142
+146,grao,graos,plur,2,default,5.511112613021396e-05,singular,definite,El,s,[MASK] graos,"[CLS] , [MASK] , gra , ##os , [SEP]",nonmorphemic,9.80615893605156
+147,grao,graos,plur,2,default,0.003953281790018082,plural,definite,Los,s,[MASK] graos,"[CLS] , [MASK] , gra , ##os , [SEP]",nonmorphemic,5.533209212103753
+148,grao,grao##s,plur,3,artificial,0.00032529732561670244,singular,definite,El,s,[MASK] grao##s,"[CLS] , [MASK] , gra , ##o , ##s , [SEP]",nonmorphemic,8.03077094580157
+149,grao,grao##s,plur,3,artificial,0.0018627524841576815,plural,definite,Los,s,[MASK] grao##s,"[CLS] , [MASK] , gra , ##o , ##s , [SEP]",nonmorphemic,6.285700054934396
+150,grao,grao,sing,2,default,0.0023206942714750767,singular,indefinite,Un,s,[MASK] grao,"[CLS] , [MASK] , gra , ##o , [SEP]",nonmorphemic,6.065888883125595
+151,grao,grao,sing,2,default,2.308849616383668e-06,plural,indefinite,Unos,s,[MASK] grao,"[CLS] , [MASK] , gra , ##o , [SEP]",nonmorphemic,12.978761159040047
+152,grao,graos,plur,2,default,4.9011192459147424e-05,singular,indefinite,Un,s,[MASK] graos,"[CLS] , [MASK] , gra , ##os , [SEP]",nonmorphemic,9.92346186840334
+153,grao,graos,plur,2,default,0.0001722762535791844,plural,indefinite,Unos,s,[MASK] graos,"[CLS] , [MASK] , gra , ##os , [SEP]",nonmorphemic,8.666411244130531
+154,grao,grao##s,plur,3,artificial,0.0001151940887211822,singular,indefinite,Un,s,[MASK] grao##s,"[CLS] , [MASK] , gra , ##o , ##s , [SEP]",nonmorphemic,9.068892124203233
+155,grao,grao##s,plur,3,artificial,4.726884071715176e-05,plural,indefinite,Unos,s,[MASK] grao##s,"[CLS] , [MASK] , gra , ##o , ##s , [SEP]",nonmorphemic,9.959659238165772
+156,splo,splo,sing,2,default,0.007290308363735676,singular,definite,El,s,[MASK] splo,"[CLS] , [MASK] , sp , ##lo , [SEP]",nonmorphemic,4.921209434303952
+157,splo,splo,sing,2,default,0.00042697894969023764,plural,definite,Los,s,[MASK] splo,"[CLS] , [MASK] , sp , ##lo , [SEP]",nonmorphemic,7.758775844100169
+158,splo,splos,plur,2,default,0.00022158575302455574,singular,definite,El,s,[MASK] splos,"[CLS] , [MASK] , sp , ##los , [SEP]",nonmorphemic,8.41470089656336
+159,splo,splos,plur,2,default,0.00827820785343647,plural,definite,Los,s,[MASK] splos,"[CLS] , [MASK] , sp , ##los , [SEP]",nonmorphemic,4.794128776833779
+160,splo,splo##s,plur,3,artificial,0.0004298624990042299,singular,definite,El,s,[MASK] splo##s,"[CLS] , [MASK] , sp , ##lo , ##s , [SEP]",nonmorphemic,7.752045170171521
+161,splo,splo##s,plur,3,artificial,0.0024438893888145685,plural,definite,Los,s,[MASK] splo##s,"[CLS] , [MASK] , sp , ##lo , ##s , [SEP]",nonmorphemic,6.014164496956152
+162,splo,splo,sing,2,default,0.004461515229195356,singular,indefinite,Un,s,[MASK] splo,"[CLS] , [MASK] , sp , ##lo , [SEP]",nonmorphemic,5.412266833160129
+163,splo,splo,sing,2,default,5.530307589651784e-06,plural,indefinite,Unos,s,[MASK] splo,"[CLS] , [MASK] , sp , ##lo , [SEP]",nonmorphemic,12.105267121978363
+164,splo,splos,plur,2,default,0.00017350169946439564,singular,indefinite,Un,s,[MASK] splos,"[CLS] , [MASK] , sp , ##los , [SEP]",nonmorphemic,8.659323163441496
+165,splo,splos,plur,2,default,8.84734618011862e-05,plural,indefinite,Unos,s,[MASK] splos,"[CLS] , [MASK] , sp , ##los , [SEP]",nonmorphemic,9.332807917572648
+166,splo,splo##s,plur,3,artificial,0.00040176601032726467,singular,indefinite,Un,s,[MASK] splo##s,"[CLS] , [MASK] , sp , ##lo , ##s , [SEP]",nonmorphemic,7.819640702672712
+167,splo,splo##s,plur,3,artificial,1.1993682164757047e-05,plural,indefinite,Unos,s,[MASK] splo##s,"[CLS] , [MASK] , sp , ##lo , ##s , [SEP]",nonmorphemic,11.33113053308908
+168,noia,noia,sing,2,default,0.0703129693865776,singular,definite,La,s,[MASK] noia,"[CLS] , [MASK] , no , ##ia , [SEP]",nonmorphemic,2.6547990108854655
+169,noia,noia,sing,2,default,0.00029882980743423104,plural,definite,Las,s,[MASK] noia,"[CLS] , [MASK] , no , ##ia , [SEP]",nonmorphemic,8.11563635253835
+170,noia,noias,plur,2,default,0.0005014367634430528,singular,definite,La,s,[MASK] noias,"[CLS] , [MASK] , no , ##ias , [SEP]",nonmorphemic,7.598033053342311
+171,noia,noias,plur,2,default,0.0264746006578207,plural,definite,Las,s,[MASK] noias,"[CLS] , [MASK] , no , ##ias , [SEP]",nonmorphemic,3.631569471354577
+172,noia,noia##s,plur,3,artificial,0.0007097707130014896,singular,definite,La,s,[MASK] noia##s,"[CLS] , [MASK] , no , ##ia , ##s , [SEP]",nonmorphemic,7.250568579519603
+173,noia,noia##s,plur,3,artificial,0.05117609724402428,plural,definite,Las,s,[MASK] noia##s,"[CLS] , [MASK] , no , ##ia , ##s , [SEP]",nonmorphemic,2.9724827066480435
+174,noia,noia,sing,2,default,0.007063998840749264,singular,indefinite,Una,s,[MASK] noia,"[CLS] , [MASK] , no , ##ia , [SEP]",nonmorphemic,4.952743979787334
+175,noia,noia,sing,2,default,1.368828998238314e-05,plural,indefinite,Unas,s,[MASK] noia,"[CLS] , [MASK] , no , ##ia , [SEP]",nonmorphemic,11.198969836445135
+176,noia,noias,plur,2,default,7.005823863437399e-05,singular,indefinite,Una,s,[MASK] noias,"[CLS] , [MASK] , no , ##ias , [SEP]",nonmorphemic,9.566183681327784
+177,noia,noias,plur,2,default,0.00044756446732208133,plural,indefinite,Unas,s,[MASK] noias,"[CLS] , [MASK] , no , ##ias , [SEP]",nonmorphemic,7.711689969570231
+178,noia,noia##s,plur,3,artificial,6.885802577016875e-05,singular,indefinite,Una,s,[MASK] noia##s,"[CLS] , [MASK] , no , ##ia , ##s , [SEP]",nonmorphemic,9.583463770662851
+179,noia,noia##s,plur,3,artificial,0.00040034568519331515,plural,indefinite,Unas,s,[MASK] noia##s,"[CLS] , [MASK] , no , ##ia , ##s , [SEP]",nonmorphemic,7.823182171090034
+180,smeo,smeo,sing,3,default,0.03775407746434212,singular,definite,El,s,[MASK] smeo,"[CLS] , [MASK] , s , ##me , ##o , [SEP]",nonmorphemic,3.2766617968195586
+181,smeo,smeo,sing,3,default,0.00013519093045033514,plural,definite,Los,s,[MASK] smeo,"[CLS] , [MASK] , s , ##me , ##o , [SEP]",nonmorphemic,8.908822479073475
+182,smeo,smeos,plur,3,default,0.001046369201503694,singular,definite,El,s,[MASK] smeos,"[CLS] , [MASK] , s , ##me , ##os , [SEP]",nonmorphemic,6.862429010508242
+183,smeo,smeos,plur,3,default,0.039438530802726746,plural,definite,Los,s,[MASK] smeos,"[CLS] , [MASK] , s , ##me , ##os , [SEP]",nonmorphemic,3.2330120013937167
+184,smeo,smeo##s,plur,4,artificial,0.0006082969484850764,singular,definite,El,s,[MASK] smeo##s,"[CLS] , [MASK] , s , ##me , ##o , ##s , [SEP]",nonmorphemic,7.404847393113987
+185,smeo,smeo##s,plur,4,artificial,0.0030518181156367064,plural,definite,Los,s,[MASK] smeo##s,"[CLS] , [MASK] , s , ##me , ##o , ##s , [SEP]",nonmorphemic,5.792017762474481
+186,smeo,smeo,sing,3,default,0.0021659519989043474,singular,indefinite,Un,s,[MASK] smeo,"[CLS] , [MASK] , s , ##me , ##o , [SEP]",nonmorphemic,6.134895291819562
+187,smeo,smeo,sing,3,default,5.955214419373078e-07,plural,indefinite,Unos,s,[MASK] smeo,"[CLS] , [MASK] , s , ##me , ##o , [SEP]",nonmorphemic,14.33382844218751
+188,smeo,smeos,plur,3,default,0.00018105158233083785,singular,indefinite,Un,s,[MASK] smeos,"[CLS] , [MASK] , s , ##me , ##os , [SEP]",nonmorphemic,8.616728582045784
+189,smeo,smeos,plur,3,default,7.965468103066087e-05,plural,indefinite,Unos,s,[MASK] smeos,"[CLS] , [MASK] , s , ##me , ##os , [SEP]",nonmorphemic,9.437809753333086
+190,smeo,smeo##s,plur,4,artificial,9.150809637503698e-05,singular,indefinite,Un,s,[MASK] smeo##s,"[CLS] , [MASK] , s , ##me , ##o , ##s , [SEP]",nonmorphemic,9.29908310462428
+191,smeo,smeo##s,plur,4,artificial,1.0468254004081246e-05,plural,indefinite,Unos,s,[MASK] smeo##s,"[CLS] , [MASK] , s , ##me , ##o , ##s , [SEP]",nonmorphemic,11.467163308775968
+192,bloa,bloa,sing,2,default,0.02570992521941662,singular,definite,La,s,[MASK] bloa,"[CLS] , [MASK] , blo , ##a , [SEP]",nonmorphemic,3.660878166327137
+193,bloa,bloa,sing,2,default,5.232706098468043e-05,plural,definite,Las,s,[MASK] bloa,"[CLS] , [MASK] , blo , ##a , [SEP]",nonmorphemic,9.85799690226303
+194,bloa,bloas,plur,2,default,0.0005238480516709387,singular,definite,La,s,[MASK] bloas,"[CLS] , [MASK] , blo , ##as , [SEP]",nonmorphemic,7.554308893422119
+195,bloa,bloas,plur,2,default,0.00689992681145668,plural,definite,Las,s,[MASK] bloas,"[CLS] , [MASK] , blo , ##as , [SEP]",nonmorphemic,4.976244474470442
+196,bloa,bloa##s,plur,3,artificial,0.0003131364064756781,singular,definite,La,s,[MASK] bloa##s,"[CLS] , [MASK] , blo , ##a , ##s , [SEP]",nonmorphemic,8.068871658922186
+197,bloa,bloa##s,plur,3,artificial,0.0006813915679231286,plural,definite,Las,s,[MASK] bloa##s,"[CLS] , [MASK] , blo , ##a , ##s , [SEP]",nonmorphemic,7.291373427449829
+198,bloa,bloa,sing,2,default,0.0007750061922706664,singular,indefinite,Una,s,[MASK] bloa,"[CLS] , [MASK] , blo , ##a , [SEP]",nonmorphemic,7.1626395386161805
+199,bloa,bloa,sing,2,default,1.119705416385841e-06,plural,indefinite,Unas,s,[MASK] bloa,"[CLS] , [MASK] , blo , ##a , [SEP]",nonmorphemic,13.702444928337453
+200,bloa,bloas,plur,2,default,2.7571648388402537e-05,singular,indefinite,Una,s,[MASK] bloas,"[CLS] , [MASK] , blo , ##as , [SEP]",nonmorphemic,10.498722545510121
+201,bloa,bloas,plur,2,default,7.159635424613953e-05,plural,indefinite,Unas,s,[MASK] bloas,"[CLS] , [MASK] , blo , ##as , [SEP]",nonmorphemic,9.544466403644064
+202,bloa,bloa##s,plur,3,artificial,3.060900780837983e-05,singular,indefinite,Una,s,[MASK] bloa##s,"[CLS] , [MASK] , blo , ##a , ##s , [SEP]",nonmorphemic,10.394216219502248
+203,bloa,bloa##s,plur,3,artificial,2.532853977754712e-05,plural,indefinite,Unas,s,[MASK] bloa##s,"[CLS] , [MASK] , blo , ##a , ##s , [SEP]",nonmorphemic,10.583578743557634
+204,stia,stia,sing,2,default,0.03576787933707237,singular,definite,La,s,[MASK] stia,"[CLS] , [MASK] , st , ##ia , [SEP]",nonmorphemic,3.330705013544395
+205,stia,stia,sing,2,default,0.00038544979179278016,plural,definite,Las,s,[MASK] stia,"[CLS] , [MASK] , st , ##ia , [SEP]",nonmorphemic,7.861099615225759
+206,stia,stias,plur,2,default,0.0008278783061541617,singular,definite,La,s,[MASK] stias,"[CLS] , [MASK] , st , ##ias , [SEP]",nonmorphemic,7.096644387624406
+207,stia,stias,plur,2,default,0.04047044366598129,plural,definite,Las,s,[MASK] stias,"[CLS] , [MASK] , st , ##ias , [SEP]",nonmorphemic,3.2071833573182476
+208,stia,stia##s,plur,3,artificial,0.001668438664637506,singular,definite,La,s,[MASK] stia##s,"[CLS] , [MASK] , st , ##ia , ##s , [SEP]",nonmorphemic,6.3958670212291775
+209,stia,stia##s,plur,3,artificial,0.008113992400467396,plural,definite,Las,s,[MASK] stia##s,"[CLS] , [MASK] , st , ##ia , ##s , [SEP]",nonmorphemic,4.814165250793415
+210,stia,stia,sing,2,default,0.005401293281465769,singular,indefinite,Una,s,[MASK] stia,"[CLS] , [MASK] , st , ##ia , [SEP]",nonmorphemic,5.221116857518898
+211,stia,stia,sing,2,default,1.1022336366295349e-05,plural,indefinite,Unas,s,[MASK] stia,"[CLS] , [MASK] , st , ##ia , [SEP]",nonmorphemic,11.415586765250202
+212,stia,stias,plur,2,default,0.00012011190119665116,singular,indefinite,Una,s,[MASK] stias,"[CLS] , [MASK] , st , ##ias , [SEP]",nonmorphemic,9.027086739727451
+213,stia,stias,plur,2,default,0.00038016430335119367,plural,indefinite,Unas,s,[MASK] stias,"[CLS] , [MASK] , st , ##ias , [SEP]",nonmorphemic,7.874907021451962
+214,stia,stia##s,plur,3,artificial,0.0002802654344122857,singular,indefinite,Una,s,[MASK] stia##s,"[CLS] , [MASK] , st , ##ia , ##s , [SEP]",nonmorphemic,8.179773423800459
+215,stia,stia##s,plur,3,artificial,0.00014302501222118735,plural,indefinite,Unas,s,[MASK] stia##s,"[CLS] , [MASK] , st , ##ia , ##s , [SEP]",nonmorphemic,8.852491032361774
+216,daa,daa,sing,2,default,0.009112915955483913,singular,definite,La,s,[MASK] daa,"[CLS] , [MASK] , da , ##a , [SEP]",nonmorphemic,4.698062535996803
+217,daa,daa,sing,2,default,0.00029884514515288174,plural,definite,Las,s,[MASK] daa,"[CLS] , [MASK] , da , ##a , [SEP]",nonmorphemic,8.115585027922561
+218,daa,daas,plur,2,default,0.0004907179391011596,singular,definite,La,s,[MASK] daas,"[CLS] , [MASK] , da , ##as , [SEP]",nonmorphemic,7.619641057352099
+219,daa,daas,plur,2,default,0.012809418141841888,plural,definite,Las,s,[MASK] daas,"[CLS] , [MASK] , da , ##as , [SEP]",nonmorphemic,4.357574586287635
+220,daa,daa##s,plur,3,artificial,0.0006741629913449287,singular,definite,La,s,[MASK] daa##s,"[CLS] , [MASK] , da , ##a , ##s , [SEP]",nonmorphemic,7.302038649366125
+221,daa,daa##s,plur,3,artificial,0.0038340003229677677,plural,definite,Las,s,[MASK] daa##s,"[CLS] , [MASK] , da , ##a , ##s , [SEP]",nonmorphemic,5.563846550120877
+222,daa,daa,sing,2,default,0.0011186240008100867,singular,indefinite,Una,s,[MASK] daa,"[CLS] , [MASK] , da , ##a , [SEP]",nonmorphemic,6.795655919692102
+223,daa,daa,sing,2,default,4.078979145560879e-06,plural,indefinite,Unas,s,[MASK] daa,"[CLS] , [MASK] , da , ##a , [SEP]",nonmorphemic,12.409663810277156
+224,daa,daas,plur,2,default,4.37381531810388e-05,singular,indefinite,Una,s,[MASK] daas,"[CLS] , [MASK] , da , ##as , [SEP]",nonmorphemic,10.037289766262774
+225,daa,daas,plur,2,default,3.0558650905732065e-05,plural,indefinite,Unas,s,[MASK] daas,"[CLS] , [MASK] , da , ##as , [SEP]",nonmorphemic,10.395862740395248
+226,daa,daa##s,plur,3,artificial,0.00014231738168746233,singular,indefinite,Una,s,[MASK] daa##s,"[CLS] , [MASK] , da , ##a , ##s , [SEP]",nonmorphemic,8.857450912137772
+227,daa,daa##s,plur,3,artificial,8.510425686836243e-05,plural,indefinite,Unas,s,[MASK] daa##s,"[CLS] , [MASK] , da , ##a , ##s , [SEP]",nonmorphemic,9.371633501681098
+228,mcfaia,mcfaia,sing,4,default,0.006413363851606846,singular,definite,La,s,[MASK] mcfaia,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , [SEP]",nonmorphemic,5.049371363857452
+229,mcfaia,mcfaia,sing,4,default,5.493498974828981e-05,plural,definite,Las,s,[MASK] mcfaia,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , [SEP]",nonmorphemic,9.809360076426723
+230,mcfaia,mcfaias,plur,4,default,0.00015865295426920056,singular,definite,La,s,[MASK] mcfaias,"[CLS] , [MASK] , m , ##c , ##fa , ##ias , [SEP]",nonmorphemic,8.748791418808723
+231,mcfaia,mcfaias,plur,4,default,0.0045592025853693485,plural,definite,Las,s,[MASK] mcfaias,"[CLS] , [MASK] , m , ##c , ##fa , ##ias , [SEP]",nonmorphemic,5.3906075423771975
+232,mcfaia,mcfaia##s,plur,5,artificial,8.945837907958776e-05,singular,definite,La,s,[MASK] mcfaia##s,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , ##s , [SEP]",nonmorphemic,9.321737079064167
+233,mcfaia,mcfaia##s,plur,5,artificial,0.0007694395026192069,plural,definite,Las,s,[MASK] mcfaia##s,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , ##s , [SEP]",nonmorphemic,7.169848226854335
+234,mcfaia,mcfaia,sing,4,default,0.0003127937961835414,singular,indefinite,Una,s,[MASK] mcfaia,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , [SEP]",nonmorphemic,8.069966382662619
+235,mcfaia,mcfaia,sing,4,default,1.6618984091110178e-06,plural,indefinite,Unas,s,[MASK] mcfaia,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , [SEP]",nonmorphemic,13.307549989084576
+236,mcfaia,mcfaias,plur,4,default,1.775940108927898e-05,singular,indefinite,Una,s,[MASK] mcfaias,"[CLS] , [MASK] , m , ##c , ##fa , ##ias , [SEP]",nonmorphemic,10.938595543419373
+237,mcfaia,mcfaias,plur,4,default,5.487539237947203e-05,plural,indefinite,Unas,s,[MASK] mcfaias,"[CLS] , [MASK] , m , ##c , ##fa , ##ias , [SEP]",nonmorphemic,9.810445536171322
+238,mcfaia,mcfaia##s,plur,5,artificial,1.2570778380904812e-05,singular,indefinite,Una,s,[MASK] mcfaia##s,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , ##s , [SEP]",nonmorphemic,11.284135613579645
+239,mcfaia,mcfaia##s,plur,5,artificial,1.537531534268055e-05,plural,indefinite,Unas,s,[MASK] mcfaia##s,"[CLS] , [MASK] , m , ##c , ##fa , ##ia , ##s , [SEP]",nonmorphemic,11.082747234388977
+240,mccluo,mccluo,sing,4,default,0.0049314177595078945,singular,definite,El,s,[MASK] mccluo,"[CLS] , [MASK] , m , ##c , ##clu , ##o , [SEP]",nonmorphemic,5.312128754276676
+241,mccluo,mccluo,sing,4,default,9.044317266670987e-05,plural,definite,Los,s,[MASK] mccluo,"[CLS] , [MASK] , m , ##c , ##clu , ##o , [SEP]",nonmorphemic,9.3107888308214
+242,mccluo,mccluos,plur,4,default,0.00012110243551433086,singular,definite,El,s,[MASK] mccluos,"[CLS] , [MASK] , m , ##c , ##clu , ##os , [SEP]",nonmorphemic,9.018873796011007
+243,mccluo,mccluos,plur,4,default,0.0035049356520175934,plural,definite,Los,s,[MASK] mccluos,"[CLS] , [MASK] , m , ##c , ##clu , ##os , [SEP]",nonmorphemic,5.653583117574925
+244,mccluo,mccluo##s,plur,5,artificial,0.0001931790611706674,singular,definite,El,s,[MASK] mccluo##s,"[CLS] , [MASK] , m , ##c , ##clu , ##o , ##s , [SEP]",nonmorphemic,8.5518930210931
+245,mccluo,mccluo##s,plur,5,artificial,0.002090481575578451,plural,definite,Los,s,[MASK] mccluo##s,"[CLS] , [MASK] , m , ##c , ##clu , ##o , ##s , [SEP]",nonmorphemic,6.170360820610726
+246,mccluo,mccluo,sing,4,default,0.0006084147607907653,singular,indefinite,Un,s,[MASK] mccluo,"[CLS] , [MASK] , m , ##c , ##clu , ##o , [SEP]",nonmorphemic,7.404653736218671
+247,mccluo,mccluo,sing,4,default,1.0811340871441644e-06,plural,indefinite,Unos,s,[MASK] mccluo,"[CLS] , [MASK] , m , ##c , ##clu , ##o , [SEP]",nonmorphemic,13.73749998708817
+248,mccluo,mccluos,plur,4,default,2.979278906423133e-05,singular,indefinite,Un,s,[MASK] mccluos,"[CLS] , [MASK] , m , ##c , ##clu , ##os , [SEP]",nonmorphemic,10.421244171444604
+249,mccluo,mccluos,plur,4,default,3.252004171372391e-05,plural,indefinite,Unos,s,[MASK] mccluos,"[CLS] , [MASK] , m , ##c , ##clu , ##os , [SEP]",nonmorphemic,10.33365399057565
+250,mccluo,mccluo##s,plur,5,artificial,3.832004949799739e-05,singular,indefinite,Un,s,[MASK] mccluo##s,"[CLS] , [MASK] , m , ##c , ##clu , ##o , ##s , [SEP]",nonmorphemic,10.169537313161054
+251,mccluo,mccluo##s,plur,5,artificial,1.7059075616998598e-05,plural,indefinite,Unos,s,[MASK] mccluo##s,"[CLS] , [MASK] , m , ##c , ##clu , ##o , ##s , [SEP]",nonmorphemic,10.978828201600964
+252,kho,kho,sing,2,default,0.041998740285634995,singular,definite,El,s,[MASK] kho,"[CLS] , [MASK] , k , ##ho , [SEP]",nonmorphemic,3.1701156543477405
+253,kho,kho,sing,2,default,0.0011877629440277815,plural,definite,Los,s,[MASK] kho,"[CLS] , [MASK] , k , ##ho , [SEP]",nonmorphemic,6.735683620017007
+254,kho,khos,plur,2,default,0.00017999472038354725,singular,definite,El,s,[MASK] khos,"[CLS] , [MASK] , k , ##hos , [SEP]",nonmorphemic,8.622583038706747
+255,kho,khos,plur,2,default,0.01997392065823078,plural,definite,Los,s,[MASK] khos,"[CLS] , [MASK] , k , ##hos , [SEP]",nonmorphemic,3.9133278234214726
+256,kho,kho##s,plur,3,artificial,0.0005365389515645802,singular,definite,El,s,[MASK] kho##s,"[CLS] , [MASK] , k , ##ho , ##s , [SEP]",nonmorphemic,7.530371395426333
+257,kho,kho##s,plur,3,artificial,0.03211411461234093,plural,definite,Los,s,[MASK] kho##s,"[CLS] , [MASK] , k , ##ho , ##s , [SEP]",nonmorphemic,3.438459637939641
+258,kho,kho,sing,2,default,0.006387857720255852,singular,indefinite,Un,s,[MASK] kho,"[CLS] , [MASK] , k , ##ho , [SEP]",nonmorphemic,5.053356321849263
+259,kho,kho,sing,2,default,2.064178988803178e-05,plural,indefinite,Unos,s,[MASK] kho,"[CLS] , [MASK] , k , ##ho , [SEP]",nonmorphemic,10.788192901729436
+260,kho,khos,plur,2,default,0.00010733005910879001,singular,indefinite,Un,s,[MASK] khos,"[CLS] , [MASK] , k , ##hos , [SEP]",nonmorphemic,9.139601806750877
+261,kho,khos,plur,2,default,0.0004328580980654806,plural,indefinite,Unos,s,[MASK] khos,"[CLS] , [MASK] , k , ##hos , [SEP]",nonmorphemic,7.745100601766672
+262,kho,kho##s,plur,3,artificial,0.00012252316810190678,singular,indefinite,Un,s,[MASK] kho##s,"[CLS] , [MASK] , k , ##ho , ##s , [SEP]",nonmorphemic,9.007210418499312
+263,kho,kho##s,plur,3,artificial,0.0002728171821217984,plural,indefinite,Unos,s,[MASK] kho##s,"[CLS] , [MASK] , k , ##ho , ##s , [SEP]",nonmorphemic,8.206708649660953
+264,struo,struo,sing,3,default,0.023256557062268257,singular,definite,El,s,[MASK] struo,"[CLS] , [MASK] , st , ##ru , ##o , [SEP]",nonmorphemic,3.7611681625265354
+265,struo,struo,sing,3,default,0.00022374078980647027,plural,definite,Los,s,[MASK] struo,"[CLS] , [MASK] , st , ##ru , ##o , [SEP]",nonmorphemic,8.405022364532634
+266,struo,struos,plur,3,default,0.0010457605822011828,singular,definite,El,s,[MASK] struos,"[CLS] , [MASK] , st , ##ru , ##os , [SEP]",nonmorphemic,6.863010828447473
+267,struo,struos,plur,3,default,0.025895118713378906,plural,definite,Los,s,[MASK] struos,"[CLS] , [MASK] , st , ##ru , ##os , [SEP]",nonmorphemic,3.6537007947036257
+268,struo,struo##s,plur,4,artificial,0.001343095675110817,singular,definite,El,s,[MASK] struo##s,"[CLS] , [MASK] , st , ##ru , ##o , ##s , [SEP]",nonmorphemic,6.612778124134231
+269,struo,struo##s,plur,4,artificial,0.0074515873566269875,plural,definite,Los,s,[MASK] struo##s,"[CLS] , [MASK] , st , ##ru , ##o , ##s , [SEP]",nonmorphemic,4.89932820128281
+270,struo,struo,sing,3,default,0.007175920065492392,singular,indefinite,Un,s,[MASK] struo,"[CLS] , [MASK] , st , ##ru , ##o , [SEP]",nonmorphemic,4.937024293433113
+271,struo,struo,sing,3,default,2.775286475298344e-06,plural,indefinite,Unos,s,[MASK] struo,"[CLS] , [MASK] , st , ##ru , ##o , [SEP]",nonmorphemic,12.794756581752429
+272,struo,struos,plur,3,default,0.0002561643486842513,singular,indefinite,Un,s,[MASK] struos,"[CLS] , [MASK] , st , ##ru , ##os , [SEP]",nonmorphemic,8.269691332422385
+273,struo,struos,plur,3,default,0.00014690512034576386,plural,indefinite,Unos,s,[MASK] struos,"[CLS] , [MASK] , st , ##ru , ##os , [SEP]",nonmorphemic,8.825723619396229
+274,struo,struo##s,plur,4,artificial,0.00035527622094377875,singular,indefinite,Un,s,[MASK] struo##s,"[CLS] , [MASK] , st , ##ru , ##o , ##s , [SEP]",nonmorphemic,7.9426149838761715
+275,struo,struo##s,plur,4,artificial,4.106916094315238e-05,plural,indefinite,Unos,s,[MASK] struo##s,"[CLS] , [MASK] , st , ##ru , ##o , ##s , [SEP]",nonmorphemic,10.10025306012531
+276,druo,druo,sing,3,default,0.07373782247304916,singular,definite,El,s,[MASK] druo,"[CLS] , [MASK] , d , ##ru , ##o , [SEP]",nonmorphemic,2.607239416405355
+277,druo,druo,sing,3,default,0.00024343692348338664,plural,definite,Los,s,[MASK] druo,"[CLS] , [MASK] , d , ##ru , ##o , [SEP]",nonmorphemic,8.320652690134569
+278,druo,druos,plur,3,default,0.00032010063296183944,singular,definite,El,s,[MASK] druos,"[CLS] , [MASK] , d , ##ru , ##os , [SEP]",nonmorphemic,8.046875133602597
+279,druo,druos,plur,3,default,0.09928098320960999,plural,definite,Los,s,[MASK] druos,"[CLS] , [MASK] , d , ##ru , ##os , [SEP]",nonmorphemic,2.3098012347342394
+280,druo,druo##s,plur,4,artificial,0.0006495038978755474,singular,definite,El,s,[MASK] druo##s,"[CLS] , [MASK] , d , ##ru , ##o , ##s , [SEP]",nonmorphemic,7.339301720523595
+281,druo,druo##s,plur,4,artificial,0.01097363606095314,plural,definite,Los,s,[MASK] druo##s,"[CLS] , [MASK] , d , ##ru , ##o , ##s , [SEP]",nonmorphemic,4.512259604650237
+282,druo,druo,sing,3,default,0.0047082132659852505,singular,indefinite,Un,s,[MASK] druo,"[CLS] , [MASK] , d , ##ru , ##o , [SEP]",nonmorphemic,5.35844679197258
+283,druo,druo,sing,3,default,1.497767357250268e-06,plural,indefinite,Unos,s,[MASK] druo,"[CLS] , [MASK] , d , ##ru , ##o , [SEP]",nonmorphemic,13.411534987166023
+284,druo,druos,plur,3,default,4.317366619943641e-05,singular,indefinite,Un,s,[MASK] druos,"[CLS] , [MASK] , d , ##ru , ##os , [SEP]",nonmorphemic,10.050279827299603
+285,druo,druos,plur,3,default,0.00018600905605126172,plural,indefinite,Unos,s,[MASK] druos,"[CLS] , [MASK] , d , ##ru , ##os , [SEP]",nonmorphemic,8.589715196988672
+286,druo,druo##s,plur,4,artificial,0.0001119835433200933,singular,indefinite,Un,s,[MASK] druo##s,"[CLS] , [MASK] , d , ##ru , ##o , ##s , [SEP]",nonmorphemic,9.097158632107156
+287,druo,druo##s,plur,4,artificial,5.477908416651189e-05,plural,indefinite,Unos,s,[MASK] druo##s,"[CLS] , [MASK] , d , ##ru , ##o , ##s , [SEP]",nonmorphemic,9.812202112660627
+288,sqao,sqao,sing,4,default,0.015521346591413021,singular,definite,El,s,[MASK] sqao,"[CLS] , [MASK] , s , ##q , ##a , ##o , [SEP]",nonmorphemic,4.165539003080289
+289,sqao,sqao,sing,4,default,0.00036728475242853165,plural,definite,Los,s,[MASK] sqao,"[CLS] , [MASK] , s , ##q , ##a , ##o , [SEP]",nonmorphemic,7.909373118582595
+290,sqao,sqaos,plur,4,default,0.0003918154980055988,singular,definite,El,s,[MASK] sqaos,"[CLS] , [MASK] , s , ##q , ##a , ##os , [SEP]",nonmorphemic,7.844719497325993
+291,sqao,sqaos,plur,4,default,0.011944286525249481,plural,definite,Los,s,[MASK] sqaos,"[CLS] , [MASK] , s , ##q , ##a , ##os , [SEP]",nonmorphemic,4.427502229979943
+292,sqao,sqao##s,plur,5,artificial,0.0008504157303832471,singular,definite,El,s,[MASK] sqao##s,"[CLS] , [MASK] , s , ##q , ##a , ##o , ##s , [SEP]",nonmorphemic,7.069785233479149
+293,sqao,sqao##s,plur,5,artificial,0.003296846291050315,plural,definite,Los,s,[MASK] sqao##s,"[CLS] , [MASK] , s , ##q , ##a , ##o , ##s , [SEP]",nonmorphemic,5.714788936831523
+294,sqao,sqao,sing,4,default,0.0022928225807845592,singular,indefinite,Un,s,[MASK] sqao,"[CLS] , [MASK] , s , ##q , ##a , ##o , [SEP]",nonmorphemic,6.0779716523761635
+295,sqao,sqao,sing,4,default,2.7313658392813522e-06,plural,indefinite,Unos,s,[MASK] sqao,"[CLS] , [MASK] , s , ##q , ##a , ##o , [SEP]",nonmorphemic,12.810708766450373
+296,sqao,sqaos,plur,4,default,9.437495464226231e-05,singular,indefinite,Un,s,[MASK] sqaos,"[CLS] , [MASK] , s , ##q , ##a , ##os , [SEP]",nonmorphemic,9.26823483100699
+297,sqao,sqaos,plur,4,default,6.16307370364666e-05,plural,indefinite,Unos,s,[MASK] sqaos,"[CLS] , [MASK] , s , ##q , ##a , ##os , [SEP]",nonmorphemic,9.694349834008142
+298,sqao,sqao##s,plur,5,artificial,0.00015711454034317285,singular,indefinite,Un,s,[MASK] sqao##s,"[CLS] , [MASK] , s , ##q , ##a , ##o , ##s , [SEP]",nonmorphemic,8.758535462286876
+299,sqao,sqao##s,plur,5,artificial,1.3657796444022097e-05,plural,indefinite,Unos,s,[MASK] sqao##s,"[CLS] , [MASK] , s , ##q , ##a , ##o , ##s , [SEP]",nonmorphemic,11.20120003132747
+300,ghio,ghio,sing,3,default,0.0218949057161808,singular,definite,El,s,[MASK] ghio,"[CLS] , [MASK] , g , ##hi , ##o , [SEP]",nonmorphemic,3.821501284918417
+301,ghio,ghio,sing,3,default,0.000388834421755746,plural,definite,Los,s,[MASK] ghio,"[CLS] , [MASK] , g , ##hi , ##o , [SEP]",nonmorphemic,7.852356955974441
+302,ghio,ghios,plur,3,default,0.0006366722518578172,singular,definite,El,s,[MASK] ghios,"[CLS] , [MASK] , g , ##hi , ##os , [SEP]",nonmorphemic,7.359255553078642
+303,ghio,ghios,plur,3,default,0.04780895262956619,plural,definite,Los,s,[MASK] ghios,"[CLS] , [MASK] , g , ##hi , ##os , [SEP]",nonmorphemic,3.040542363516397
+304,ghio,ghio##s,plur,4,artificial,0.001944153569638729,singular,definite,El,s,[MASK] ghio##s,"[CLS] , [MASK] , g , ##hi , ##o , ##s , [SEP]",nonmorphemic,6.242928579336225
+305,ghio,ghio##s,plur,4,artificial,0.00796517077833414,plural,definite,Los,s,[MASK] ghio##s,"[CLS] , [MASK] , g , ##hi , ##o , ##s , [SEP]",nonmorphemic,4.832676894753417
+306,ghio,ghio,sing,3,default,0.011023239232599735,singular,indefinite,Un,s,[MASK] ghio,"[CLS] , [MASK] , g , ##hi , ##o , [SEP]",nonmorphemic,4.50774957719739
+307,ghio,ghio,sing,3,default,4.042366981593659e-06,plural,indefinite,Unos,s,[MASK] ghio,"[CLS] , [MASK] , g , ##hi , ##o , [SEP]",nonmorphemic,12.418680151022638
+308,ghio,ghios,plur,3,default,0.0006001603906042874,singular,indefinite,Un,s,[MASK] ghios,"[CLS] , [MASK] , g , ##hi , ##os , [SEP]",nonmorphemic,7.418313620797319
+309,ghio,ghios,plur,3,default,0.00011681763135129586,plural,indefinite,Unos,s,[MASK] ghios,"[CLS] , [MASK] , g , ##hi , ##os , [SEP]",nonmorphemic,9.054896545612323
+310,ghio,ghio##s,plur,4,artificial,0.0018321883399039507,singular,indefinite,Un,s,[MASK] ghio##s,"[CLS] , [MASK] , g , ##hi , ##o , ##s , [SEP]",nonmorphemic,6.302244212389907
+311,ghio,ghio##s,plur,4,artificial,4.3387091864133254e-05,plural,indefinite,Unos,s,[MASK] ghio##s,"[CLS] , [MASK] , g , ##hi , ##o , ##s , [SEP]",nonmorphemic,10.045348583582163
+312,psychao,psychao,sing,4,default,0.031357306987047195,singular,definite,El,s,[MASK] psychao,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , [SEP]",nonmorphemic,3.4623079613248504
+313,psychao,psychao,sing,4,default,0.0002910759358201176,plural,definite,Los,s,[MASK] psychao,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , [SEP]",nonmorphemic,8.14192637699829
+314,psychao,psychaos,plur,4,default,0.000445358658907935,singular,definite,El,s,[MASK] psychaos,"[CLS] , [MASK] , ps , ##y , ##cha , ##os , [SEP]",nonmorphemic,7.716630625347519
+315,psychao,psychaos,plur,4,default,0.056445084512233734,plural,definite,Los,s,[MASK] psychaos,"[CLS] , [MASK] , ps , ##y , ##cha , ##os , [SEP]",nonmorphemic,2.874487069020501
+316,psychao,psychao##s,plur,5,artificial,0.0002734126755967736,singular,definite,El,s,[MASK] psychao##s,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , ##s , [SEP]",nonmorphemic,8.204528271922616
+317,psychao,psychao##s,plur,5,artificial,0.014000417664647102,plural,definite,Los,s,[MASK] psychao##s,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , ##s , [SEP]",nonmorphemic,4.2686681166228
+318,psychao,psychao,sing,4,default,0.0026902109384536743,singular,indefinite,Un,s,[MASK] psychao,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , [SEP]",nonmorphemic,5.918135672660711
+319,psychao,psychao,sing,4,default,4.5265491621648835e-07,plural,indefinite,Unos,s,[MASK] psychao,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , [SEP]",nonmorphemic,14.608135776117438
+320,psychao,psychaos,plur,4,default,0.0001966105483006686,singular,indefinite,Un,s,[MASK] psychaos,"[CLS] , [MASK] , ps , ##y , ##cha , ##os , [SEP]",nonmorphemic,8.534285698075717
+321,psychao,psychaos,plur,4,default,3.8035133911762387e-05,plural,indefinite,Unos,s,[MASK] psychaos,"[CLS] , [MASK] , ps , ##y , ##cha , ##os , [SEP]",nonmorphemic,10.177000248770257
+322,psychao,psychao##s,plur,5,artificial,0.00011800298671005294,singular,indefinite,Un,s,[MASK] psychao##s,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , ##s , [SEP]",nonmorphemic,9.044800622716787
+323,psychao,psychao##s,plur,5,artificial,6.4045661929412745e-06,plural,indefinite,Unos,s,[MASK] psychao##s,"[CLS] , [MASK] , ps , ##y , ##cha , ##o , ##s , [SEP]",nonmorphemic,11.95849935434862
+324,hypoa,hypoa,sing,4,default,0.0036736668553203344,singular,definite,La,s,[MASK] hypoa,"[CLS] , [MASK] , h , ##y , ##po , ##a , [SEP]",nonmorphemic,5.60656497258788
+325,hypoa,hypoa,sing,4,default,0.00020084012066945434,plural,definite,Las,s,[MASK] hypoa,"[CLS] , [MASK] , h , ##y , ##po , ##a , [SEP]",nonmorphemic,8.513001385974139
+326,hypoa,hypoas,plur,4,default,0.0004281944711692631,singular,definite,La,s,[MASK] hypoas,"[CLS] , [MASK] , h , ##y , ##po , ##as , [SEP]",nonmorphemic,7.755933093687325
+327,hypoa,hypoas,plur,4,default,0.008296197280287743,plural,definite,Las,s,[MASK] hypoas,"[CLS] , [MASK] , h , ##y , ##po , ##as , [SEP]",nonmorphemic,4.791958028167965
+328,hypoa,hypoa##s,plur,5,artificial,0.0004610842152033001,singular,definite,La,s,[MASK] hypoa##s,"[CLS] , [MASK] , h , ##y , ##po , ##a , ##s , [SEP]",nonmorphemic,7.681929852251692
+329,hypoa,hypoa##s,plur,5,artificial,0.001787166460417211,plural,definite,Las,s,[MASK] hypoa##s,"[CLS] , [MASK] , h , ##y , ##po , ##a , ##s , [SEP]",nonmorphemic,6.327123896378022
+330,hypoa,hypoa,sing,4,default,0.0003069220401812345,singular,indefinite,Una,s,[MASK] hypoa,"[CLS] , [MASK] , h , ##y , ##po , ##a , [SEP]",nonmorphemic,8.088916783403233
+331,hypoa,hypoa,sing,4,default,2.3548939225292997e-06,plural,indefinite,Unas,s,[MASK] hypoa,"[CLS] , [MASK] , h , ##y , ##po , ##a , [SEP]",nonmorphemic,12.959014875022357
+332,hypoa,hypoas,plur,4,default,5.1974126108689234e-05,singular,indefinite,Una,s,[MASK] hypoas,"[CLS] , [MASK] , h , ##y , ##po , ##as , [SEP]",nonmorphemic,9.864764538047181
+333,hypoa,hypoas,plur,4,default,3.938740701414645e-05,plural,indefinite,Unas,s,[MASK] hypoas,"[CLS] , [MASK] , h , ##y , ##po , ##as , [SEP]",nonmorphemic,10.142064411679696
+334,hypoa,hypoa##s,plur,5,artificial,6.41343867755495e-05,singular,indefinite,Una,s,[MASK] hypoa##s,"[CLS] , [MASK] , h , ##y , ##po , ##a , ##s , [SEP]",nonmorphemic,9.654529882721498
+335,hypoa,hypoa##s,plur,5,artificial,1.0766430023068096e-05,plural,indefinite,Unas,s,[MASK] hypoa##s,"[CLS] , [MASK] , h , ##y , ##po , ##a , ##s , [SEP]",nonmorphemic,11.439077595926921
+336,schlaia,schlaia,sing,4,default,0.015178026631474495,singular,definite,La,s,[MASK] schlaia,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , [SEP]",nonmorphemic,4.187906513391697
+337,schlaia,schlaia,sing,4,default,0.00018564026686362922,plural,definite,Las,s,[MASK] schlaia,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , [SEP]",nonmorphemic,8.591699806059315
+338,schlaia,schlaias,plur,4,default,0.0005063831340521574,singular,definite,La,s,[MASK] schlaias,"[CLS] , [MASK] , s , ##ch , ##la , ##ias , [SEP]",nonmorphemic,7.588216993273158
+339,schlaia,schlaias,plur,4,default,0.017801089212298393,plural,definite,Las,s,[MASK] schlaias,"[CLS] , [MASK] , s , ##ch , ##la , ##ias , [SEP]",nonmorphemic,4.028495631854076
+340,schlaia,schlaia##s,plur,5,artificial,0.00048123247688636184,singular,definite,La,s,[MASK] schlaia##s,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , ##s , [SEP]",nonmorphemic,7.6391600846899035
+341,schlaia,schlaia##s,plur,5,artificial,0.0028087354730814695,plural,definite,Las,s,[MASK] schlaia##s,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , ##s , [SEP]",nonmorphemic,5.875020906500729
+342,schlaia,schlaia,sing,4,default,0.0011812894372269511,singular,indefinite,Una,s,[MASK] schlaia,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , [SEP]",nonmorphemic,6.741148693701389
+343,schlaia,schlaia,sing,4,default,4.7720982365717646e-06,plural,indefinite,Unas,s,[MASK] schlaia,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , [SEP]",nonmorphemic,12.252724467902823
+344,schlaia,schlaias,plur,4,default,3.557239688234404e-05,singular,indefinite,Una,s,[MASK] schlaias,"[CLS] , [MASK] , s , ##ch , ##la , ##ias , [SEP]",nonmorphemic,10.243940589333379
+345,schlaia,schlaias,plur,4,default,8.21105350041762e-05,plural,indefinite,Unas,s,[MASK] schlaias,"[CLS] , [MASK] , s , ##ch , ##la , ##ias , [SEP]",nonmorphemic,9.407444230564204
+346,schlaia,schlaia##s,plur,5,artificial,6.282838148763403e-05,singular,indefinite,Una,s,[MASK] schlaia##s,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , ##s , [SEP]",nonmorphemic,9.675103652065301
+347,schlaia,schlaia##s,plur,5,artificial,5.408800279838033e-05,plural,indefinite,Unas,s,[MASK] schlaia##s,"[CLS] , [MASK] , s , ##ch , ##la , ##ia , ##s , [SEP]",nonmorphemic,9.824898156438353
+348,szoo,szoo,sing,3,default,0.017376525327563286,singular,definite,El,s,[MASK] szoo,"[CLS] , [MASK] , s , ##zo , ##o , [SEP]",nonmorphemic,4.052635102747742
+349,szoo,szoo,sing,3,default,0.0005686436197720468,plural,definite,Los,s,[MASK] szoo,"[CLS] , [MASK] , s , ##zo , ##o , [SEP]",nonmorphemic,7.472256647352719
+350,szoo,szoos,plur,3,default,0.0007256566314026713,singular,definite,El,s,[MASK] szoos,"[CLS] , [MASK] , s , ##zo , ##os , [SEP]",nonmorphemic,7.228433614520553
+351,szoo,szoos,plur,3,default,0.027170583605766296,plural,definite,Los,s,[MASK] szoos,"[CLS] , [MASK] , s , ##zo , ##os , [SEP]",nonmorphemic,3.6056203759892793
+352,szoo,szoo##s,plur,4,artificial,0.0022451994009315968,singular,definite,El,s,[MASK] szoo##s,"[CLS] , [MASK] , s , ##zo , ##o , ##s , [SEP]",nonmorphemic,6.098960941718109
+353,szoo,szoo##s,plur,4,artificial,0.010958440601825714,plural,definite,Los,s,[MASK] szoo##s,"[CLS] , [MASK] , s , ##zo , ##o , ##s , [SEP]",nonmorphemic,4.5136452884404665
+354,szoo,szoo,sing,3,default,0.005664551164954901,singular,indefinite,Un,s,[MASK] szoo,"[CLS] , [MASK] , s , ##zo , ##o , [SEP]",nonmorphemic,5.173527617128209
+355,szoo,szoo,sing,3,default,5.427934866020223e-06,plural,indefinite,Unos,s,[MASK] szoo,"[CLS] , [MASK] , s , ##zo , ##o , [SEP]",nonmorphemic,12.123951815691463
+356,szoo,szoos,plur,3,default,0.0003352299681864679,singular,indefinite,Un,s,[MASK] szoos,"[CLS] , [MASK] , s , ##zo , ##os , [SEP]",nonmorphemic,8.00069378945506
+357,szoo,szoos,plur,3,default,0.00011682277545332909,plural,indefinite,Unos,s,[MASK] szoos,"[CLS] , [MASK] , s , ##zo , ##os , [SEP]",nonmorphemic,9.054852511259666
+358,szoo,szoo##s,plur,4,artificial,0.0008988864137791097,singular,indefinite,Un,s,[MASK] szoo##s,"[CLS] , [MASK] , s , ##zo , ##o , ##s , [SEP]",nonmorphemic,7.014353878773133
+359,szoo,szoo##s,plur,4,artificial,4.4772088585887104e-05,plural,indefinite,Unos,s,[MASK] szoo##s,"[CLS] , [MASK] , s , ##zo , ##o , ##s , [SEP]",nonmorphemic,10.013925635339033
+360,strea,strea,sing,2,default,0.008524314500391483,singular,definite,La,s,[MASK] strea,"[CLS] , [MASK] , st , ##rea , [SEP]",nonmorphemic,4.764832669556918
+361,strea,strea,sing,2,default,0.00019040530605707318,plural,definite,Las,s,[MASK] strea,"[CLS] , [MASK] , st , ##rea , [SEP]",nonmorphemic,8.5663555680485
+362,strea,streas,plur,2,default,0.0006643576198257506,singular,definite,La,s,[MASK] streas,"[CLS] , [MASK] , st , ##reas , [SEP]",nonmorphemic,7.316689969397262
+363,strea,streas,plur,2,default,0.020374704152345657,plural,definite,Las,s,[MASK] streas,"[CLS] , [MASK] , st , ##reas , [SEP]",nonmorphemic,3.893461140090903
+364,strea,strea##s,plur,3,artificial,0.00018663107766769826,singular,definite,La,s,[MASK] strea##s,"[CLS] , [MASK] , st , ##rea , ##s , [SEP]",nonmorphemic,8.586376736431847
+365,strea,strea##s,plur,3,artificial,0.0022817873395979404,plural,definite,Las,s,[MASK] strea##s,"[CLS] , [MASK] , st , ##rea , ##s , [SEP]",nonmorphemic,6.082796222244981
+366,strea,strea,sing,2,default,0.0010798111325129867,singular,indefinite,Una,s,[MASK] strea,"[CLS] , [MASK] , st , ##rea , [SEP]",nonmorphemic,6.830969130441617
+367,strea,strea,sing,2,default,2.5528884179948363e-06,plural,indefinite,Unas,s,[MASK] strea,"[CLS] , [MASK] , st , ##rea , [SEP]",nonmorphemic,12.878285126890063
+368,strea,streas,plur,2,default,4.5173688704380766e-05,singular,indefinite,Una,s,[MASK] streas,"[CLS] , [MASK] , st , ##reas , [SEP]",nonmorphemic,10.004995748927069
+369,strea,streas,plur,2,default,0.00015749086742289364,plural,indefinite,Unas,s,[MASK] streas,"[CLS] , [MASK] , st , ##reas , [SEP]",nonmorphemic,8.756143085996307
+370,strea,strea##s,plur,3,artificial,5.29535100213252e-05,singular,indefinite,Una,s,[MASK] strea##s,"[CLS] , [MASK] , st , ##rea , ##s , [SEP]",nonmorphemic,9.846096198759318
+371,strea,strea##s,plur,3,artificial,2.4720613509998657e-05,plural,indefinite,Unas,s,[MASK] strea##s,"[CLS] , [MASK] , st , ##rea , ##s , [SEP]",nonmorphemic,10.607873107317113
+372,synia,synia,sing,3,default,0.020688926801085472,singular,definite,La,s,[MASK] synia,"[CLS] , [MASK] , s , ##yn , ##ia , [SEP]",nonmorphemic,3.878156658986364
+373,synia,synia,sing,3,default,0.0004585860588122159,plural,definite,Las,s,[MASK] synia,"[CLS] , [MASK] , s , ##yn , ##ia , [SEP]",nonmorphemic,7.687362587452573
+374,synia,synias,plur,3,default,0.0012924147304147482,singular,definite,La,s,[MASK] synias,"[CLS] , [MASK] , s , ##yn , ##ias , [SEP]",nonmorphemic,6.651242926357786
+375,synia,synias,plur,3,default,0.02862369641661644,plural,definite,Las,s,[MASK] synias,"[CLS] , [MASK] , s , ##yn , ##ias , [SEP]",nonmorphemic,3.5535203581755788
+376,synia,synia##s,plur,4,artificial,0.0009297559154219925,singular,definite,La,s,[MASK] synia##s,"[CLS] , [MASK] , s , ##yn , ##ia , ##s , [SEP]",nonmorphemic,6.980588462800208
+377,synia,synia##s,plur,4,artificial,0.002722971374168992,plural,definite,Las,s,[MASK] synia##s,"[CLS] , [MASK] , s , ##yn , ##ia , ##s , [SEP]",nonmorphemic,5.906031577953561
+378,synia,synia,sing,3,default,0.0009732099715620279,singular,indefinite,Una,s,[MASK] synia,"[CLS] , [MASK] , s , ##yn , ##ia , [SEP]",nonmorphemic,6.934910700948307
+379,synia,synia,sing,3,default,1.2698026694124565e-05,plural,indefinite,Unas,s,[MASK] synia,"[CLS] , [MASK] , s , ##yn , ##ia , [SEP]",nonmorphemic,11.274063954987593
+380,synia,synias,plur,3,default,9.871507063508034e-05,singular,indefinite,Una,s,[MASK] synias,"[CLS] , [MASK] , s , ##yn , ##ias , [SEP]",nonmorphemic,9.223272931842773
+381,synia,synias,plur,3,default,0.00012367988529149443,plural,indefinite,Unas,s,[MASK] synias,"[CLS] , [MASK] , s , ##yn , ##ias , [SEP]",nonmorphemic,8.997813900587635
+382,synia,synia##s,plur,4,artificial,0.00014102681598160416,singular,indefinite,Una,s,[MASK] synia##s,"[CLS] , [MASK] , s , ##yn , ##ia , ##s , [SEP]",nonmorphemic,8.866560501402144
+383,synia,synia##s,plur,4,artificial,3.236991324229166e-05,plural,indefinite,Unas,s,[MASK] synia##s,"[CLS] , [MASK] , s , ##yn , ##ia , ##s , [SEP]",nonmorphemic,10.338281170218417
+384,rhaio,rhaio,sing,3,default,0.021713854745030403,singular,definite,El,s,[MASK] rhaio,"[CLS] , [MASK] , r , ##hai , ##o , [SEP]",nonmorphemic,3.8298047546564704
+385,rhaio,rhaio,sing,3,default,0.0005286940722726285,plural,definite,Los,s,[MASK] rhaio,"[CLS] , [MASK] , r , ##hai , ##o , [SEP]",nonmorphemic,7.545100606677858
+386,rhaio,rhaios,plur,3,default,0.0006332194316200912,singular,definite,El,s,[MASK] rhaios,"[CLS] , [MASK] , r , ##hai , ##os , [SEP]",nonmorphemic,7.364693542462251
+387,rhaio,rhaios,plur,3,default,0.03138142451643944,plural,definite,Los,s,[MASK] rhaios,"[CLS] , [MASK] , r , ##hai , ##os , [SEP]",nonmorphemic,3.4615391370275703
+388,rhaio,rhaio##s,plur,4,artificial,0.0011913168709725142,singular,definite,El,s,[MASK] rhaio##s,"[CLS] , [MASK] , r , ##hai , ##o , ##s , [SEP]",nonmorphemic,6.732695969442302
+389,rhaio,rhaio##s,plur,4,artificial,0.007324313744902611,plural,definite,Los,s,[MASK] rhaio##s,"[CLS] , [MASK] , r , ##hai , ##o , ##s , [SEP]",nonmorphemic,4.916555815170595
+390,rhaio,rhaio,sing,3,default,0.0035176360979676247,singular,indefinite,Un,s,[MASK] rhaio,"[CLS] , [MASK] , r , ##hai , ##o , [SEP]",nonmorphemic,5.649966078049003
+391,rhaio,rhaio,sing,3,default,2.865999022105825e-06,plural,indefinite,Unos,s,[MASK] rhaio,"[CLS] , [MASK] , r , ##hai , ##o , [SEP]",nonmorphemic,12.762593569763578
+392,rhaio,rhaios,plur,3,default,0.00011453122715465724,singular,indefinite,Un,s,[MASK] rhaios,"[CLS] , [MASK] , r , ##hai , ##os , [SEP]",nonmorphemic,9.074663045911473
+393,rhaio,rhaios,plur,3,default,6.133093120297417e-05,plural,indefinite,Unos,s,[MASK] rhaios,"[CLS] , [MASK] , r , ##hai , ##os , [SEP]",nonmorphemic,9.699226254959273
+394,rhaio,rhaio##s,plur,4,artificial,0.00023763070930726826,singular,indefinite,Un,s,[MASK] rhaio##s,"[CLS] , [MASK] , r , ##hai , ##o , ##s , [SEP]",nonmorphemic,8.344792730901364
+395,rhaio,rhaio##s,plur,4,artificial,1.6643802155158482e-05,plural,indefinite,Unos,s,[MASK] rhaio##s,"[CLS] , [MASK] , r , ##hai , ##o , ##s , [SEP]",nonmorphemic,11.003472653770844
+396,gloo,gloo,sing,2,default,0.05694931000471115,singular,definite,El,s,[MASK] gloo,"[CLS] , [MASK] , glo , ##o , [SEP]",nonmorphemic,2.865593704970751
+397,gloo,gloo,sing,2,default,0.0002123590966220945,plural,definite,Los,s,[MASK] gloo,"[CLS] , [MASK] , glo , ##o , [SEP]",nonmorphemic,8.457231864250625
+398,gloo,gloos,plur,2,default,0.002239406341686845,singular,definite,El,s,[MASK] gloos,"[CLS] , [MASK] , glo , ##os , [SEP]",nonmorphemic,6.101544474273452
+399,gloo,gloos,plur,2,default,0.042860496789216995,plural,definite,Los,s,[MASK] gloos,"[CLS] , [MASK] , glo , ##os , [SEP]",nonmorphemic,3.149804698028216
+400,gloo,gloo##s,plur,3,artificial,0.022533994168043137,singular,definite,El,s,[MASK] gloo##s,"[CLS] , [MASK] , glo , ##o , ##s , [SEP]",nonmorphemic,3.792730258047193
+401,gloo,gloo##s,plur,3,artificial,0.004860203713178635,plural,definite,Los,s,[MASK] gloo##s,"[CLS] , [MASK] , glo , ##o , ##s , [SEP]",nonmorphemic,5.326674925656298
+402,gloo,gloo,sing,2,default,0.0071039809845387936,singular,indefinite,Un,s,[MASK] gloo,"[CLS] , [MASK] , glo , ##o , [SEP]",nonmorphemic,4.9470999500218085
+403,gloo,gloo,sing,2,default,4.837446340388851e-06,plural,indefinite,Unos,s,[MASK] gloo,"[CLS] , [MASK] , glo , ##o , [SEP]",nonmorphemic,12.239123592095973
+404,gloo,gloos,plur,2,default,0.00036623183405026793,singular,indefinite,Un,s,[MASK] gloos,"[CLS] , [MASK] , glo , ##os , [SEP]",nonmorphemic,7.91224399872586
+405,gloo,gloos,plur,2,default,0.0002212838298873976,plural,indefinite,Unos,s,[MASK] gloos,"[CLS] , [MASK] , glo , ##os , [SEP]",nonmorphemic,8.416064382318911
+406,gloo,gloo##s,plur,3,artificial,0.002466075122356415,singular,indefinite,Un,s,[MASK] gloo##s,"[CLS] , [MASK] , glo , ##o , ##s , [SEP]",nonmorphemic,6.005127411461314
+407,gloo,gloo##s,plur,3,artificial,5.940798291703686e-05,plural,indefinite,Unos,s,[MASK] gloo##s,"[CLS] , [MASK] , glo , ##o , ##s , [SEP]",nonmorphemic,9.731081948082835
+408,zaio,zaio,sing,2,default,0.015640251338481903,singular,definite,El,s,[MASK] zaio,"[CLS] , [MASK] , za , ##io , [SEP]",nonmorphemic,4.157907473758681
+409,zaio,zaio,sing,2,default,0.00021350673341657966,plural,definite,Los,s,[MASK] zaio,"[CLS] , [MASK] , za , ##io , [SEP]",nonmorphemic,8.451842187541956
+410,zaio,zaios,plur,2,default,0.0001858174946391955,singular,definite,El,s,[MASK] zaios,"[CLS] , [MASK] , za , ##ios , [SEP]",nonmorphemic,8.590745577571548
+411,zaio,zaios,plur,2,default,0.006557258311659098,plural,definite,Los,s,[MASK] zaios,"[CLS] , [MASK] , za , ##ios , [SEP]",nonmorphemic,5.027182703683396
+412,zaio,zaio##s,plur,3,artificial,0.0005038842209614813,singular,definite,El,s,[MASK] zaio##s,"[CLS] , [MASK] , za , ##io , ##s , [SEP]",nonmorphemic,7.593164036597179
+413,zaio,zaio##s,plur,3,artificial,0.011365510523319244,plural,definite,Los,s,[MASK] zaio##s,"[CLS] , [MASK] , za , ##io , ##s , [SEP]",nonmorphemic,4.477171902024919
+414,zaio,zaio,sing,2,default,0.0013204318238422275,singular,indefinite,Un,s,[MASK] zaio,"[CLS] , [MASK] , za , ##io , [SEP]",nonmorphemic,6.629796456607828
+415,zaio,zaio,sing,2,default,2.7251742267253576e-06,plural,indefinite,Unos,s,[MASK] zaio,"[CLS] , [MASK] , za , ##io , [SEP]",nonmorphemic,12.812978195479937
+416,zaio,zaios,plur,2,default,3.639205897343345e-05,singular,indefinite,Un,s,[MASK] zaios,"[CLS] , [MASK] , za , ##ios , [SEP]",nonmorphemic,10.221159967192458
+417,zaio,zaios,plur,2,default,5.035321009927429e-05,plural,indefinite,Unos,s,[MASK] zaios,"[CLS] , [MASK] , za , ##ios , [SEP]",nonmorphemic,9.896448185136395
+418,zaio,zaio##s,plur,3,artificial,6.587874668184668e-05,singular,indefinite,Un,s,[MASK] zaio##s,"[CLS] , [MASK] , za , ##io , ##s , [SEP]",nonmorphemic,9.627694677094349
+419,zaio,zaio##s,plur,3,artificial,7.094906322890893e-05,plural,indefinite,Unos,s,[MASK] zaio##s,"[CLS] , [MASK] , za , ##io , ##s , [SEP]",nonmorphemic,9.553548357702484
+420,praia,praia,sing,2,default,0.07138575613498688,singular,definite,La,s,[MASK] praia,"[CLS] , [MASK] , pra , ##ia , [SEP]",nonmorphemic,2.6396569234459015
+421,praia,praia,sing,2,default,0.00014917459338903427,plural,definite,Las,s,[MASK] praia,"[CLS] , [MASK] , pra , ##ia , [SEP]",nonmorphemic,8.810393170291137
+422,praia,praias,plur,2,default,0.0005754843004979193,singular,definite,La,s,[MASK] praias,"[CLS] , [MASK] , pra , ##ias , [SEP]",nonmorphemic,7.460298609934785
+423,praia,praias,plur,2,default,0.03137300908565521,plural,definite,Las,s,[MASK] praias,"[CLS] , [MASK] , pra , ##ias , [SEP]",nonmorphemic,3.461807338980855
+424,praia,praia##s,plur,3,artificial,0.0005726860254071653,singular,definite,La,s,[MASK] praia##s,"[CLS] , [MASK] , pra , ##ia , ##s , [SEP]",nonmorphemic,7.465172940106869
+425,praia,praia##s,plur,3,artificial,0.006082865875214338,plural,definite,Las,s,[MASK] praia##s,"[CLS] , [MASK] , pra , ##ia , ##s , [SEP]",nonmorphemic,5.102279333004796
+426,praia,praia,sing,2,default,0.004980297759175301,singular,indefinite,Una,s,[MASK] praia,"[CLS] , [MASK] , pra , ##ia , [SEP]",nonmorphemic,5.302265598733929
+427,praia,praia,sing,2,default,9.333892194263171e-06,plural,indefinite,Unas,s,[MASK] praia,"[CLS] , [MASK] , pra , ##ia , [SEP]",nonmorphemic,11.581858460293025
+428,praia,praias,plur,2,default,6.081923493184149e-05,singular,indefinite,Una,s,[MASK] praias,"[CLS] , [MASK] , pra , ##ias , [SEP]",nonmorphemic,9.707604455014144
+429,praia,praias,plur,2,default,0.0007492849254049361,plural,indefinite,Unas,s,[MASK] praias,"[CLS] , [MASK] , pra , ##ias , [SEP]",nonmorphemic,7.19639123903349
+430,praia,praia##s,plur,3,artificial,7.75833468651399e-05,singular,indefinite,Una,s,[MASK] praia##s,"[CLS] , [MASK] , pra , ##ia , ##s , [SEP]",nonmorphemic,9.464157756058812
+431,praia,praia##s,plur,3,artificial,0.00029966337024234235,plural,indefinite,Unas,s,[MASK] praia##s,"[CLS] , [MASK] , pra , ##ia , ##s , [SEP]",nonmorphemic,8.112850812524908
+432,psychoia,psychoia,sing,4,default,0.06420859694480896,singular,definite,La,s,[MASK] psychoia,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , [SEP]",nonmorphemic,2.7456181684535568
+433,psychoia,psychoia,sing,4,default,0.0003533008857630193,plural,definite,Las,s,[MASK] psychoia,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , [SEP]",nonmorphemic,7.948190496489327
+434,psychoia,psychoias,plur,4,default,0.001054840860888362,singular,definite,La,s,[MASK] psychoias,"[CLS] , [MASK] , ps , ##y , ##cho , ##ias , [SEP]",nonmorphemic,6.854365366191867
+435,psychoia,psychoias,plur,4,default,0.10140379518270493,plural,definite,Las,s,[MASK] psychoias,"[CLS] , [MASK] , ps , ##y , ##cho , ##ias , [SEP]",nonmorphemic,2.2886447606881317
+436,psychoia,psychoia##s,plur,5,artificial,0.00029554119100794196,singular,definite,La,s,[MASK] psychoia##s,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , ##s , [SEP]",nonmorphemic,8.126702336558685
+437,psychoia,psychoia##s,plur,5,artificial,0.007084470242261887,plural,definite,Las,s,[MASK] psychoia##s,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , ##s , [SEP]",nonmorphemic,4.949850180369423
+438,psychoia,psychoia,sing,4,default,0.0006434289971366525,singular,indefinite,Una,s,[MASK] psychoia,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , [SEP]",nonmorphemic,7.3486988755758205
+439,psychoia,psychoia,sing,4,default,8.27216979359946e-07,plural,indefinite,Unas,s,[MASK] psychoia,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , [SEP]",nonmorphemic,14.005198807097365
+440,psychoia,psychoias,plur,4,default,4.869847180088982e-05,singular,indefinite,Una,s,[MASK] psychoias,"[CLS] , [MASK] , ps , ##y , ##cho , ##ias , [SEP]",nonmorphemic,9.929862908226614
+441,psychoia,psychoias,plur,4,default,5.6659660913283005e-05,plural,indefinite,Unas,s,[MASK] psychoias,"[CLS] , [MASK] , ps , ##y , ##cho , ##ias , [SEP]",nonmorphemic,9.778448048167121
+442,psychoia,psychoia##s,plur,5,artificial,1.912592415465042e-05,singular,indefinite,Una,s,[MASK] psychoia##s,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , ##s , [SEP]",nonmorphemic,10.86446585760735
+443,psychoia,psychoia##s,plur,5,artificial,1.9907245587091893e-05,plural,indefinite,Unas,s,[MASK] psychoia##s,"[CLS] , [MASK] , ps , ##y , ##cho , ##ia , ##s , [SEP]",nonmorphemic,10.82442679264823
+444,yeia,yeia,sing,2,default,0.030291952192783356,singular,definite,La,s,[MASK] yeia,"[CLS] , [MASK] , ye , ##ia , [SEP]",nonmorphemic,3.496873205944425
+445,yeia,yeia,sing,2,default,0.00023894397600088269,plural,definite,Las,s,[MASK] yeia,"[CLS] , [MASK] , ye , ##ia , [SEP]",nonmorphemic,8.339281443549238
+446,yeia,yeias,plur,2,default,0.0003409087366890162,singular,definite,La,s,[MASK] yeias,"[CLS] , [MASK] , ye , ##ias , [SEP]",nonmorphemic,7.9838957508442805
+447,yeia,yeias,plur,2,default,0.01696288026869297,plural,definite,Las,s,[MASK] yeias,"[CLS] , [MASK] , ye , ##ias , [SEP]",nonmorphemic,4.076727835873879
+448,yeia,yeia##s,plur,3,artificial,0.0003223169769626111,singular,definite,La,s,[MASK] yeia##s,"[CLS] , [MASK] , ye , ##ia , ##s , [SEP]",nonmorphemic,8.039975096119298
+449,yeia,yeia##s,plur,3,artificial,0.011930428445339203,plural,definite,Las,s,[MASK] yeia##s,"[CLS] , [MASK] , ye , ##ia , ##s , [SEP]",nonmorphemic,4.428663130244823
+450,yeia,yeia,sing,2,default,0.004431481007486582,singular,indefinite,Una,s,[MASK] yeia,"[CLS] , [MASK] , ye , ##ia , [SEP]",nonmorphemic,5.419021437592911
+451,yeia,yeia,sing,2,default,8.73644785315264e-06,plural,indefinite,Unas,s,[MASK] yeia,"[CLS] , [MASK] , ye , ##ia , [SEP]",nonmorphemic,11.64800687503391
+452,yeia,yeias,plur,2,default,7.521393854403868e-05,singular,indefinite,Una,s,[MASK] yeias,"[CLS] , [MASK] , ye , ##ias , [SEP]",nonmorphemic,9.495173991204982
+453,yeia,yeias,plur,2,default,0.00042215370922349393,plural,indefinite,Unas,s,[MASK] yeias,"[CLS] , [MASK] , ye , ##ias , [SEP]",nonmorphemic,7.770141070381399
+454,yeia,yeia##s,plur,3,artificial,4.311019438318908e-05,singular,indefinite,Una,s,[MASK] yeia##s,"[CLS] , [MASK] , ye , ##ia , ##s , [SEP]",nonmorphemic,10.051751060210778
+455,yeia,yeia##s,plur,3,artificial,0.00014833080058451742,plural,indefinite,Unas,s,[MASK] yeia##s,"[CLS] , [MASK] , ye , ##ia , ##s , [SEP]",nonmorphemic,8.816065639323037
+456,zao,zao,sing,2,default,0.037482909858226776,singular,definite,El,s,[MASK] zao,"[CLS] , [MASK] , za , ##o , [SEP]",nonmorphemic,3.2838701869994456
+457,zao,zao,sing,2,default,0.0002946122840512544,plural,definite,Los,s,[MASK] zao,"[CLS] , [MASK] , za , ##o , [SEP]",nonmorphemic,8.129850357414512
+458,zao,zaos,plur,2,default,0.00019164463446941227,singular,definite,El,s,[MASK] zaos,"[CLS] , [MASK] , za , ##os , [SEP]",nonmorphemic,8.55986776303673
+459,zao,zaos,plur,2,default,0.005938207730650902,plural,definite,Los,s,[MASK] zaos,"[CLS] , [MASK] , za , ##os , [SEP]",nonmorphemic,5.12634791998354
+460,zao,zao##s,plur,3,artificial,0.0004082272353116423,singular,definite,El,s,[MASK] zao##s,"[CLS] , [MASK] , za , ##o , ##s , [SEP]",nonmorphemic,7.803686589305566
+461,zao,zao##s,plur,3,artificial,0.019181815907359123,plural,definite,Los,s,[MASK] zao##s,"[CLS] , [MASK] , za , ##o , ##s , [SEP]",nonmorphemic,3.9537925368781432
+462,zao,zao,sing,2,default,0.002330504823476076,singular,indefinite,Un,s,[MASK] zao,"[CLS] , [MASK] , za , ##o , [SEP]",nonmorphemic,6.061670372436359
+463,zao,zao,sing,2,default,3.2901716622291133e-06,plural,indefinite,Unos,s,[MASK] zao,"[CLS] , [MASK] , za , ##o , [SEP]",nonmorphemic,12.62457081757883
+464,zao,zaos,plur,2,default,1.2791322660632432e-05,singular,indefinite,Un,s,[MASK] zaos,"[CLS] , [MASK] , za , ##os , [SEP]",nonmorphemic,11.26674353406652
+465,zao,zaos,plur,2,default,2.7877549655386247e-05,plural,indefinite,Unos,s,[MASK] zaos,"[CLS] , [MASK] , za , ##os , [SEP]",nonmorphemic,10.487688864909082
+466,zao,zao##s,plur,3,artificial,3.893262692145072e-05,singular,indefinite,Un,s,[MASK] zao##s,"[CLS] , [MASK] , za , ##o , ##s , [SEP]",nonmorphemic,10.153677920543684
+467,zao,zao##s,plur,3,artificial,0.00010337815911043435,plural,indefinite,Unos,s,[MASK] zao##s,"[CLS] , [MASK] , za , ##o , ##s , [SEP]",nonmorphemic,9.17711684537336
+468,gnua,gnua,sing,3,default,0.015949314460158348,singular,definite,La,s,[MASK] gnua,"[CLS] , [MASK] , g , ##nu , ##a , [SEP]",nonmorphemic,4.138339431229309
+469,gnua,gnua,sing,3,default,0.0005408822908066213,plural,definite,Las,s,[MASK] gnua,"[CLS] , [MASK] , g , ##nu , ##a , [SEP]",nonmorphemic,7.52230887985836
+470,gnua,gnuas,plur,3,default,0.001566103775985539,singular,definite,La,s,[MASK] gnuas,"[CLS] , [MASK] , g , ##nu , ##as , [SEP]",nonmorphemic,6.459164415419166
+471,gnua,gnuas,plur,3,default,0.021898042410612106,plural,definite,Las,s,[MASK] gnuas,"[CLS] , [MASK] , g , ##nu , ##as , [SEP]",nonmorphemic,3.821358033798278
+472,gnua,gnua##s,plur,4,artificial,0.003195078345015645,singular,definite,La,s,[MASK] gnua##s,"[CLS] , [MASK] , g , ##nu , ##a , ##s , [SEP]",nonmorphemic,5.7461436703216195
+473,gnua,gnua##s,plur,4,artificial,0.003864482045173645,plural,definite,Las,s,[MASK] gnua##s,"[CLS] , [MASK] , g , ##nu , ##a , ##s , [SEP]",nonmorphemic,5.55592761752113
+474,gnua,gnua,sing,3,default,0.001611119951121509,singular,indefinite,Una,s,[MASK] gnua,"[CLS] , [MASK] , g , ##nu , ##a , [SEP]",nonmorphemic,6.430825720003875
+475,gnua,gnua,sing,3,default,1.2057103049301077e-05,plural,indefinite,Unas,s,[MASK] gnua,"[CLS] , [MASK] , g , ##nu , ##a , [SEP]",nonmorphemic,11.325856607021379
+476,gnua,gnuas,plur,3,default,0.00012405581946950406,singular,indefinite,Una,s,[MASK] gnuas,"[CLS] , [MASK] , g , ##nu , ##as , [SEP]",nonmorphemic,8.99477893663738
+477,gnua,gnuas,plur,3,default,0.00014550019113812596,plural,indefinite,Unas,s,[MASK] gnuas,"[CLS] , [MASK] , g , ##nu , ##as , [SEP]",nonmorphemic,8.835333157689494
+478,gnua,gnua##s,plur,4,artificial,0.0003938241279684007,singular,indefinite,Una,s,[MASK] gnua##s,"[CLS] , [MASK] , g , ##nu , ##a , ##s , [SEP]",nonmorphemic,7.839606124036355
+479,gnua,gnua##s,plur,4,artificial,5.662768307956867e-05,plural,indefinite,Unas,s,[MASK] gnua##s,"[CLS] , [MASK] , g , ##nu , ##a , ##s , [SEP]",nonmorphemic,9.779012591979988
+480,staa,staa,sing,2,default,0.009912899695336819,singular,definite,La,s,[MASK] staa,"[CLS] , [MASK] , sta , ##a , [SEP]",nonmorphemic,4.613918370479813
+481,staa,staa,sing,2,default,0.00010282664152327925,plural,definite,Las,s,[MASK] staa,"[CLS] , [MASK] , sta , ##a , [SEP]",nonmorphemic,9.182466079732285
+482,staa,staas,plur,2,default,0.0004761669260915369,singular,definite,La,s,[MASK] staas,"[CLS] , [MASK] , sta , ##as , [SEP]",nonmorphemic,7.649742080142236
+483,staa,staas,plur,2,default,0.006374513264745474,plural,definite,Las,s,[MASK] staas,"[CLS] , [MASK] , sta , ##as , [SEP]",nonmorphemic,5.055447541480666
+484,staa,staa##s,plur,3,artificial,0.0011603888124227524,singular,definite,La,s,[MASK] staa##s,"[CLS] , [MASK] , sta , ##a , ##s , [SEP]",nonmorphemic,6.759000146902115
+485,staa,staa##s,plur,3,artificial,0.003758740611374378,plural,definite,Las,s,[MASK] staa##s,"[CLS] , [MASK] , sta , ##a , ##s , [SEP]",nonmorphemic,5.583671321469942
+486,staa,staa,sing,2,default,0.0011782131623476744,singular,indefinite,Una,s,[MASK] staa,"[CLS] , [MASK] , sta , ##a , [SEP]",nonmorphemic,6.743756257365778
+487,staa,staa,sing,2,default,3.4758891160890926e-06,plural,indefinite,Unas,s,[MASK] staa,"[CLS] , [MASK] , sta , ##a , [SEP]",nonmorphemic,12.569660250929234
+488,staa,staas,plur,2,default,5.0867191021097824e-05,singular,indefinite,Una,s,[MASK] staas,"[CLS] , [MASK] , sta , ##as , [SEP]",nonmorphemic,9.886292419425633
+489,staa,staas,plur,2,default,6.0021367971785367e-05,plural,indefinite,Unas,s,[MASK] staas,"[CLS] , [MASK] , sta , ##as , [SEP]",nonmorphemic,9.72080992627934
+490,staa,staa##s,plur,3,artificial,0.0001706373004708439,singular,indefinite,Una,s,[MASK] staa##s,"[CLS] , [MASK] , sta , ##a , ##s , [SEP]",nonmorphemic,8.675970303951845
+491,staa,staa##s,plur,3,artificial,4.888155308435671e-05,plural,indefinite,Unas,s,[MASK] staa##s,"[CLS] , [MASK] , sta , ##a , ##s , [SEP]",nonmorphemic,9.926110470194144
+492,gea,gea,sing,2,default,0.01873438060283661,singular,definite,La,s,[MASK] gea,"[CLS] , [MASK] , ge , ##a , [SEP]",nonmorphemic,3.9773949082471645
+493,gea,gea,sing,2,default,0.00037878446164540946,plural,definite,Las,s,[MASK] gea,"[CLS] , [MASK] , ge , ##a , [SEP]",nonmorphemic,7.878543217437173
+494,gea,geas,plur,2,default,0.0014179297722876072,singular,definite,La,s,[MASK] geas,"[CLS] , [MASK] , ge , ##as , [SEP]",nonmorphemic,6.558557377988912
+495,gea,geas,plur,2,default,0.008055892772972584,plural,definite,Las,s,[MASK] geas,"[CLS] , [MASK] , ge , ##as , [SEP]",nonmorphemic,4.821351433861436
+496,gea,gea##s,plur,3,artificial,0.001870976178906858,singular,definite,La,s,[MASK] gea##s,"[CLS] , [MASK] , ge , ##a , ##s , [SEP]",nonmorphemic,6.281294963515297
+497,gea,gea##s,plur,3,artificial,0.0019587429706007242,plural,definite,Las,s,[MASK] gea##s,"[CLS] , [MASK] , ge , ##a , ##s , [SEP]",nonmorphemic,6.235452353017408
+498,gea,gea,sing,2,default,0.001599442446604371,singular,indefinite,Una,s,[MASK] gea,"[CLS] , [MASK] , ge , ##a , [SEP]",nonmorphemic,6.438100181338753
+499,gea,gea,sing,2,default,6.947365818632534e-06,plural,indefinite,Unas,s,[MASK] gea,"[CLS] , [MASK] , ge , ##a , [SEP]",nonmorphemic,11.877147989135185
+500,gea,geas,plur,2,default,0.00017614348325878382,singular,indefinite,Una,s,[MASK] geas,"[CLS] , [MASK] , ge , ##as , [SEP]",nonmorphemic,8.644211649269925
+501,gea,geas,plur,2,default,6.931013922439888e-05,plural,indefinite,Unas,s,[MASK] geas,"[CLS] , [MASK] , ge , ##as , [SEP]",nonmorphemic,9.576919353316171
+502,gea,gea##s,plur,3,artificial,0.000253558624535799,singular,indefinite,Una,s,[MASK] gea##s,"[CLS] , [MASK] , ge , ##a , ##s , [SEP]",nonmorphemic,8.279915501173374
+503,gea,gea##s,plur,3,artificial,3.439442298258655e-05,plural,indefinite,Unas,s,[MASK] gea##s,"[CLS] , [MASK] , ge , ##a , ##s , [SEP]",nonmorphemic,10.27761612932744
+504,knuo,knuo,sing,3,default,0.038389552384614944,singular,definite,El,s,[MASK] knuo,"[CLS] , [MASK] , k , ##nu , ##o , [SEP]",nonmorphemic,3.2599699297244347
+505,knuo,knuo,sing,3,default,0.0012594269355759025,plural,definite,Los,s,[MASK] knuo,"[CLS] , [MASK] , k , ##nu , ##o , [SEP]",nonmorphemic,6.677098474512568
+506,knuo,knuos,plur,3,default,0.0006834135274402797,singular,definite,El,s,[MASK] knuos,"[CLS] , [MASK] , k , ##nu , ##os , [SEP]",nonmorphemic,7.288410424156074
+507,knuo,knuos,plur,3,default,0.06092037633061409,plural,definite,Los,s,[MASK] knuos,"[CLS] , [MASK] , k , ##nu , ##os , [SEP]",nonmorphemic,2.7981875735183457
+508,knuo,knuo##s,plur,4,artificial,0.002163214609026909,singular,definite,El,s,[MASK] knuo##s,"[CLS] , [MASK] , k , ##nu , ##o , ##s , [SEP]",nonmorphemic,6.136159918705136
+509,knuo,knuo##s,plur,4,artificial,0.01253318227827549,plural,definite,Los,s,[MASK] knuo##s,"[CLS] , [MASK] , k , ##nu , ##o , ##s , [SEP]",nonmorphemic,4.3793755695922805
+510,knuo,knuo,sing,3,default,0.004055523779243231,singular,indefinite,Un,s,[MASK] knuo,"[CLS] , [MASK] , k , ##nu , ##o , [SEP]",nonmorphemic,5.5076754310157
+511,knuo,knuo,sing,3,default,1.8734310287982225e-05,plural,indefinite,Unos,s,[MASK] knuo,"[CLS] , [MASK] , k , ##nu , ##o , [SEP]",nonmorphemic,10.8851539404885
+512,knuo,knuos,plur,3,default,9.786211739992723e-05,singular,indefinite,Un,s,[MASK] knuos,"[CLS] , [MASK] , k , ##nu , ##os , [SEP]",nonmorphemic,9.231951035305622
+513,knuo,knuos,plur,3,default,0.00037396917468868196,plural,indefinite,Unos,s,[MASK] knuos,"[CLS] , [MASK] , k , ##nu , ##os , [SEP]",nonmorphemic,7.891337184565005
+514,knuo,knuo##s,plur,4,artificial,0.00028414640109986067,singular,indefinite,Un,s,[MASK] knuo##s,"[CLS] , [MASK] , k , ##nu , ##o , ##s , [SEP]",nonmorphemic,8.16602095579542
+515,knuo,knuo##s,plur,4,artificial,0.00011461014946689829,plural,indefinite,Unos,s,[MASK] knuo##s,"[CLS] , [MASK] , k , ##nu , ##o , ##s , [SEP]",nonmorphemic,9.07397419332164
+516,suo,suo,sing,2,default,0.00983375683426857,singular,definite,El,s,[MASK] suo,"[CLS] , [MASK] , su , ##o , [SEP]",nonmorphemic,4.621934237340149
+517,suo,suo,sing,2,default,0.0003206884430255741,plural,definite,Los,s,[MASK] suo,"[CLS] , [MASK] , su , ##o , [SEP]",nonmorphemic,8.04504048862927
+518,suo,suos,plur,2,default,0.0005249494570307434,singular,definite,El,s,[MASK] suos,"[CLS] , [MASK] , su , ##os , [SEP]",nonmorphemic,7.552208572329522
+519,suo,suos,plur,2,default,0.06926354020833969,plural,definite,Los,s,[MASK] suos,"[CLS] , [MASK] , su , ##os , [SEP]",nonmorphemic,2.6698366265532796
+520,suo,suo##s,plur,3,artificial,0.000992026412859559,singular,definite,El,s,[MASK] suo##s,"[CLS] , [MASK] , su , ##o , ##s , [SEP]",nonmorphemic,6.915760825167372
+521,suo,suo##s,plur,3,artificial,0.019662102684378624,plural,definite,Los,s,[MASK] suo##s,"[CLS] , [MASK] , su , ##o , ##s , [SEP]",nonmorphemic,3.929062217572218
+522,suo,suo,sing,2,default,0.001406435971148312,singular,indefinite,Un,s,[MASK] suo,"[CLS] , [MASK] , su , ##o , [SEP]",nonmorphemic,6.566696454605384
+523,suo,suo,sing,2,default,3.814561296167085e-06,plural,indefinite,Unos,s,[MASK] suo,"[CLS] , [MASK] , su , ##o , [SEP]",nonmorphemic,12.47668489429184
+524,suo,suos,plur,2,default,0.0001366560609312728,singular,indefinite,Un,s,[MASK] suos,"[CLS] , [MASK] , su , ##os , [SEP]",nonmorphemic,8.8980432928872
+525,suo,suos,plur,2,default,0.0004713184607680887,plural,indefinite,Unos,s,[MASK] suos,"[CLS] , [MASK] , su , ##os , [SEP]",nonmorphemic,7.6599765549139756
+526,suo,suo##s,plur,3,artificial,0.0004810662067029625,singular,indefinite,Un,s,[MASK] suo##s,"[CLS] , [MASK] , su , ##o , ##s , [SEP]",nonmorphemic,7.639505653457459
+527,suo,suo##s,plur,3,artificial,0.0001098709471989423,plural,indefinite,Unos,s,[MASK] suo##s,"[CLS] , [MASK] , su , ##o , ##s , [SEP]",nonmorphemic,9.116204088200611
+528,braia,braia,sing,2,default,0.027268879115581512,singular,definite,La,s,[MASK] braia,"[CLS] , [MASK] , bra , ##ia , [SEP]",nonmorphemic,3.602009186175065
+529,braia,braia,sing,2,default,0.0002653587725944817,plural,definite,Las,s,[MASK] braia,"[CLS] , [MASK] , bra , ##ia , [SEP]",nonmorphemic,8.234427788771502
+530,braia,braias,plur,2,default,0.0005379170179367065,singular,definite,La,s,[MASK] braias,"[CLS] , [MASK] , bra , ##ias , [SEP]",nonmorphemic,7.527806251452306
+531,braia,braias,plur,2,default,0.021241499111056328,plural,definite,Las,s,[MASK] braias,"[CLS] , [MASK] , bra , ##ias , [SEP]",nonmorphemic,3.851798505482435
+532,braia,braia##s,plur,3,artificial,0.0005343474331311882,singular,definite,La,s,[MASK] braia##s,"[CLS] , [MASK] , bra , ##ia , ##s , [SEP]",nonmorphemic,7.534464306726834
+533,braia,braia##s,plur,3,artificial,0.009419298730790615,plural,definite,Las,s,[MASK] braia##s,"[CLS] , [MASK] , bra , ##ia , ##s , [SEP]",nonmorphemic,4.664994637879382
+534,braia,braia,sing,2,default,0.002044439548626542,singular,indefinite,Una,s,[MASK] braia,"[CLS] , [MASK] , bra , ##ia , [SEP]",nonmorphemic,6.192631586399823
+535,braia,braia,sing,2,default,7.891941095294897e-06,plural,indefinite,Unas,s,[MASK] braia,"[CLS] , [MASK] , bra , ##ia , [SEP]",nonmorphemic,11.749668433681874
+536,braia,braias,plur,2,default,4.57350724900607e-05,singular,indefinite,Una,s,[MASK] braias,"[CLS] , [MASK] , bra , ##ias , [SEP]",nonmorphemic,9.99264510385533
+537,braia,braias,plur,2,default,0.00022709387121722102,plural,indefinite,Unas,s,[MASK] braias,"[CLS] , [MASK] , bra , ##ias , [SEP]",nonmorphemic,8.390147096371386
+538,braia,braia##s,plur,3,artificial,4.158786032348871e-05,singular,indefinite,Una,s,[MASK] braia##s,"[CLS] , [MASK] , bra , ##ia , ##s , [SEP]",nonmorphemic,10.087702252431455
+539,braia,braia##s,plur,3,artificial,0.0001285264443140477,plural,indefinite,Unas,s,[MASK] braia##s,"[CLS] , [MASK] , bra , ##ia , ##s , [SEP]",nonmorphemic,8.959375882474117
+540,keo,keo,sing,2,default,0.032954853028059006,singular,definite,El,s,[MASK] keo,"[CLS] , [MASK] , k , ##eo , [SEP]",nonmorphemic,3.412616744264094
+541,keo,keo,sing,2,default,0.0006126781809143722,plural,definite,Los,s,[MASK] keo,"[CLS] , [MASK] , k , ##eo , [SEP]",nonmorphemic,7.397670750235506
+542,keo,keos,plur,2,default,0.00040338406688533723,singular,definite,El,s,[MASK] keos,"[CLS] , [MASK] , k , ##eos , [SEP]",nonmorphemic,7.815621430285825
+543,keo,keos,plur,2,default,0.020177267491817474,plural,definite,Los,s,[MASK] keos,"[CLS] , [MASK] , k , ##eos , [SEP]",nonmorphemic,3.903198679973386
+544,keo,keo##s,plur,3,artificial,0.0006203606608323753,singular,definite,El,s,[MASK] keo##s,"[CLS] , [MASK] , k , ##eo , ##s , [SEP]",nonmorphemic,7.385209538033446
+545,keo,keo##s,plur,3,artificial,0.026720967143774033,plural,definite,Los,s,[MASK] keo##s,"[CLS] , [MASK] , k , ##eo , ##s , [SEP]",nonmorphemic,3.622306735468208
+546,keo,keo,sing,2,default,0.004455118905752897,singular,indefinite,Un,s,[MASK] keo,"[CLS] , [MASK] , k , ##eo , [SEP]",nonmorphemic,5.413701528010856
+547,keo,keo,sing,2,default,1.5466241165995598e-05,plural,indefinite,Unos,s,[MASK] keo,"[CLS] , [MASK] , k , ##eo , [SEP]",nonmorphemic,11.076850898597854
+548,keo,keos,plur,2,default,4.5286935346666723e-05,singular,indefinite,Un,s,[MASK] keos,"[CLS] , [MASK] , k , ##eos , [SEP]",nonmorphemic,10.002491970014752
+549,keo,keos,plur,2,default,0.00021051696967333555,plural,indefinite,Unos,s,[MASK] keos,"[CLS] , [MASK] , k , ##eos , [SEP]",nonmorphemic,8.465944292065789
+550,keo,keo##s,plur,3,artificial,0.00014626773190684617,singular,indefinite,Un,s,[MASK] keo##s,"[CLS] , [MASK] , k , ##eo , ##s , [SEP]",nonmorphemic,8.83007183539425
+551,keo,keo##s,plur,3,artificial,0.00020249960653018206,plural,indefinite,Unos,s,[MASK] keo##s,"[CLS] , [MASK] , k , ##eo , ##s , [SEP]",nonmorphemic,8.504772614480398
+552,sprea,sprea,sing,2,default,0.009426929987967014,singular,definite,La,s,[MASK] sprea,"[CLS] , [MASK] , sp , ##rea , [SEP]",nonmorphemic,4.664184793352145
+553,sprea,sprea,sing,2,default,0.00035357559681870043,plural,definite,Las,s,[MASK] sprea,"[CLS] , [MASK] , sp , ##rea , [SEP]",nonmorphemic,7.947413243104103
+554,sprea,spreas,plur,2,default,0.0006180164637044072,singular,definite,La,s,[MASK] spreas,"[CLS] , [MASK] , sp , ##reas , [SEP]",nonmorphemic,7.388995460563036
+555,sprea,spreas,plur,2,default,0.010752459987998009,plural,definite,Las,s,[MASK] spreas,"[CLS] , [MASK] , sp , ##reas , [SEP]",nonmorphemic,4.5326207144946125
+556,sprea,sprea##s,plur,3,artificial,0.001662398804910481,singular,definite,La,s,[MASK] sprea##s,"[CLS] , [MASK] , sp , ##rea , ##s , [SEP]",nonmorphemic,6.39949365651365
+557,sprea,sprea##s,plur,3,artificial,0.00414999108761549,plural,definite,Las,s,[MASK] sprea##s,"[CLS] , [MASK] , sp , ##rea , ##s , [SEP]",nonmorphemic,5.484649092304369
+558,sprea,sprea,sing,2,default,0.00216869730502367,singular,indefinite,Una,s,[MASK] sprea,"[CLS] , [MASK] , sp , ##rea , [SEP]",nonmorphemic,6.133628611959717
+559,sprea,sprea,sing,2,default,8.765357961237896e-06,plural,indefinite,Unas,s,[MASK] sprea,"[CLS] , [MASK] , sp , ##rea , [SEP]",nonmorphemic,11.644703200580402
+560,sprea,spreas,plur,2,default,4.252994403941557e-05,singular,indefinite,Una,s,[MASK] spreas,"[CLS] , [MASK] , sp , ##reas , [SEP]",nonmorphemic,10.065302164490438
+561,sprea,spreas,plur,2,default,9.923290781443939e-05,plural,indefinite,Unas,s,[MASK] spreas,"[CLS] , [MASK] , sp , ##reas , [SEP]",nonmorphemic,9.218040866683944
+562,sprea,sprea##s,plur,3,artificial,0.0002468189049977809,singular,indefinite,Una,s,[MASK] sprea##s,"[CLS] , [MASK] , sp , ##rea , ##s , [SEP]",nonmorphemic,8.306855668389476
+563,sprea,sprea##s,plur,3,artificial,6.292171747190878e-05,plural,indefinite,Unas,s,[MASK] sprea##s,"[CLS] , [MASK] , sp , ##rea , ##s , [SEP]",nonmorphemic,9.67361918402612
+564,throia,throia,sing,3,default,0.04134922847151756,singular,definite,La,s,[MASK] throia,"[CLS] , [MASK] , th , ##ro , ##ia , [SEP]",nonmorphemic,3.1857015161745963
+565,throia,throia,sing,3,default,0.0012367782182991505,plural,definite,Las,s,[MASK] throia,"[CLS] , [MASK] , th , ##ro , ##ia , [SEP]",nonmorphemic,6.69524549162259
+566,throia,throias,plur,3,default,0.0015277714701369405,singular,definite,La,s,[MASK] throias,"[CLS] , [MASK] , th , ##ro , ##ias , [SEP]",nonmorphemic,6.483945160851938
+567,throia,throias,plur,3,default,0.12222632765769958,plural,definite,Las,s,[MASK] throias,"[CLS] , [MASK] , th , ##ro , ##ias , [SEP]",nonmorphemic,2.1018808081693905
+568,throia,throia##s,plur,4,artificial,0.002459009177982807,singular,definite,La,s,[MASK] throia##s,"[CLS] , [MASK] , th , ##ro , ##ia , ##s , [SEP]",nonmorphemic,6.00799678335049
+569,throia,throia##s,plur,4,artificial,0.01921587623655796,plural,definite,Las,s,[MASK] throia##s,"[CLS] , [MASK] , th , ##ro , ##ia , ##s , [SEP]",nonmorphemic,3.952018454310652
+570,throia,throia,sing,3,default,0.006299672648310661,singular,indefinite,Una,s,[MASK] throia,"[CLS] , [MASK] , th , ##ro , ##ia , [SEP]",nonmorphemic,5.067257607520258
+571,throia,throia,sing,3,default,2.2554948372999206e-05,plural,indefinite,Unas,s,[MASK] throia,"[CLS] , [MASK] , th , ##ro , ##ia , [SEP]",nonmorphemic,10.69955607604472
+572,throia,throias,plur,3,default,0.00020721917098853737,singular,indefinite,Una,s,[MASK] throias,"[CLS] , [MASK] , th , ##ro , ##ias , [SEP]",nonmorphemic,8.481733527783081
+573,throia,throias,plur,3,default,0.0003437902487348765,plural,indefinite,Unas,s,[MASK] throias,"[CLS] , [MASK] , th , ##ro , ##ias , [SEP]",nonmorphemic,7.975478828608936
+574,throia,throia##s,plur,4,artificial,0.000487357669044286,singular,indefinite,Una,s,[MASK] throia##s,"[CLS] , [MASK] , th , ##ro , ##ia , ##s , [SEP]",nonmorphemic,7.6265122710900615
+575,throia,throia##s,plur,4,artificial,0.00014127272879704833,plural,indefinite,Unas,s,[MASK] throia##s,"[CLS] , [MASK] , th , ##ro , ##ia , ##s , [SEP]",nonmorphemic,8.864818289045134
+576,zaia,zaia,sing,2,default,0.03533780574798584,singular,definite,La,s,[MASK] zaia,"[CLS] , [MASK] , za , ##ia , [SEP]",nonmorphemic,3.342801903775286
+577,zaia,zaia,sing,2,default,0.00021809256577398628,plural,definite,Las,s,[MASK] zaia,"[CLS] , [MASK] , za , ##ia , [SEP]",nonmorphemic,8.430590971655908
+578,zaia,zaias,plur,2,default,0.00044027739204466343,singular,definite,La,s,[MASK] zaias,"[CLS] , [MASK] , za , ##ias , [SEP]",nonmorphemic,7.728105593228409
+579,zaia,zaias,plur,2,default,0.021861013025045395,plural,definite,Las,s,[MASK] zaias,"[CLS] , [MASK] , za , ##ias , [SEP]",nonmorphemic,3.8230504558140934
+580,zaia,zaia##s,plur,3,artificial,0.0004510331782512367,singular,definite,La,s,[MASK] zaia##s,"[CLS] , [MASK] , za , ##ia , ##s , [SEP]",nonmorphemic,7.703969655200173
+581,zaia,zaia##s,plur,3,artificial,0.011899755336344242,plural,definite,Las,s,[MASK] zaia##s,"[CLS] , [MASK] , za , ##ia , ##s , [SEP]",nonmorphemic,4.431237439047084
+582,zaia,zaia,sing,2,default,0.0023816535249352455,singular,indefinite,Una,s,[MASK] zaia,"[CLS] , [MASK] , za , ##ia , [SEP]",nonmorphemic,6.039960274155475
+583,zaia,zaia,sing,2,default,5.890807642572327e-06,plural,indefinite,Unas,s,[MASK] zaia,"[CLS] , [MASK] , za , ##ia , [SEP]",nonmorphemic,12.04211744872098
+584,zaia,zaias,plur,2,default,3.2224827009486035e-05,singular,indefinite,Una,s,[MASK] zaias,"[CLS] , [MASK] , za , ##ias , [SEP]",nonmorphemic,10.342773377361778
+585,zaia,zaias,plur,2,default,0.00017955935618374497,plural,indefinite,Unas,s,[MASK] zaias,"[CLS] , [MASK] , za , ##ias , [SEP]",nonmorphemic,8.625004729578551
+586,zaia,zaia##s,plur,3,artificial,3.272945832577534e-05,singular,indefinite,Una,s,[MASK] zaia##s,"[CLS] , [MASK] , za , ##ia , ##s , [SEP]",nonmorphemic,10.327235019365851
+587,zaia,zaia##s,plur,3,artificial,0.00010471499263076112,plural,indefinite,Unas,s,[MASK] zaia##s,"[CLS] , [MASK] , za , ##ia , ##s , [SEP]",nonmorphemic,9.164268254248045
+588,mcmao,mcmao,sing,4,default,0.0030705230310559273,singular,definite,El,s,[MASK] mcmao,"[CLS] , [MASK] , m , ##c , ##ma , ##o , [SEP]",nonmorphemic,5.785907363471956
+589,mcmao,mcmao,sing,4,default,0.00013129245780874044,plural,definite,Los,s,[MASK] mcmao,"[CLS] , [MASK] , m , ##c , ##ma , ##o , [SEP]",nonmorphemic,8.938083220736932
+590,mcmao,mcmaos,plur,4,default,9.117393346969038e-05,singular,definite,El,s,[MASK] mcmaos,"[CLS] , [MASK] , m , ##c , ##ma , ##os , [SEP]",nonmorphemic,9.302741518955822
+591,mcmao,mcmaos,plur,4,default,0.003928276244550943,plural,definite,Los,s,[MASK] mcmaos,"[CLS] , [MASK] , m , ##c , ##ma , ##os , [SEP]",nonmorphemic,5.539554563938576
+592,mcmao,mcmao##s,plur,5,artificial,0.0001655854721320793,singular,definite,El,s,[MASK] mcmao##s,"[CLS] , [MASK] , m , ##c , ##ma , ##o , ##s , [SEP]",nonmorphemic,8.706023048532519
+593,mcmao,mcmao##s,plur,5,artificial,0.0010473751462996006,plural,definite,Los,s,[MASK] mcmao##s,"[CLS] , [MASK] , m , ##c , ##ma , ##o , ##s , [SEP]",nonmorphemic,6.861468105348675
+594,mcmao,mcmao,sing,4,default,0.0006114368443377316,singular,indefinite,Un,s,[MASK] mcmao,"[CLS] , [MASK] , m , ##c , ##ma , ##o , [SEP]",nonmorphemic,7.399698888076374
+595,mcmao,mcmao,sing,4,default,8.814204761620203e-07,plural,indefinite,Unos,s,[MASK] mcmao,"[CLS] , [MASK] , m , ##c , ##ma , ##o , [SEP]",nonmorphemic,13.941731053401494
+596,mcmao,mcmaos,plur,4,default,4.107848144485615e-05,singular,indefinite,Un,s,[MASK] mcmaos,"[CLS] , [MASK] , m , ##c , ##ma , ##os , [SEP]",nonmorphemic,10.100026139389113
+597,mcmao,mcmaos,plur,4,default,2.006523936870508e-05,plural,indefinite,Unos,s,[MASK] mcmaos,"[CLS] , [MASK] , m , ##c , ##ma , ##os , [SEP]",nonmorphemic,10.816521624652706
+598,mcmao,mcmao##s,plur,5,artificial,3.4448115911800414e-05,singular,indefinite,Un,s,[MASK] mcmao##s,"[CLS] , [MASK] , m , ##c , ##ma , ##o , ##s , [SEP]",nonmorphemic,10.276056252513964
+599,mcmao,mcmao##s,plur,5,artificial,6.45369300400489e-06,plural,indefinite,Unos,s,[MASK] mcmao##s,"[CLS] , [MASK] , m , ##c , ##ma , ##o , ##s , [SEP]",nonmorphemic,11.950858032245373
+600,mcgoo,mcgoo,sing,4,default,0.0029164100997149944,singular,definite,El,s,[MASK] mcgoo,"[CLS] , [MASK] , m , ##c , ##go , ##o , [SEP]",nonmorphemic,5.837401836961945
+601,mcgoo,mcgoo,sing,4,default,0.00018616826855577528,plural,definite,Los,s,[MASK] mcgoo,"[CLS] , [MASK] , m , ##c , ##go , ##o , [SEP]",nonmorphemic,8.588859623563325
+602,mcgoo,mcgoos,plur,4,default,0.00016513212176505476,singular,definite,El,s,[MASK] mcgoos,"[CLS] , [MASK] , m , ##c , ##go , ##os , [SEP]",nonmorphemic,8.708764666513277
+603,mcgoo,mcgoos,plur,4,default,0.010051625780761242,plural,definite,Los,s,[MASK] mcgoos,"[CLS] , [MASK] , m , ##c , ##go , ##os , [SEP]",nonmorphemic,4.600020888330309
+604,mcgoo,mcgoo##s,plur,5,artificial,0.0003265896812081337,singular,definite,El,s,[MASK] mcgoo##s,"[CLS] , [MASK] , m , ##c , ##go , ##o , ##s , [SEP]",nonmorphemic,8.02680597251327
+605,mcgoo,mcgoo##s,plur,5,artificial,0.002326368819922209,plural,definite,Los,s,[MASK] mcgoo##s,"[CLS] , [MASK] , m , ##c , ##go , ##o , ##s , [SEP]",nonmorphemic,6.063446673430585
+606,mcgoo,mcgoo,sing,4,default,0.0006668608402833343,singular,indefinite,Un,s,[MASK] mcgoo,"[CLS] , [MASK] , m , ##c , ##go , ##o , [SEP]",nonmorphemic,7.312929169073383
+607,mcgoo,mcgoo,sing,4,default,1.317603846473503e-06,plural,indefinite,Unos,s,[MASK] mcgoo,"[CLS] , [MASK] , m , ##c , ##go , ##o , [SEP]",nonmorphemic,13.53969573878434
+608,mcgoo,mcgoos,plur,4,default,6.010903598507866e-05,singular,indefinite,Un,s,[MASK] mcgoos,"[CLS] , [MASK] , m , ##c , ##go , ##os , [SEP]",nonmorphemic,9.719350378555054
+609,mcgoo,mcgoos,plur,4,default,1.921352304634638e-05,plural,indefinite,Unos,s,[MASK] mcgoos,"[CLS] , [MASK] , m , ##c , ##go , ##os , [SEP]",nonmorphemic,10.859896201520678
+610,mcgoo,mcgoo##s,plur,5,artificial,6.256716733332723e-05,singular,indefinite,Un,s,[MASK] mcgoo##s,"[CLS] , [MASK] , m , ##c , ##go , ##o , ##s , [SEP]",nonmorphemic,9.679269900940975
+611,mcgoo,mcgoo##s,plur,5,artificial,9.89463569567306e-06,plural,indefinite,Unos,s,[MASK] mcgoo##s,"[CLS] , [MASK] , m , ##c , ##go , ##o , ##s , [SEP]",nonmorphemic,11.52351779659882
+612,paio,paio,sing,2,default,0.03090473636984825,singular,definite,El,s,[MASK] paio,"[CLS] , [MASK] , pa , ##io , [SEP]",nonmorphemic,3.4768458262470916
+613,paio,paio,sing,2,default,0.00026607266045175493,plural,definite,Los,s,[MASK] paio,"[CLS] , [MASK] , pa , ##io , [SEP]",nonmorphemic,8.2317411268908
+614,paio,paios,plur,2,default,0.00020151014905422926,singular,definite,El,s,[MASK] paios,"[CLS] , [MASK] , pa , ##ios , [SEP]",nonmorphemic,8.509670810331151
+615,paio,paios,plur,2,default,0.005290061701089144,plural,definite,Los,s,[MASK] paios,"[CLS] , [MASK] , pa , ##ios , [SEP]",nonmorphemic,5.241925369457994
+616,paio,paio##s,plur,3,artificial,0.006102995481342077,singular,definite,El,s,[MASK] paio##s,"[CLS] , [MASK] , pa , ##io , ##s , [SEP]",nonmorphemic,5.098975565819516
+617,paio,paio##s,plur,3,artificial,0.005906908772885799,plural,definite,Los,s,[MASK] paio##s,"[CLS] , [MASK] , pa , ##io , ##s , [SEP]",nonmorphemic,5.131632634675772
+618,paio,paio,sing,2,default,0.007477626670151949,singular,indefinite,Un,s,[MASK] paio,"[CLS] , [MASK] , pa , ##io , [SEP]",nonmorphemic,4.895839827429539
+619,paio,paio,sing,2,default,6.439518074330408e-06,plural,indefinite,Unos,s,[MASK] paio,"[CLS] , [MASK] , pa , ##io , [SEP]",nonmorphemic,11.953056853826661
+620,paio,paios,plur,2,default,9.087963553611189e-05,singular,indefinite,Un,s,[MASK] paios,"[CLS] , [MASK] , pa , ##ios , [SEP]",nonmorphemic,9.305974613385567
+621,paio,paios,plur,2,default,4.5349792344495654e-05,plural,indefinite,Unos,s,[MASK] paios,"[CLS] , [MASK] , pa , ##ios , [SEP]",nonmorphemic,10.001104960366298
+622,paio,paio##s,plur,3,artificial,0.0012331799371168017,singular,indefinite,Un,s,[MASK] paio##s,"[CLS] , [MASK] , pa , ##io , ##s , [SEP]",nonmorphemic,6.69815913104602
+623,paio,paio##s,plur,3,artificial,6.124516221461818e-05,plural,indefinite,Unos,s,[MASK] paio##s,"[CLS] , [MASK] , pa , ##io , ##s , [SEP]",nonmorphemic,9.70062569590999
+624,mcdua,mcdua,sing,4,default,0.00462139630690217,singular,definite,La,s,[MASK] mcdua,"[CLS] , [MASK] , m , ##c , ##du , ##a , [SEP]",nonmorphemic,5.377058388619852
+625,mcdua,mcdua,sing,4,default,2.330995448573958e-05,plural,definite,Las,s,[MASK] mcdua,"[CLS] , [MASK] , m , ##c , ##du , ##a , [SEP]",nonmorphemic,10.666630057482239
+626,mcdua,mcduas,plur,4,default,0.00021581583132501692,singular,definite,La,s,[MASK] mcduas,"[CLS] , [MASK] , m , ##c , ##du , ##as , [SEP]",nonmorphemic,8.441085146732716
+627,mcdua,mcduas,plur,4,default,0.004410764202475548,plural,definite,Las,s,[MASK] mcduas,"[CLS] , [MASK] , m , ##c , ##du , ##as , [SEP]",nonmorphemic,5.4237073159929
+628,mcdua,mcdua##s,plur,5,artificial,0.0001645746815484017,singular,definite,La,s,[MASK] mcdua##s,"[CLS] , [MASK] , m , ##c , ##du , ##a , ##s , [SEP]",nonmorphemic,8.712146099605967
+629,mcdua,mcdua##s,plur,5,artificial,8.97314166650176e-05,plural,definite,Las,s,[MASK] mcdua##s,"[CLS] , [MASK] , m , ##c , ##du , ##a , ##s , [SEP]",nonmorphemic,9.31868960869226
+630,mcdua,mcdua,sing,4,default,0.00018661351350601763,singular,indefinite,Una,s,[MASK] mcdua,"[CLS] , [MASK] , m , ##c , ##du , ##a , [SEP]",nonmorphemic,8.58647085252681
+631,mcdua,mcdua,sing,4,default,6.28070608854614e-07,plural,indefinite,Unas,s,[MASK] mcdua,"[CLS] , [MASK] , m , ##c , ##du , ##a , [SEP]",nonmorphemic,14.280613242316626
+632,mcdua,mcduas,plur,4,default,1.7317035599262454e-05,singular,indefinite,Una,s,[MASK] mcduas,"[CLS] , [MASK] , m , ##c , ##du , ##as , [SEP]",nonmorphemic,10.96381982425563
+633,mcdua,mcduas,plur,4,default,5.335915193427354e-05,plural,indefinite,Unas,s,[MASK] mcduas,"[CLS] , [MASK] , m , ##c , ##du , ##as , [SEP]",nonmorphemic,9.838465049768933
+634,mcdua,mcdua##s,plur,5,artificial,1.3064705854048952e-05,singular,indefinite,Una,s,[MASK] mcdua##s,"[CLS] , [MASK] , m , ##c , ##du , ##a , ##s , [SEP]",nonmorphemic,11.245596173286556
+635,mcdua,mcdua##s,plur,5,artificial,2.24138739213231e-06,plural,indefinite,Unas,s,[MASK] mcdua##s,"[CLS] , [MASK] , m , ##c , ##du , ##a , ##s , [SEP]",nonmorphemic,13.008415512341042
+636,splua,splua,sing,3,default,0.013612066395580769,singular,definite,La,s,[MASK] splua,"[CLS] , [MASK] , sp , ##lu , ##a , [SEP]",nonmorphemic,4.2967986446312505
+637,splua,splua,sing,3,default,0.0002711213892325759,plural,definite,Las,s,[MASK] splua,"[CLS] , [MASK] , sp , ##lu , ##a , [SEP]",nonmorphemic,8.212943906628091
+638,splua,spluas,plur,3,default,0.0006619946216233075,singular,definite,La,s,[MASK] spluas,"[CLS] , [MASK] , sp , ##lu , ##as , [SEP]",nonmorphemic,7.320253126496361
+639,splua,spluas,plur,3,default,0.009633172303438187,plural,definite,Las,s,[MASK] spluas,"[CLS] , [MASK] , sp , ##lu , ##as , [SEP]",nonmorphemic,4.6425426885776435
+640,splua,splua##s,plur,4,artificial,0.0026658957358449697,singular,definite,La,s,[MASK] splua##s,"[CLS] , [MASK] , sp , ##lu , ##a , ##s , [SEP]",nonmorphemic,5.927215166825736
+641,splua,splua##s,plur,4,artificial,0.001926433527842164,plural,definite,Las,s,[MASK] splua##s,"[CLS] , [MASK] , sp , ##lu , ##a , ##s , [SEP]",nonmorphemic,6.252084898598111
+642,splua,splua,sing,3,default,0.0022742189466953278,singular,indefinite,Una,s,[MASK] splua,"[CLS] , [MASK] , sp , ##lu , ##a , [SEP]",nonmorphemic,6.086118605660995
+643,splua,splua,sing,3,default,1.0826423931575846e-05,plural,indefinite,Unas,s,[MASK] splua,"[CLS] , [MASK] , sp , ##lu , ##a , [SEP]",nonmorphemic,11.433520751703309
+644,splua,spluas,plur,3,default,9.421536378795281e-05,singular,indefinite,Una,s,[MASK] spluas,"[CLS] , [MASK] , sp , ##lu , ##as , [SEP]",nonmorphemic,9.26992729214426
+645,splua,spluas,plur,3,default,0.00011739120964193717,plural,indefinite,Unas,s,[MASK] spluas,"[CLS] , [MASK] , sp , ##lu , ##as , [SEP]",nonmorphemic,9.049998528655196
+646,splua,splua##s,plur,4,artificial,0.000348695699358359,singular,indefinite,Una,s,[MASK] splua##s,"[CLS] , [MASK] , sp , ##lu , ##a , ##s , [SEP]",nonmorphemic,7.961310937715883
+647,splua,splua##s,plur,4,artificial,3.928749356418848e-05,plural,indefinite,Unas,s,[MASK] splua##s,"[CLS] , [MASK] , sp , ##lu , ##a , ##s , [SEP]",nonmorphemic,10.144604319653812
+648,sqia,sqia,sing,3,default,0.017680440098047256,singular,definite,La,s,[MASK] sqia,"[CLS] , [MASK] , s , ##q , ##ia , [SEP]",nonmorphemic,4.035296329658964
+649,sqia,sqia,sing,3,default,7.609315071022138e-05,plural,definite,Las,s,[MASK] sqia,"[CLS] , [MASK] , s , ##q , ##ia , [SEP]",nonmorphemic,9.483552300955086
+650,sqia,sqias,plur,3,default,0.0003503892512526363,singular,definite,La,s,[MASK] sqias,"[CLS] , [MASK] , s , ##q , ##ias , [SEP]",nonmorphemic,7.956465875021414
+651,sqia,sqias,plur,3,default,0.0076011354103684425,plural,definite,Las,s,[MASK] sqias,"[CLS] , [MASK] , s , ##q , ##ias , [SEP]",nonmorphemic,4.879457646747227
+652,sqia,sqia##s,plur,4,artificial,0.0004170385072939098,singular,definite,La,s,[MASK] sqia##s,"[CLS] , [MASK] , s , ##q , ##ia , ##s , [SEP]",nonmorphemic,7.782331996798404
+653,sqia,sqia##s,plur,4,artificial,0.0015064795734360814,plural,definite,Las,s,[MASK] sqia##s,"[CLS] , [MASK] , s , ##q , ##ia , ##s , [SEP]",nonmorphemic,6.497979758439654
+654,sqia,sqia,sing,3,default,0.000993558787740767,singular,indefinite,Una,s,[MASK] sqia,"[CLS] , [MASK] , s , ##q , ##ia , [SEP]",nonmorphemic,6.9142173253619035
+655,sqia,sqia,sing,3,default,2.5730444122018525e-06,plural,indefinite,Unas,s,[MASK] sqia,"[CLS] , [MASK] , s , ##q , ##ia , [SEP]",nonmorphemic,12.870420763950108
+656,sqia,sqias,plur,3,default,3.515859134495258e-05,singular,indefinite,Una,s,[MASK] sqias,"[CLS] , [MASK] , s , ##q , ##ias , [SEP]",nonmorphemic,10.255641550086617
+657,sqia,sqias,plur,3,default,7.10047606844455e-05,plural,indefinite,Unas,s,[MASK] sqias,"[CLS] , [MASK] , s , ##q , ##ias , [SEP]",nonmorphemic,9.552763631277237
+658,sqia,sqia##s,plur,4,artificial,5.564708771998994e-05,singular,indefinite,Una,s,[MASK] sqia##s,"[CLS] , [MASK] , s , ##q , ##ia , ##s , [SEP]",nonmorphemic,9.796480813687744
+659,sqia,sqia##s,plur,4,artificial,3.0092274755588733e-05,plural,indefinite,Unas,s,[MASK] sqia##s,"[CLS] , [MASK] , s , ##q , ##ia , ##s , [SEP]",nonmorphemic,10.411242071788617
+660,kha,kha,sing,2,default,0.02669558674097061,singular,definite,La,s,[MASK] kha,"[CLS] , [MASK] , k , ##ha , [SEP]",nonmorphemic,3.6232570178382817
+661,kha,kha,sing,2,default,0.00024897107505239546,plural,definite,Las,s,[MASK] kha,"[CLS] , [MASK] , k , ##ha , [SEP]",nonmorphemic,8.29817383269539
+662,kha,khas,plur,2,default,0.0006792735657654703,singular,definite,La,s,[MASK] khas,"[CLS] , [MASK] , k , ##has , [SEP]",nonmorphemic,7.294486616456953
+663,kha,khas,plur,2,default,0.024393033236265182,plural,definite,Las,s,[MASK] khas,"[CLS] , [MASK] , k , ##has , [SEP]",nonmorphemic,3.713457710556349
+664,kha,kha##s,plur,3,artificial,0.0012202569050714374,singular,definite,La,s,[MASK] kha##s,"[CLS] , [MASK] , k , ##ha , ##s , [SEP]",nonmorphemic,6.708693864477984
+665,kha,kha##s,plur,3,artificial,0.021986830979585648,plural,definite,Las,s,[MASK] kha##s,"[CLS] , [MASK] , k , ##ha , ##s , [SEP]",nonmorphemic,3.8173115966884574
+666,kha,kha,sing,2,default,0.0035450661089271307,singular,indefinite,Una,s,[MASK] kha,"[CLS] , [MASK] , k , ##ha , [SEP]",nonmorphemic,5.642198470673442
+667,kha,kha,sing,2,default,1.0918691259576008e-05,plural,indefinite,Unas,s,[MASK] kha,"[CLS] , [MASK] , k , ##ha , [SEP]",nonmorphemic,11.425034442854038
+668,kha,khas,plur,2,default,0.00020475102064665407,singular,indefinite,Una,s,[MASK] khas,"[CLS] , [MASK] , k , ##has , [SEP]",nonmorphemic,8.493715850400276
+669,kha,khas,plur,2,default,0.0008034680504351854,plural,indefinite,Unas,s,[MASK] khas,"[CLS] , [MASK] , k , ##has , [SEP]",nonmorphemic,7.1265731365702
+670,kha,kha##s,plur,3,artificial,0.00016148241411428899,singular,indefinite,Una,s,[MASK] kha##s,"[CLS] , [MASK] , k , ##ha , ##s , [SEP]",nonmorphemic,8.731114312163806
+671,kha,kha##s,plur,3,artificial,0.0002381422818871215,plural,indefinite,Unas,s,[MASK] kha##s,"[CLS] , [MASK] , k , ##ha , ##s , [SEP]",nonmorphemic,8.342642239862682
+672,physua,physua,sing,4,default,0.0032932269386947155,singular,definite,La,s,[MASK] physua,"[CLS] , [MASK] , p , ##hy , ##su , ##a , [SEP]",nonmorphemic,5.71588736247668
+673,physua,physua,sing,4,default,0.0001461059582652524,plural,definite,Las,s,[MASK] physua,"[CLS] , [MASK] , p , ##hy , ##su , ##a , [SEP]",nonmorphemic,8.83117845793616
+674,physua,physuas,plur,4,default,9.833737567532808e-05,singular,definite,La,s,[MASK] physuas,"[CLS] , [MASK] , p , ##hy , ##su , ##as , [SEP]",nonmorphemic,9.227106382574839
+675,physua,physuas,plur,4,default,0.004382844548672438,plural,definite,Las,s,[MASK] physuas,"[CLS] , [MASK] , p , ##hy , ##su , ##as , [SEP]",nonmorphemic,5.430057325052723
+676,physua,physua##s,plur,5,artificial,0.0006221451330929995,singular,definite,La,s,[MASK] physua##s,"[CLS] , [MASK] , p , ##hy , ##su , ##a , ##s , [SEP]",nonmorphemic,7.382337159496048
+677,physua,physua##s,plur,5,artificial,0.0006870273500680923,plural,definite,Las,s,[MASK] physua##s,"[CLS] , [MASK] , p , ##hy , ##su , ##a , ##s , [SEP]",nonmorphemic,7.2831364556637705
+678,physua,physua,sing,4,default,0.000490066478960216,singular,indefinite,Una,s,[MASK] physua,"[CLS] , [MASK] , p , ##hy , ##su , ##a , [SEP]",nonmorphemic,7.620969504714747
+679,physua,physua,sing,4,default,5.968031018710462e-06,plural,indefinite,Unas,s,[MASK] physua,"[CLS] , [MASK] , p , ##hy , ##su , ##a , [SEP]",nonmorphemic,12.029093497571218
+680,physua,physuas,plur,4,default,1.7282487533520907e-05,singular,indefinite,Una,s,[MASK] physuas,"[CLS] , [MASK] , p , ##hy , ##su , ##as , [SEP]",nonmorphemic,10.965816850462653
+681,physua,physuas,plur,4,default,8.271933620562777e-05,plural,indefinite,Unas,s,[MASK] physuas,"[CLS] , [MASK] , p , ##hy , ##su , ##as , [SEP]",nonmorphemic,9.400057171829827
+682,physua,physua##s,plur,5,artificial,0.00011839264334412292,singular,indefinite,Una,s,[MASK] physua##s,"[CLS] , [MASK] , p , ##hy , ##su , ##a , ##s , [SEP]",nonmorphemic,9.04150397136264
+683,physua,physua##s,plur,5,artificial,1.4993296645116061e-05,plural,indefinite,Unas,s,[MASK] physua##s,"[CLS] , [MASK] , p , ##hy , ##su , ##a , ##s , [SEP]",nonmorphemic,11.107907347072901
+684,tsoia,tsoia,sing,3,default,0.02160227671265602,singular,definite,La,s,[MASK] tsoia,"[CLS] , [MASK] , ts , ##o , ##ia , [SEP]",nonmorphemic,3.834956566482857
+685,tsoia,tsoia,sing,3,default,0.0008376615587621927,plural,definite,Las,s,[MASK] tsoia,"[CLS] , [MASK] , ts , ##o , ##ia , [SEP]",nonmorphemic,7.084896406884312
+686,tsoia,tsoias,plur,3,default,0.0022499237675219774,singular,definite,La,s,[MASK] tsoias,"[CLS] , [MASK] , ts , ##o , ##ias , [SEP]",nonmorphemic,6.096858944441129
+687,tsoia,tsoias,plur,3,default,0.06936375796794891,plural,definite,Las,s,[MASK] tsoias,"[CLS] , [MASK] , ts , ##o , ##ias , [SEP]",nonmorphemic,2.6683907673554668
+688,tsoia,tsoia##s,plur,4,artificial,0.001610868494026363,singular,definite,La,s,[MASK] tsoia##s,"[CLS] , [MASK] , ts , ##o , ##ia , ##s , [SEP]",nonmorphemic,6.430981808146298
+689,tsoia,tsoia##s,plur,4,artificial,0.02703302539885044,plural,definite,Las,s,[MASK] tsoia##s,"[CLS] , [MASK] , ts , ##o , ##ia , ##s , [SEP]",nonmorphemic,3.6106959975117427
+690,tsoia,tsoia,sing,3,default,0.0015645764069631696,singular,indefinite,Una,s,[MASK] tsoia,"[CLS] , [MASK] , ts , ##o , ##ia , [SEP]",nonmorphemic,6.460140158104011
+691,tsoia,tsoia,sing,3,default,9.966648576664738e-06,plural,indefinite,Unas,s,[MASK] tsoia,"[CLS] , [MASK] , ts , ##o , ##ia , [SEP]",nonmorphemic,11.516266181287751
+692,tsoia,tsoias,plur,3,default,0.00022014122805558145,singular,indefinite,Una,s,[MASK] tsoias,"[CLS] , [MASK] , ts , ##o , ##ias , [SEP]",nonmorphemic,8.421241271863732
+693,tsoia,tsoias,plur,3,default,0.00028251262847334146,plural,indefinite,Unas,s,[MASK] tsoias,"[CLS] , [MASK] , ts , ##o , ##ias , [SEP]",nonmorphemic,8.171787305816407
+694,tsoia,tsoia##s,plur,4,artificial,0.00018611561972647905,singular,indefinite,Una,s,[MASK] tsoia##s,"[CLS] , [MASK] , ts , ##o , ##ia , ##s , [SEP]",nonmorphemic,8.58914246593875
+695,tsoia,tsoia##s,plur,4,artificial,0.00011417747009545565,plural,indefinite,Unas,s,[MASK] tsoia##s,"[CLS] , [MASK] , ts , ##o , ##ia , ##s , [SEP]",nonmorphemic,9.07775656483377
+696,shaio,shaio,sing,3,default,0.02846606634557247,singular,definite,El,s,[MASK] shaio,"[CLS] , [MASK] , sh , ##ai , ##o , [SEP]",nonmorphemic,3.5590425556411174
+697,shaio,shaio,sing,3,default,0.00047463152441196144,plural,definite,Los,s,[MASK] shaio,"[CLS] , [MASK] , sh , ##ai , ##o , [SEP]",nonmorphemic,7.652971793050194
+698,shaio,shaios,plur,3,default,0.00031773358932696283,singular,definite,El,s,[MASK] shaios,"[CLS] , [MASK] , sh , ##ai , ##os , [SEP]",nonmorphemic,8.05429729572108
+699,shaio,shaios,plur,3,default,0.10750973224639893,plural,definite,Los,s,[MASK] shaios,"[CLS] , [MASK] , sh , ##ai , ##os , [SEP]",nonmorphemic,2.2301739029876
+700,shaio,shaio##s,plur,4,artificial,0.00014532363275066018,singular,definite,El,s,[MASK] shaio##s,"[CLS] , [MASK] , sh , ##ai , ##o , ##s , [SEP]",nonmorphemic,8.836547352639522
+701,shaio,shaio##s,plur,4,artificial,0.011563112959265709,plural,definite,Los,s,[MASK] shaio##s,"[CLS] , [MASK] , sh , ##ai , ##o , ##s , [SEP]",nonmorphemic,4.459935164855466
+702,shaio,shaio,sing,3,default,0.0183271337300539,singular,indefinite,Un,s,[MASK] shaio,"[CLS] , [MASK] , sh , ##ai , ##o , [SEP]",nonmorphemic,3.9993725997857004
+703,shaio,shaio,sing,3,default,4.58706017525401e-06,plural,indefinite,Unos,s,[MASK] shaio,"[CLS] , [MASK] , sh , ##ai , ##o , [SEP]",nonmorphemic,12.29227122378388
+704,shaio,shaios,plur,3,default,0.00011010538582922891,singular,indefinite,Un,s,[MASK] shaios,"[CLS] , [MASK] , sh , ##ai , ##os , [SEP]",nonmorphemic,9.114072597818726
+705,shaio,shaios,plur,3,default,0.00011284283391432837,plural,indefinite,Unos,s,[MASK] shaios,"[CLS] , [MASK] , sh , ##ai , ##os , [SEP]",nonmorphemic,9.089514557697699
+706,shaio,shaio##s,plur,4,artificial,0.00010823058255482465,singular,indefinite,Un,s,[MASK] shaio##s,"[CLS] , [MASK] , sh , ##ai , ##o , ##s , [SEP]",nonmorphemic,9.131246583108418
+707,shaio,shaio##s,plur,4,artificial,2.1376126824179664e-05,plural,indefinite,Unos,s,[MASK] shaio##s,"[CLS] , [MASK] , sh , ##ai , ##o , ##s , [SEP]",nonmorphemic,10.753235827610252
+708,spro,spro,sing,2,default,0.0018182090716436505,singular,definite,El,s,[MASK] spro,"[CLS] , [MASK] , sp , ##ro , [SEP]",nonmorphemic,6.309903288934849
+709,spro,spro,sing,2,default,0.00029786108643747866,plural,definite,Los,s,[MASK] spro,"[CLS] , [MASK] , sp , ##ro , [SEP]",nonmorphemic,8.118883333036274
+710,spro,spros,plur,2,default,0.0001735281985020265,singular,definite,El,s,[MASK] spros,"[CLS] , [MASK] , sp , ##ros , [SEP]",nonmorphemic,8.659170444394304
+711,spro,spros,plur,2,default,0.005768034607172012,plural,definite,Los,s,[MASK] spros,"[CLS] , [MASK] , sp , ##ros , [SEP]",nonmorphemic,5.155423879161036
+712,spro,spro##s,plur,3,artificial,0.0004121577076148242,singular,definite,El,s,[MASK] spro##s,"[CLS] , [MASK] , sp , ##ro , ##s , [SEP]",nonmorphemic,7.794104496385542
+713,spro,spro##s,plur,3,artificial,0.0012683738023042679,plural,definite,Los,s,[MASK] spro##s,"[CLS] , [MASK] , sp , ##ro , ##s , [SEP]",nonmorphemic,6.6700196696412055
+714,spro,spro,sing,2,default,0.0007378319278359413,singular,indefinite,Un,s,[MASK] spro,"[CLS] , [MASK] , sp , ##ro , [SEP]",nonmorphemic,7.211794499360207
+715,spro,spro,sing,2,default,2.447422502882546e-06,plural,indefinite,Unos,s,[MASK] spro,"[CLS] , [MASK] , sp , ##ro , [SEP]",nonmorphemic,12.920475126829553
+716,spro,spros,plur,2,default,0.00015231342695187777,singular,indefinite,Un,s,[MASK] spros,"[CLS] , [MASK] , sp , ##ros , [SEP]",nonmorphemic,8.78957014074179
+717,spro,spros,plur,2,default,3.6929588532075286e-05,plural,indefinite,Unos,s,[MASK] spros,"[CLS] , [MASK] , sp , ##ros , [SEP]",nonmorphemic,10.20649747099574
+718,spro,spro##s,plur,3,artificial,0.00032499307417310774,singular,indefinite,Un,s,[MASK] spro##s,"[CLS] , [MASK] , sp , ##ro , ##s , [SEP]",nonmorphemic,8.031706686098195
+719,spro,spro##s,plur,3,artificial,9.801060514291748e-06,plural,indefinite,Unos,s,[MASK] spro##s,"[CLS] , [MASK] , sp , ##ro , ##s , [SEP]",nonmorphemic,11.533019962398592
+720,sleo,sleo,sing,2,default,0.017300786450505257,singular,definite,El,s,[MASK] sleo,"[CLS] , [MASK] , s , ##leo , [SEP]",nonmorphemic,4.057003318944881
+721,sleo,sleo,sing,2,default,7.13478511897847e-05,plural,definite,Los,s,[MASK] sleo,"[CLS] , [MASK] , s , ##leo , [SEP]",nonmorphemic,9.54794333096607
+722,sleo,sleos,plur,2,default,0.001405949704349041,singular,definite,El,s,[MASK] sleos,"[CLS] , [MASK] , s , ##leos , [SEP]",nonmorphemic,6.567042258389234
+723,sleo,sleos,plur,2,default,0.015331357717514038,plural,definite,Los,s,[MASK] sleos,"[CLS] , [MASK] , s , ##leos , [SEP]",nonmorphemic,4.177855023972272
+724,sleo,sleo##s,plur,3,artificial,0.0008433464681729674,singular,definite,El,s,[MASK] sleo##s,"[CLS] , [MASK] , s , ##leo , ##s , [SEP]",nonmorphemic,7.078132690123448
+725,sleo,sleo##s,plur,3,artificial,0.009929141029715538,plural,definite,Los,s,[MASK] sleo##s,"[CLS] , [MASK] , s , ##leo , ##s , [SEP]",nonmorphemic,4.6122813072128865
+726,sleo,sleo,sing,2,default,0.0014890767633914948,singular,indefinite,Un,s,[MASK] sleo,"[CLS] , [MASK] , s , ##leo , [SEP]",nonmorphemic,6.509598972954646
+727,sleo,sleo,sing,2,default,1.0121974582943949e-06,plural,indefinite,Unos,s,[MASK] sleo,"[CLS] , [MASK] , s , ##leo , [SEP]",nonmorphemic,13.80338688924013
+728,sleo,sleos,plur,2,default,0.0003312632907181978,singular,indefinite,Un,s,[MASK] sleos,"[CLS] , [MASK] , s , ##leos , [SEP]",nonmorphemic,8.012597058545884
+729,sleo,sleos,plur,2,default,0.00018552553956396878,plural,indefinite,Unos,s,[MASK] sleos,"[CLS] , [MASK] , s , ##leos , [SEP]",nonmorphemic,8.592318005803621
+730,sleo,sleo##s,plur,3,artificial,0.0003152467543259263,singular,indefinite,Un,s,[MASK] sleo##s,"[CLS] , [MASK] , s , ##leo , ##s , [SEP]",nonmorphemic,8.062154878728387
+731,sleo,sleo##s,plur,3,artificial,3.88825501431711e-05,plural,indefinite,Unos,s,[MASK] sleo##s,"[CLS] , [MASK] , s , ##leo , ##s , [SEP]",nonmorphemic,10.154964990420835
+732,mcfiao,mcfiao,sing,4,default,0.005205887369811535,singular,definite,El,s,[MASK] mcfiao,"[CLS] , [MASK] , m , ##c , ##fia , ##o , [SEP]",nonmorphemic,5.257965107332322
+733,mcfiao,mcfiao,sing,4,default,2.5891804398270324e-05,plural,definite,Los,s,[MASK] mcfiao,"[CLS] , [MASK] , m , ##c , ##fia , ##o , [SEP]",nonmorphemic,10.561584071833325
+734,mcfiao,mcfiaos,plur,4,default,7.371122046606615e-05,singular,definite,El,s,[MASK] mcfiaos,"[CLS] , [MASK] , m , ##c , ##fia , ##os , [SEP]",nonmorphemic,9.515355525227298
+735,mcfiao,mcfiaos,plur,4,default,0.003250063629820943,plural,definite,Los,s,[MASK] mcfiaos,"[CLS] , [MASK] , m , ##c , ##fia , ##os , [SEP]",nonmorphemic,5.7290807044257015
+736,mcfiao,mcfiao##s,plur,5,artificial,0.00012199060438433662,singular,definite,El,s,[MASK] mcfiao##s,"[CLS] , [MASK] , m , ##c , ##fia , ##o , ##s , [SEP]",nonmorphemic,9.011566529439833
+737,mcfiao,mcfiao##s,plur,5,artificial,0.0015142615884542465,plural,definite,Los,s,[MASK] mcfiao##s,"[CLS] , [MASK] , m , ##c , ##fia , ##o , ##s , [SEP]",nonmorphemic,6.492827359199203
+738,mcfiao,mcfiao,sing,4,default,0.00035518777440302074,singular,indefinite,Un,s,[MASK] mcfiao,"[CLS] , [MASK] , m , ##c , ##fia , ##o , [SEP]",nonmorphemic,7.942863966349018
+739,mcfiao,mcfiao,sing,4,default,2.5231622657884145e-07,plural,indefinite,Unos,s,[MASK] mcfiao,"[CLS] , [MASK] , m , ##c , ##fia , ##o , [SEP]",nonmorphemic,15.192582668746642
+740,mcfiao,mcfiaos,plur,4,default,1.620830335014034e-05,singular,indefinite,Un,s,[MASK] mcfiaos,"[CLS] , [MASK] , m , ##c , ##fia , ##os , [SEP]",nonmorphemic,11.029986894558292
+741,mcfiao,mcfiaos,plur,4,default,3.441552325966768e-05,plural,indefinite,Unos,s,[MASK] mcfiaos,"[CLS] , [MASK] , m , ##c , ##fia , ##os , [SEP]",nonmorphemic,10.27700283782251
+742,mcfiao,mcfiao##s,plur,5,artificial,2.5444369384786114e-05,singular,indefinite,Un,s,[MASK] mcfiao##s,"[CLS] , [MASK] , m , ##c , ##fia , ##o , ##s , [SEP]",nonmorphemic,10.579016081693508
+743,mcfiao,mcfiao##s,plur,5,artificial,1.8259846910950728e-05,plural,indefinite,Unos,s,[MASK] mcfiao##s,"[CLS] , [MASK] , m , ##c , ##fia , ##o , ##s , [SEP]",nonmorphemic,10.910806066679763
+744,chaia,chaia,sing,2,default,0.0544869638979435,singular,definite,La,s,[MASK] chaia,"[CLS] , [MASK] , cha , ##ia , [SEP]",nonmorphemic,2.9097938004576602
+745,chaia,chaia,sing,2,default,0.000851686461828649,plural,definite,Las,s,[MASK] chaia,"[CLS] , [MASK] , cha , ##ia , [SEP]",nonmorphemic,7.068292101413047
+746,chaia,chaias,plur,2,default,0.0010853668209165335,singular,definite,La,s,[MASK] chaias,"[CLS] , [MASK] , cha , ##ias , [SEP]",nonmorphemic,6.8258372653331225
+747,chaia,chaias,plur,2,default,0.05118633806705475,plural,definite,Las,s,[MASK] chaias,"[CLS] , [MASK] , cha , ##ias , [SEP]",nonmorphemic,2.9722826171712056
+748,chaia,chaia##s,plur,3,artificial,0.0011913565685972571,singular,definite,La,s,[MASK] chaia##s,"[CLS] , [MASK] , cha , ##ia , ##s , [SEP]",nonmorphemic,6.732662647524084
+749,chaia,chaia##s,plur,3,artificial,0.016070710495114326,plural,definite,Las,s,[MASK] chaia##s,"[CLS] , [MASK] , cha , ##ia , ##s , [SEP]",nonmorphemic,4.130756887695168
+750,chaia,chaia,sing,2,default,0.004042631480842829,singular,indefinite,Una,s,[MASK] chaia,"[CLS] , [MASK] , cha , ##ia , [SEP]",nonmorphemic,5.510859442405482
+751,chaia,chaia,sing,2,default,2.0082803530385718e-05,plural,indefinite,Unas,s,[MASK] chaia,"[CLS] , [MASK] , cha , ##ia , [SEP]",nonmorphemic,10.815646654839341
+752,chaia,chaias,plur,2,default,0.00013125513214617968,singular,indefinite,Una,s,[MASK] chaias,"[CLS] , [MASK] , cha , ##ias , [SEP]",nonmorphemic,8.938367555190876
+753,chaia,chaias,plur,2,default,0.0006231108563952148,plural,indefinite,Unas,s,[MASK] chaias,"[CLS] , [MASK] , cha , ##ias , [SEP]",nonmorphemic,7.380786115367012
+754,chaia,chaia##s,plur,3,artificial,9.283975668950006e-05,singular,indefinite,Una,s,[MASK] chaia##s,"[CLS] , [MASK] , cha , ##ia , ##s , [SEP]",nonmorphemic,9.284635597312226
+755,chaia,chaia##s,plur,3,artificial,0.0001478633494116366,plural,indefinite,Unas,s,[MASK] chaia##s,"[CLS] , [MASK] , cha , ##ia , ##s , [SEP]",nonmorphemic,8.819222025504056
+756,plao,plao,sing,2,default,0.012568767182528973,singular,definite,El,s,[MASK] plao,"[CLS] , [MASK] , pla , ##o , [SEP]",nonmorphemic,4.376540337360887
+757,plao,plao,sing,2,default,0.00011362738587195054,plural,definite,Los,s,[MASK] plao,"[CLS] , [MASK] , pla , ##o , [SEP]",nonmorphemic,9.08258600791414
+758,plao,plaos,plur,2,default,0.0009775980142876506,singular,definite,El,s,[MASK] plaos,"[CLS] , [MASK] , pla , ##os , [SEP]",nonmorphemic,6.930412000760493
+759,plao,plaos,plur,2,default,0.011510612443089485,plural,definite,Los,s,[MASK] plaos,"[CLS] , [MASK] , pla , ##os , [SEP]",nonmorphemic,4.464485848012367
+760,plao,plao##s,plur,3,artificial,0.0013069111155346036,singular,definite,El,s,[MASK] plao##s,"[CLS] , [MASK] , pla , ##o , ##s , [SEP]",nonmorphemic,6.640088853129565
+761,plao,plao##s,plur,3,artificial,0.0020772519055753946,plural,definite,Los,s,[MASK] plao##s,"[CLS] , [MASK] , pla , ##o , ##s , [SEP]",nonmorphemic,6.176709458064739
+762,plao,plao,sing,2,default,0.0049762302078306675,singular,indefinite,Un,s,[MASK] plao,"[CLS] , [MASK] , pla , ##o , [SEP]",nonmorphemic,5.303082660983822
+763,plao,plao,sing,2,default,2.164621491829166e-06,plural,indefinite,Unos,s,[MASK] plao,"[CLS] , [MASK] , pla , ##o , [SEP]",nonmorphemic,13.04326504235836
+764,plao,plaos,plur,2,default,0.000492868828587234,singular,indefinite,Un,s,[MASK] plaos,"[CLS] , [MASK] , pla , ##os , [SEP]",nonmorphemic,7.615267487098267
+765,plao,plaos,plur,2,default,0.00011136945249745622,plural,indefinite,Unos,s,[MASK] plaos,"[CLS] , [MASK] , pla , ##os , [SEP]",nonmorphemic,9.102657482639804
+766,plao,plao##s,plur,3,artificial,0.0005445354036055505,singular,indefinite,Un,s,[MASK] plao##s,"[CLS] , [MASK] , pla , ##o , ##s , [SEP]",nonmorphemic,7.515577597309124
+767,plao,plao##s,plur,3,artificial,2.7873802537214942e-05,plural,indefinite,Unos,s,[MASK] plao##s,"[CLS] , [MASK] , pla , ##o , ##s , [SEP]",nonmorphemic,10.487823287412915
+768,schao,schao,sing,3,default,0.005242993123829365,singular,definite,El,s,[MASK] schao,"[CLS] , [MASK] , s , ##cha , ##o , [SEP]",nonmorphemic,5.25086273688805
+769,schao,schao,sing,3,default,0.0001319691218668595,plural,definite,Los,s,[MASK] schao,"[CLS] , [MASK] , s , ##cha , ##o , [SEP]",nonmorphemic,8.932942587993747
+770,schao,schaos,plur,3,default,0.0004961193189956248,singular,definite,El,s,[MASK] schaos,"[CLS] , [MASK] , s , ##cha , ##os , [SEP]",nonmorphemic,7.608694097678684
+771,schao,schaos,plur,3,default,0.008626195602118969,plural,definite,Los,s,[MASK] schaos,"[CLS] , [MASK] , s , ##cha , ##os , [SEP]",nonmorphemic,4.75295170513612
+772,schao,schao##s,plur,4,artificial,0.000528682314325124,singular,definite,El,s,[MASK] schao##s,"[CLS] , [MASK] , s , ##cha , ##o , ##s , [SEP]",nonmorphemic,7.545122846530486
+773,schao,schao##s,plur,4,artificial,0.000746825011447072,plural,definite,Los,s,[MASK] schao##s,"[CLS] , [MASK] , s , ##cha , ##o , ##s , [SEP]",nonmorphemic,7.199679655364401
+774,schao,schao,sing,3,default,0.0031994145829230547,singular,indefinite,Un,s,[MASK] schao,"[CLS] , [MASK] , s , ##cha , ##o , [SEP]",nonmorphemic,5.744787428749084
+775,schao,schao,sing,3,default,1.1270566346865962e-06,plural,indefinite,Unos,s,[MASK] schao,"[CLS] , [MASK] , s , ##cha , ##o , [SEP]",nonmorphemic,13.69590107156358
+776,schao,schaos,plur,3,default,0.0007200596737675369,singular,indefinite,Un,s,[MASK] schaos,"[CLS] , [MASK] , s , ##cha , ##os , [SEP]",nonmorphemic,7.236176469155859
+777,schao,schaos,plur,3,default,4.935824472340755e-05,plural,indefinite,Unos,s,[MASK] schaos,"[CLS] , [MASK] , s , ##cha , ##os , [SEP]",nonmorphemic,9.916405739708361
+778,schao,schao##s,plur,4,artificial,0.0008726977393962443,singular,indefinite,Un,s,[MASK] schao##s,"[CLS] , [MASK] , s , ##cha , ##o , ##s , [SEP]",nonmorphemic,7.0439212941544485
+779,schao,schao##s,plur,4,artificial,3.40167343892972e-06,plural,indefinite,Unos,s,[MASK] schao##s,"[CLS] , [MASK] , s , ##cha , ##o , ##s , [SEP]",nonmorphemic,12.591243059506398
