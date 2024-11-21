@@ -1,0 +1,259 @@
+,lemma,word_form,word_number,n_tokens,tokenization_type,verb_probs,article_number,verb_number,verb,affix,sentence,model_token_inputs,source,surprisal
+0,no,no,sing,1,default,0.02374747022986412,singular,singular,es,s,El no [MASK],"[CLS] , El , no , [MASK] , [SEP]",single-token,3.740279270812087
+1,no,no,sing,1,default,0.0012822390999644995,plural,plural,son,s,El no [MASK],"[CLS] , El , no , [MASK] , [SEP]",single-token,6.659147432441108
+2,no,nos,plur,1,default,0.0005181579617783427,singular,singular,es,s,Los nos [MASK],"[CLS] , Los , nos , [MASK] , [SEP]",single-token,7.565230416673189
+3,no,nos,plur,1,default,0.015549765899777412,plural,plural,son,s,Los nos [MASK],"[CLS] , Los , nos , [MASK] , [SEP]",single-token,4.163709695146911
+4,no,no##s,plur,2,artificial,0.00234727724455297,singular,singular,es,s,Los no##s [MASK],"[CLS] , Los , no , ##s , [MASK] , [SEP]",single-token,6.054499241883511
+5,no,no##s,plur,2,artificial,0.08061721175909042,plural,plural,son,s,Los no##s [MASK],"[CLS] , Los , no , ##s , [MASK] , [SEP]",single-token,2.5180431068689835
+6,gra,gra,sing,1,default,0.005475370679050684,singular,singular,es,s,La gra [MASK],"[CLS] , La , gra , [MASK] , [SEP]",single-token,5.207495301635182
+7,gra,gra,sing,1,default,7.464399095624685e-05,plural,plural,son,s,La gra [MASK],"[CLS] , La , gra , [MASK] , [SEP]",single-token,9.50278053345153
+8,gra,gras,plur,1,default,0.007695314008742571,singular,singular,es,s,Las gras [MASK],"[CLS] , Las , gras , [MASK] , [SEP]",single-token,4.867143705669736
+9,gra,gras,plur,1,default,0.045463427901268005,plural,plural,son,s,Las gras [MASK],"[CLS] , Las , gras , [MASK] , [SEP]",single-token,3.0908470586212147
+10,gra,gra##s,plur,2,artificial,0.000407516403356567,singular,singular,es,s,Las gra##s [MASK],"[CLS] , Las , gra , ##s , [MASK] , [SEP]",single-token,7.805429372457765
+11,gra,gra##s,plur,2,artificial,0.0033172599505633116,plural,plural,son,s,Las gra##s [MASK],"[CLS] , Las , gra , ##s , [MASK] , [SEP]",single-token,5.7086161529099595
+12,crea,crea,sing,1,default,0.0019476779270917177,singular,singular,es,s,La crea [MASK],"[CLS] , La , crea , [MASK] , [SEP]",single-token,6.241117422599682
+13,crea,crea,sing,1,default,0.00011072526103816926,plural,plural,son,s,La crea [MASK],"[CLS] , La , crea , [MASK] , [SEP]",single-token,9.10845855062183
+14,crea,creas,plur,1,default,0.00022462826746050268,singular,singular,es,s,Las creas [MASK],"[CLS] , Las , creas , [MASK] , [SEP]",single-token,8.401063666675851
+15,crea,creas,plur,1,default,0.0024938867427408695,plural,plural,son,s,Las creas [MASK],"[CLS] , Las , creas , [MASK] , [SEP]",single-token,5.993912844647637
+16,crea,crea##s,plur,2,artificial,0.0006162049248814583,singular,singular,es,s,Las crea##s [MASK],"[CLS] , Las , crea , ##s , [MASK] , [SEP]",single-token,7.391930979491129
+17,crea,crea##s,plur,2,artificial,0.03409045562148094,plural,plural,son,s,Las crea##s [MASK],"[CLS] , Las , crea , ##s , [MASK] , [SEP]",single-token,3.3787378276684583
+18,pla,pla,sing,1,default,0.006862236186861992,singular,singular,es,s,La pla [MASK],"[CLS] , La , pla , [MASK] , [SEP]",single-token,4.981721915601349
+19,pla,pla,sing,1,default,0.0002240322792204097,plural,plural,son,s,La pla [MASK],"[CLS] , La , pla , [MASK] , [SEP]",single-token,8.403720412828626
+20,pla,plas,plur,1,default,0.0041418783366680145,singular,singular,es,s,Las plas [MASK],"[CLS] , Las , plas , [MASK] , [SEP]",single-token,5.4866058895285015
+21,pla,plas,plur,1,default,0.013398099690675735,plural,plural,son,s,Las plas [MASK],"[CLS] , Las , plas , [MASK] , [SEP]",single-token,4.3126423962105225
+22,pla,pla##s,plur,2,artificial,0.0035569071769714355,singular,singular,es,s,Las pla##s [MASK],"[CLS] , Las , pla , ##s , [MASK] , [SEP]",single-token,5.638863882231656
+23,pla,pla##s,plur,2,artificial,0.02861340157687664,plural,plural,son,s,Las pla##s [MASK],"[CLS] , Las , pla , ##s , [MASK] , [SEP]",single-token,3.5538800843046703
+24,va,va,sing,1,default,0.0002937886747531593,singular,singular,es,s,La va [MASK],"[CLS] , La , va , [MASK] , [SEP]",single-token,8.132649842437997
+25,va,va,sing,1,default,5.430031887954101e-05,plural,plural,son,s,La va [MASK],"[CLS] , La , va , [MASK] , [SEP]",single-token,9.820980458490228
+26,va,vas,plur,1,default,5.284649523673579e-05,singular,singular,es,s,Las vas [MASK],"[CLS] , Las , vas , [MASK] , [SEP]",single-token,9.848119163140536
+27,va,vas,plur,1,default,0.0006912866374477744,plural,plural,son,s,Las vas [MASK],"[CLS] , Las , vas , [MASK] , [SEP]",single-token,7.276956004799506
+28,va,va##s,plur,2,artificial,0.0009222872322425246,singular,singular,es,s,Las va##s [MASK],"[CLS] , Las , va , ##s , [MASK] , [SEP]",single-token,6.988653851207205
+29,va,va##s,plur,2,artificial,0.02698005735874176,plural,plural,son,s,Las va##s [MASK],"[CLS] , Las , va , ##s , [MASK] , [SEP]",single-token,3.6126573022321495
+30,ga,ga,sing,1,default,0.002478410257026553,singular,singular,es,s,La ga [MASK],"[CLS] , La , ga , [MASK] , [SEP]",single-token,6.000137949742387
+31,ga,ga,sing,1,default,9.673722524894401e-05,plural,plural,son,s,La ga [MASK],"[CLS] , La , ga , [MASK] , [SEP]",single-token,9.243512273542873
+32,ga,gas,plur,1,default,0.00296419276855886,singular,singular,es,s,Las gas [MASK],"[CLS] , Las , gas , [MASK] , [SEP]",single-token,5.8211505370372905
+33,ga,gas,plur,1,default,0.024668274447321892,plural,plural,son,s,Las gas [MASK],"[CLS] , Las , gas , [MASK] , [SEP]",single-token,3.702237296273387
+34,ga,ga##s,plur,2,artificial,0.0017015846678987145,singular,singular,es,s,Las ga##s [MASK],"[CLS] , Las , ga , ##s , [MASK] , [SEP]",single-token,6.376195304521571
+35,ga,ga##s,plur,2,artificial,0.043219003826379776,plural,plural,son,s,Las ga##s [MASK],"[CLS] , Las , ga , ##s , [MASK] , [SEP]",single-token,3.1414749770727806
+36,pro,pro,sing,1,default,0.0051296730525791645,singular,singular,es,s,El pro [MASK],"[CLS] , El , pro , [MASK] , [SEP]",single-token,5.272713354271166
+37,pro,pro,sing,1,default,0.0004912684089504182,plural,plural,son,s,El pro [MASK],"[CLS] , El , pro , [MASK] , [SEP]",single-token,7.6185199217925055
+38,pro,pros,plur,1,default,0.0009466477204114199,singular,singular,es,s,Los pros [MASK],"[CLS] , Los , pros , [MASK] , [SEP]",single-token,6.962583529327317
+39,pro,pros,plur,1,default,0.06793151795864105,plural,plural,son,s,Los pros [MASK],"[CLS] , Los , pros , [MASK] , [SEP]",single-token,2.6892551701042438
+40,pro,pro##s,plur,2,artificial,0.0010142148239538074,singular,singular,es,s,Los pro##s [MASK],"[CLS] , Los , pro , ##s , [MASK] , [SEP]",single-token,6.89364053830926
+41,pro,pro##s,plur,2,artificial,0.003628321224823594,plural,plural,son,s,Los pro##s [MASK],"[CLS] , Los , pro , ##s , [MASK] , [SEP]",single-token,5.618985210179154
+42,gro,gro,sing,1,default,0.01783808320760727,singular,singular,es,s,El gro [MASK],"[CLS] , El , gro , [MASK] , [SEP]",single-token,4.026419601122514
+43,gro,gro,sing,1,default,0.0007236373494379222,plural,plural,son,s,El gro [MASK],"[CLS] , El , gro , [MASK] , [SEP]",single-token,7.2312201896365575
+44,gro,gros,plur,1,default,0.004402278922498226,singular,singular,es,s,Los gros [MASK],"[CLS] , Los , gros , [MASK] , [SEP]",single-token,5.425632935209543
+45,gro,gros,plur,1,default,0.1673581600189209,plural,plural,son,s,Los gros [MASK],"[CLS] , Los , gros , [MASK] , [SEP]",single-token,1.7876190923168223
+46,gro,gro##s,plur,2,artificial,0.0006882665911689401,singular,singular,es,s,Los gro##s [MASK],"[CLS] , Los , gro , ##s , [MASK] , [SEP]",single-token,7.281334307920537
+47,gro,gro##s,plur,2,artificial,0.1086151972413063,plural,plural,son,s,Los gro##s [MASK],"[CLS] , Los , gro , ##s , [MASK] , [SEP]",single-token,2.219943943507426
+48,fa,fa,sing,1,default,0.013399379327893257,singular,singular,es,s,La fa [MASK],"[CLS] , La , fa , [MASK] , [SEP]",single-token,4.312546891911957
+49,fa,fa,sing,1,default,0.0002493959036655724,plural,plural,son,s,La fa [MASK],"[CLS] , La , fa , [MASK] , [SEP]",single-token,8.296468949610354
+50,fa,fas,plur,1,default,0.004357720725238323,singular,singular,es,s,Las fas [MASK],"[CLS] , Las , fas , [MASK] , [SEP]",single-token,5.435806127753531
+51,fa,fas,plur,1,default,0.01468259934335947,plural,plural,son,s,Las fas [MASK],"[CLS] , Las , fas , [MASK] , [SEP]",single-token,4.221092204483936
+52,fa,fa##s,plur,2,artificial,0.0009733086335472763,singular,singular,es,s,Las fa##s [MASK],"[CLS] , Las , fa , ##s , [MASK] , [SEP]",single-token,6.93480932818457
+53,fa,fa##s,plur,2,artificial,0.009017395786941051,plural,plural,son,s,Las fa##s [MASK],"[CLS] , Las , fa , ##s , [MASK] , [SEP]",single-token,4.70859970201066
+54,ro,ro,sing,1,default,0.014653298072516918,singular,singular,es,s,El ro [MASK],"[CLS] , El , ro , [MASK] , [SEP]",single-token,4.223089844451872
+55,ro,ro,sing,1,default,0.0009874491952359676,plural,plural,son,s,El ro [MASK],"[CLS] , El , ro , [MASK] , [SEP]",single-token,6.920385510374795
+56,ro,ros,plur,1,default,0.0018445265013724566,singular,singular,es,s,Los ros [MASK],"[CLS] , Los , ros , [MASK] , [SEP]",single-token,6.295532673249541
+57,ro,ros,plur,1,default,0.044544585049152374,plural,plural,son,s,Los ros [MASK],"[CLS] , Los , ros , [MASK] , [SEP]",single-token,3.111264680171082
+58,ro,ro##s,plur,2,artificial,0.0025723197031766176,singular,singular,es,s,Los ro##s [MASK],"[CLS] , Los , ro , ##s , [MASK] , [SEP]",single-token,5.962947178940944
+59,ro,ro##s,plur,2,artificial,0.11318045854568481,plural,plural,son,s,Los ro##s [MASK],"[CLS] , Los , ro , ##s , [MASK] , [SEP]",single-token,2.1787717558032256
+60,ho,ho,sing,1,default,0.015046803280711174,singular,singular,es,s,El ho [MASK],"[CLS] , El , ho , [MASK] , [SEP]",single-token,4.196589716945993
+61,ho,ho,sing,1,default,0.0004940127837471664,plural,plural,son,s,El ho [MASK],"[CLS] , El , ho , [MASK] , [SEP]",single-token,7.612949163080481
+62,ho,hos,plur,1,default,0.0005473691271618009,singular,singular,es,s,Los hos [MASK],"[CLS] , Los , hos , [MASK] , [SEP]",single-token,7.510387161994946
+63,ho,hos,plur,1,default,0.04722513630986214,plural,plural,son,s,Los hos [MASK],"[CLS] , Los , hos , [MASK] , [SEP]",single-token,3.0528289792067307
+64,ho,ho##s,plur,2,artificial,0.0020863597746938467,singular,singular,es,s,Los ho##s [MASK],"[CLS] , Los , ho , ##s , [MASK] , [SEP]",single-token,6.1723344661849335
+65,ho,ho##s,plur,2,artificial,0.1074230894446373,plural,plural,son,s,Los ho##s [MASK],"[CLS] , Los , ho , ##s , [MASK] , [SEP]",single-token,2.2309801344954097
+66,rea,rea,sing,1,default,0.03743751347064972,singular,singular,es,s,La rea [MASK],"[CLS] , La , rea , [MASK] , [SEP]",single-token,3.285082043289513
+67,rea,rea,sing,1,default,0.0006954831769689918,plural,plural,son,s,La rea [MASK],"[CLS] , La , rea , [MASK] , [SEP]",single-token,7.270903735291607
+68,rea,reas,plur,1,default,0.0033560714218765497,singular,singular,es,s,Las reas [MASK],"[CLS] , Las , reas , [MASK] , [SEP]",single-token,5.6969842087572236
+69,rea,reas,plur,1,default,0.035518426448106766,plural,plural,son,s,Las reas [MASK],"[CLS] , Las , reas , [MASK] , [SEP]",single-token,3.337703662286906
+70,rea,rea##s,plur,2,artificial,0.0018743659602478147,singular,singular,es,s,Las rea##s [MASK],"[CLS] , Las , rea , ##s , [MASK] , [SEP]",single-token,6.2794848312813984
+71,rea,rea##s,plur,2,artificial,0.061758510768413544,plural,plural,son,s,Las rea##s [MASK],"[CLS] , Las , rea , ##s , [MASK] , [SEP]",single-token,2.7845234867620836
+72,pa,pa,sing,1,default,0.00142563262488693,singular,singular,es,s,La pa [MASK],"[CLS] , La , pa , [MASK] , [SEP]",single-token,6.553139616487892
+73,pa,pa,sing,1,default,7.791435928083956e-05,plural,plural,son,s,La pa [MASK],"[CLS] , La , pa , [MASK] , [SEP]",single-token,9.459900292410017
+74,pa,pas,plur,1,default,0.0017406028928235173,singular,singular,es,s,Las pas [MASK],"[CLS] , Las , pas , [MASK] , [SEP]",single-token,6.353523735641083
+75,pa,pas,plur,1,default,0.004936255980283022,plural,plural,son,s,Las pas [MASK],"[CLS] , Las , pas , [MASK] , [SEP]",single-token,5.311148133860878
+76,pa,pa##s,plur,2,artificial,0.0009767257142812014,singular,singular,es,s,Las pa##s [MASK],"[CLS] , Las , pa , ##s , [MASK] , [SEP]",single-token,6.931304688140403
+77,pa,pa##s,plur,2,artificial,0.0067683919332921505,plural,plural,son,s,Las pa##s [MASK],"[CLS] , Las , pa , ##s , [MASK] , [SEP]",single-token,4.995491748589532
+78,ba,ba,sing,1,default,0.00693990895524621,singular,singular,es,s,La ba [MASK],"[CLS] , La , ba , [MASK] , [SEP]",single-token,4.97046662339008
+79,ba,ba,sing,1,default,0.00019836473802570254,plural,plural,son,s,La ba [MASK],"[CLS] , La , ba , [MASK] , [SEP]",single-token,8.525403110634945
+80,ba,bas,plur,1,default,0.004124896600842476,singular,singular,es,s,Las bas [MASK],"[CLS] , Las , bas , [MASK] , [SEP]",single-token,5.490714325972092
+81,ba,bas,plur,1,default,0.023338038474321365,plural,plural,son,s,Las bas [MASK],"[CLS] , Las , bas , [MASK] , [SEP]",single-token,3.7576706970298073
+82,ba,ba##s,plur,2,artificial,0.0017224325565621257,singular,singular,es,s,Las ba##s [MASK],"[CLS] , Las , ba , ##s , [MASK] , [SEP]",single-token,6.364017710233652
+83,ba,ba##s,plur,2,artificial,0.013719098642468452,plural,plural,son,s,Las ba##s [MASK],"[CLS] , Las , ba , ##s , [MASK] , [SEP]",single-token,4.288966355455601
+84,co,co,sing,1,default,0.0017922440310940146,singular,singular,es,s,El co [MASK],"[CLS] , El , co , [MASK] , [SEP]",single-token,6.324286795634933
+85,co,co,sing,1,default,8.286255615530536e-05,plural,plural,son,s,El co [MASK],"[CLS] , El , co , [MASK] , [SEP]",single-token,9.398327272704366
+86,co,cos,plur,1,default,0.0033990535885095596,singular,singular,es,s,Los cos [MASK],"[CLS] , Los , cos , [MASK] , [SEP]",single-token,5.684258242429051
+87,co,cos,plur,1,default,0.041277457028627396,plural,plural,son,s,Los cos [MASK],"[CLS] , Los , cos , [MASK] , [SEP]",single-token,3.187438762695049
+88,co,co##s,plur,2,artificial,0.0008865745039656758,singular,singular,es,s,Los co##s [MASK],"[CLS] , Los , co , ##s , [MASK] , [SEP]",single-token,7.02814539315493
+89,co,co##s,plur,2,artificial,0.020429911091923714,plural,plural,son,s,Los co##s [MASK],"[CLS] , Los , co , ##s , [MASK] , [SEP]",single-token,3.8907552220013457
+90,to,to,sing,1,default,0.037830568850040436,singular,singular,es,s,El to [MASK],"[CLS] , El , to , [MASK] , [SEP]",single-token,3.274637803441519
+91,to,to,sing,1,default,0.0009771226905286312,plural,plural,son,s,El to [MASK],"[CLS] , El , to , [MASK] , [SEP]",single-token,6.930898334963857
+92,to,tos,plur,1,default,0.005872158799320459,singular,singular,es,s,Los tos [MASK],"[CLS] , Los , tos , [MASK] , [SEP]",single-token,5.137532944554586
+93,to,tos,plur,1,default,0.056499823927879333,plural,plural,son,s,Los tos [MASK],"[CLS] , Los , tos , [MASK] , [SEP]",single-token,2.873517757155317
+94,to,to##s,plur,2,artificial,0.0024780919775366783,singular,singular,es,s,Los to##s [MASK],"[CLS] , Los , to , ##s , [MASK] , [SEP]",single-token,6.000266378814038
+95,to,to##s,plur,2,artificial,0.15262430906295776,plural,plural,son,s,Los to##s [MASK],"[CLS] , Los , to , ##s , [MASK] , [SEP]",single-token,1.879775873585543
+96,ha,ha,sing,1,default,5.3981959354132414e-05,singular,singular,es,s,La ha [MASK],"[CLS] , La , ha , [MASK] , [SEP]",single-token,9.826860653253757
+97,ha,ha,sing,1,default,2.0548648535623215e-05,plural,plural,son,s,La ha [MASK],"[CLS] , La , ha , [MASK] , [SEP]",single-token,10.79271538387449
+98,ha,has,plur,1,default,6.840424612164497e-05,singular,singular,es,s,Las has [MASK],"[CLS] , Las , has , [MASK] , [SEP]",single-token,9.59007565746069
+99,ha,has,plur,1,default,0.000683316495269537,plural,plural,son,s,Las has [MASK],"[CLS] , Las , has , [MASK] , [SEP]",single-token,7.288552415872497
+100,ha,ha##s,plur,2,artificial,0.0006285787676461041,singular,singular,es,s,Las ha##s [MASK],"[CLS] , Las , ha , ##s , [MASK] , [SEP]",single-token,7.3720492113807765
+101,ha,ha##s,plur,2,artificial,0.00896243005990982,plural,plural,son,s,Las ha##s [MASK],"[CLS] , Las , ha , ##s , [MASK] , [SEP]",single-token,4.714713876723129
+102,ca,ca,sing,1,default,0.003230475354939699,singular,singular,es,s,La ca [MASK],"[CLS] , La , ca , [MASK] , [SEP]",single-token,5.735125983863843
+103,ca,ca,sing,1,default,3.9473608921980485e-05,plural,plural,son,s,La ca [MASK],"[CLS] , La , ca , [MASK] , [SEP]",single-token,10.139878237912004
+104,ca,cas,plur,1,default,0.0034969677217304707,singular,singular,es,s,Las cas [MASK],"[CLS] , Las , cas , [MASK] , [SEP]",single-token,5.655859051217884
+105,ca,cas,plur,1,default,0.009868153370916843,plural,plural,son,s,Las cas [MASK],"[CLS] , Las , cas , [MASK] , [SEP]",single-token,4.6184425381864305
+106,ca,ca##s,plur,2,artificial,0.0014101702254265547,singular,singular,es,s,Las ca##s [MASK],"[CLS] , Las , ca , ##s , [MASK] , [SEP]",single-token,6.5640448546261325
+107,ca,ca##s,plur,2,artificial,0.02098713256418705,plural,plural,son,s,Las ca##s [MASK],"[CLS] , Las , ca , ##s , [MASK] , [SEP]",single-token,3.863845764096258
+108,ta,ta,sing,1,default,0.008410112001001835,singular,singular,es,s,La ta [MASK],"[CLS] , La , ta , [MASK] , [SEP]",single-token,4.778320487487643
+109,ta,ta,sing,1,default,0.0003592796274460852,plural,plural,son,s,La ta [MASK],"[CLS] , La , ta , [MASK] , [SEP]",single-token,7.931409566131206
+110,ta,tas,plur,1,default,0.004522683098912239,singular,singular,es,s,Las tas [MASK],"[CLS] , Las , tas , [MASK] , [SEP]",single-token,5.3986498552982845
+111,ta,tas,plur,1,default,0.03496427461504936,plural,plural,son,s,Las tas [MASK],"[CLS] , Las , tas , [MASK] , [SEP]",single-token,3.3534284640718433
+112,ta,ta##s,plur,2,artificial,0.0021275943145155907,singular,singular,es,s,Las ta##s [MASK],"[CLS] , Las , ta , ##s , [MASK] , [SEP]",single-token,6.152763367352177
+113,ta,ta##s,plur,2,artificial,0.017432276159524918,plural,plural,son,s,Las ta##s [MASK],"[CLS] , Las , ta , ##s , [MASK] , [SEP]",single-token,4.049431839363139
+114,so,so,sing,1,default,0.013469498604536057,singular,singular,es,s,El so [MASK],"[CLS] , El , so , [MASK] , [SEP]",single-token,4.3073275123754495
+115,so,so,sing,1,default,0.0005623960751108825,plural,plural,son,s,El so [MASK],"[CLS] , El , so , [MASK] , [SEP]",single-token,7.483304196313504
+116,so,sos,plur,1,default,0.00121318397577852,singular,singular,es,s,Los sos [MASK],"[CLS] , Los , sos , [MASK] , [SEP]",single-token,6.714506990464476
+117,so,sos,plur,1,default,0.02954665943980217,plural,plural,son,s,Los sos [MASK],"[CLS] , Los , sos , [MASK] , [SEP]",single-token,3.521784589242836
+118,so,so##s,plur,2,artificial,0.0025201791431754827,singular,singular,es,s,Los so##s [MASK],"[CLS] , Los , so , ##s , [MASK] , [SEP]",single-token,5.983425291423778
+119,so,so##s,plur,2,artificial,0.05337969958782196,plural,plural,son,s,Los so##s [MASK],"[CLS] , Los , so , ##s , [MASK] , [SEP]",single-token,2.930324762825605
+120,sea,sea,sing,1,default,0.011475921608507633,singular,singular,es,s,La sea [MASK],"[CLS] , La , sea , [MASK] , [SEP]",single-token,4.467504211793666
+121,sea,sea,sing,1,default,0.00014736772573087364,plural,plural,son,s,La sea [MASK],"[CLS] , La , sea , [MASK] , [SEP]",single-token,8.822579559233336
+122,sea,seas,plur,1,default,0.00048796573537401855,singular,singular,es,s,Las seas [MASK],"[CLS] , Las , seas , [MASK] , [SEP]",single-token,7.625265368973776
+123,sea,seas,plur,1,default,0.009198172017931938,plural,plural,son,s,Las seas [MASK],"[CLS] , Las , seas , [MASK] , [SEP]",single-token,4.688750508372402
+124,sea,sea##s,plur,2,artificial,0.002333292970433831,singular,singular,es,s,Las sea##s [MASK],"[CLS] , Las , sea , ##s , [MASK] , [SEP]",single-token,6.060474717130053
+125,sea,sea##s,plur,2,artificial,0.03434760868549347,plural,plural,son,s,Las sea##s [MASK],"[CLS] , Las , sea , ##s , [MASK] , [SEP]",single-token,3.371222878879934
+126,bo,bo,sing,1,default,0.009126756340265274,singular,singular,es,s,El bo [MASK],"[CLS] , El , bo , [MASK] , [SEP]",single-token,4.6965449223891325
+127,bo,bo,sing,1,default,0.0008373988093808293,plural,plural,son,s,El bo [MASK],"[CLS] , El , bo , [MASK] , [SEP]",single-token,7.08521012618484
+128,bo,bos,plur,1,default,0.008468929678201675,singular,singular,es,s,Los bos [MASK],"[CLS] , Los , bos , [MASK] , [SEP]",single-token,4.771351144513012
+129,bo,bos,plur,1,default,0.058396756649017334,plural,plural,son,s,Los bos [MASK],"[CLS] , Los , bos , [MASK] , [SEP]",single-token,2.8404949275220774
+130,bo,bo##s,plur,2,artificial,0.0007426603697240353,singular,singular,es,s,Los bo##s [MASK],"[CLS] , Los , bo , ##s , [MASK] , [SEP]",single-token,7.205271724448755
+131,bo,bo##s,plur,2,artificial,0.03905603662133217,plural,plural,son,s,Los bo##s [MASK],"[CLS] , Los , bo , ##s , [MASK] , [SEP]",single-token,3.242757827669842
+132,vea,vea,sing,1,default,0.0009630969143472612,singular,singular,es,s,La vea [MASK],"[CLS] , La , vea , [MASK] , [SEP]",single-token,6.945356513278342
+133,vea,vea,sing,1,default,3.469922376098111e-05,plural,plural,son,s,La vea [MASK],"[CLS] , La , vea , [MASK] , [SEP]",single-token,10.268793241262218
+134,vea,veas,plur,1,default,0.00036702080979011953,singular,singular,es,s,Las veas [MASK],"[CLS] , Las , veas , [MASK] , [SEP]",single-token,7.910092009091832
+135,vea,veas,plur,1,default,0.005449424963444471,plural,plural,son,s,Las veas [MASK],"[CLS] , Las , veas , [MASK] , [SEP]",single-token,5.212245187168285
+136,vea,vea##s,plur,2,artificial,0.0027834700886160135,singular,singular,es,s,Las vea##s [MASK],"[CLS] , Las , vea , ##s , [MASK] , [SEP]",single-token,5.884056896360004
+137,vea,vea##s,plur,2,artificial,0.048632457852363586,plural,plural,son,s,Las vea##s [MASK],"[CLS] , Las , vea , ##s , [MASK] , [SEP]",single-token,3.023464113948441
+138,tra,tra,sing,1,default,0.0024571206886321306,singular,singular,es,s,La tra [MASK],"[CLS] , La , tra , [MASK] , [SEP]",single-token,6.008765066327061
+139,tra,tra,sing,1,default,6.617161852773279e-05,plural,plural,son,s,La tra [MASK],"[CLS] , La , tra , [MASK] , [SEP]",single-token,9.623258910095386
+140,tra,tras,plur,1,default,0.0012400501873344183,singular,singular,es,s,Las tras [MASK],"[CLS] , Las , tras , [MASK] , [SEP]",single-token,6.692603426527439
+141,tra,tras,plur,1,default,0.013567446731030941,plural,plural,son,s,Las tras [MASK],"[CLS] , Las , tras , [MASK] , [SEP]",single-token,4.30008197825289
+142,tra,tra##s,plur,2,artificial,0.0020525865256786346,singular,singular,es,s,Las tra##s [MASK],"[CLS] , Las , tra , ##s , [MASK] , [SEP]",single-token,6.188654561288172
+143,tra,tra##s,plur,2,artificial,0.008725867606699467,plural,plural,son,s,Las tra##s [MASK],"[CLS] , Las , tra , ##s , [MASK] , [SEP]",single-token,4.74146337667413
+144,cla,cla,sing,1,default,0.04213404655456543,singular,singular,es,s,La cla [MASK],"[CLS] , La , cla , [MASK] , [SEP]",single-token,3.1668991583616455
+145,cla,cla,sing,1,default,0.0002744205994531512,plural,plural,son,s,La cla [MASK],"[CLS] , La , cla , [MASK] , [SEP]",single-token,8.200848594036815
+146,cla,clas,plur,1,default,0.015287280082702637,singular,singular,es,s,Las clas [MASK],"[CLS] , Las , clas , [MASK] , [SEP]",single-token,4.180734163504688
+147,cla,clas,plur,1,default,0.006318105850368738,plural,plural,son,s,Las clas [MASK],"[CLS] , Las , clas , [MASK] , [SEP]",single-token,5.064335822964692
+148,cla,cla##s,plur,2,artificial,0.0031875018030405045,singular,singular,es,s,Las cla##s [MASK],"[CLS] , Las , cla , ##s , [MASK] , [SEP]",single-token,5.748517802837986
+149,cla,cla##s,plur,2,artificial,0.12076070159673691,plural,plural,son,s,Las cla##s [MASK],"[CLS] , Las , cla , ##s , [MASK] , [SEP]",single-token,2.113944364316579
+150,po,po,sing,1,default,0.0007312006200663745,singular,singular,es,s,El po [MASK],"[CLS] , El , po , [MASK] , [SEP]",single-token,7.220822689812693
+151,po,po,sing,1,default,4.001623528893106e-05,plural,plural,son,s,El po [MASK],"[CLS] , El , po , [MASK] , [SEP]",single-token,10.12622530397497
+152,po,pos,plur,1,default,0.003046360332518816,singular,singular,es,s,Los pos [MASK],"[CLS] , Los , pos , [MASK] , [SEP]",single-token,5.793807734552707
+153,po,pos,plur,1,default,0.028118234127759933,plural,plural,son,s,Los pos [MASK],"[CLS] , Los , pos , [MASK] , [SEP]",single-token,3.57133701174411
+154,po,po##s,plur,2,artificial,0.0009718088549561799,singular,singular,es,s,Los po##s [MASK],"[CLS] , Los , po , ##s , [MASK] , [SEP]",single-token,6.9363514241218835
+155,po,po##s,plur,2,artificial,0.030205244198441505,plural,plural,son,s,Los po##s [MASK],"[CLS] , Los , po , ##s , [MASK] , [SEP]",single-token,3.499739720721531
+156,sa,sa,sing,1,default,0.03295452520251274,singular,singular,es,s,La sa [MASK],"[CLS] , La , sa , [MASK] , [SEP]",single-token,3.412626692030408
+157,sa,sa,sing,1,default,0.0002121711295330897,plural,plural,son,s,La sa [MASK],"[CLS] , La , sa , [MASK] , [SEP]",single-token,8.458117394136167
+158,sa,sas,plur,1,default,0.0007456285529769957,singular,singular,es,s,Las sas [MASK],"[CLS] , Las , sas , [MASK] , [SEP]",single-token,7.201283000024374
+159,sa,sas,plur,1,default,0.0414336696267128,plural,plural,son,s,Las sas [MASK],"[CLS] , Las , sas , [MASK] , [SEP]",single-token,3.183661452673049
+160,sa,sa##s,plur,2,artificial,0.001996548380702734,singular,singular,es,s,Las sa##s [MASK],"[CLS] , Las , sa , ##s , [MASK] , [SEP]",single-token,6.216335398995912
+161,sa,sa##s,plur,2,artificial,0.051765769720077515,plural,plural,son,s,Las sa##s [MASK],"[CLS] , Las , sa , ##s , [MASK] , [SEP]",single-token,2.96102616436669
+162,bra,bra,sing,1,default,0.046759676188230515,singular,singular,es,s,La bra [MASK],"[CLS] , La , bra , [MASK] , [SEP]",single-token,3.062734067375932
+163,bra,bra,sing,1,default,0.0005227683577686548,plural,plural,son,s,La bra [MASK],"[CLS] , La , bra , [MASK] , [SEP]",single-token,7.556372102589398
+164,bra,bras,plur,1,default,0.000662688456941396,singular,singular,es,s,Las bras [MASK],"[CLS] , Las , bras , [MASK] , [SEP]",single-token,7.319205577248145
+165,bra,bras,plur,1,default,0.05790248140692711,plural,plural,son,s,Las bras [MASK],"[CLS] , Las , bras , [MASK] , [SEP]",single-token,2.848995038552478
+166,bra,bra##s,plur,2,artificial,0.0012202492216601968,singular,singular,es,s,Las bra##s [MASK],"[CLS] , Las , bra , ##s , [MASK] , [SEP]",single-token,6.708700161049959
+167,bra,bra##s,plur,2,artificial,0.057192616164684296,plural,plural,son,s,Las bra##s [MASK],"[CLS] , Las , bra , ##s , [MASK] , [SEP]",single-token,2.8613304769589565
+168,cao,cao,sing,2,default,0.033458638936281204,singular,singular,es,s,El cao [MASK],"[CLS] , El , ca , ##o , [MASK] , [SEP]",single-token,3.3974452615884854
+169,cao,cao,sing,2,default,0.0006053578108549118,plural,plural,son,s,El cao [MASK],"[CLS] , El , ca , ##o , [MASK] , [SEP]",single-token,7.40969085185435
+170,cao,caos,plur,1,default,0.008928130380809307,singular,singular,es,s,Los caos [MASK],"[CLS] , Los , caos , [MASK] , [SEP]",single-token,4.718548269864542
+171,cao,caos,plur,1,default,0.10028135031461716,plural,plural,son,s,Los caos [MASK],"[CLS] , Los , caos , [MASK] , [SEP]",single-token,2.2997755403397715
+172,cao,cao##s,plur,3,artificial,0.0013816471910104156,singular,singular,es,s,Los cao##s [MASK],"[CLS] , Los , ca , ##o , ##s , [MASK] , [SEP]",single-token,6.5844788749328425
+173,cao,cao##s,plur,3,artificial,0.07946381717920303,plural,plural,son,s,Los cao##s [MASK],"[CLS] , Los , ca , ##o , ##s , [MASK] , [SEP]",single-token,2.5324534907462097
+174,fra,fra,sing,1,default,0.004895193036645651,singular,singular,es,s,La fra [MASK],"[CLS] , La , fra , [MASK] , [SEP]",single-token,5.319501568303135
+175,fra,fra,sing,1,default,7.804328924976289e-05,plural,plural,son,s,La fra [MASK],"[CLS] , La , fra , [MASK] , [SEP]",single-token,9.458246894843311
+176,fra,fras,plur,1,default,0.0006629001582041383,singular,singular,es,s,Las fras [MASK],"[CLS] , Las , fras , [MASK] , [SEP]",single-token,7.318886170062351
+177,fra,fras,plur,1,default,0.03933669254183769,plural,plural,son,s,Las fras [MASK],"[CLS] , Las , fras , [MASK] , [SEP]",single-token,3.2355975432252193
+178,fra,fra##s,plur,2,artificial,0.0016914947191253304,singular,singular,es,s,Las fra##s [MASK],"[CLS] , Las , fra , ##s , [MASK] , [SEP]",single-token,6.382142691755283
+179,fra,fra##s,plur,2,artificial,0.012507445178925991,plural,plural,son,s,Las fra##s [MASK],"[CLS] , Las , fra , ##s , [MASK] , [SEP]",single-token,4.381431197667607
+180,vo,vo,sing,1,default,0.0012934410478919744,singular,singular,es,s,El vo [MASK],"[CLS] , El , vo , [MASK] , [SEP]",single-token,6.650449133030465
+181,vo,vo,sing,1,default,5.0124541303375736e-05,plural,plural,son,s,El vo [MASK],"[CLS] , El , vo , [MASK] , [SEP]",single-token,9.90099982343426
+182,vo,vos,plur,1,default,0.0011128992773592472,singular,singular,es,s,Los vos [MASK],"[CLS] , Los , vos , [MASK] , [SEP]",single-token,6.80078670731636
+183,vo,vos,plur,1,default,0.02556890994310379,plural,plural,son,s,Los vos [MASK],"[CLS] , Los , vos , [MASK] , [SEP]",single-token,3.666378120892636
+184,vo,vo##s,plur,2,artificial,0.001787586254067719,singular,singular,es,s,Los vo##s [MASK],"[CLS] , Los , vo , ##s , [MASK] , [SEP]",single-token,6.3268890305364005
+185,vo,vo##s,plur,2,artificial,0.03306127339601517,plural,plural,son,s,Los vo##s [MASK],"[CLS] , Los , vo , ##s , [MASK] , [SEP]",single-token,3.409392669605241
+186,dio,dio,sing,1,default,0.006028508301824331,singular,singular,es,s,El dio [MASK],"[CLS] , El , dio , [MASK] , [SEP]",single-token,5.111255678311675
+187,dio,dio,sing,1,default,0.00044801068725064397,plural,plural,son,s,El dio [MASK],"[CLS] , El , dio , [MASK] , [SEP]",single-token,7.710693470363639
+188,dio,dios,plur,1,default,0.006638115271925926,singular,singular,es,s,Los dios [MASK],"[CLS] , Los , dios , [MASK] , [SEP]",single-token,5.014927200374763
+189,dio,dios,plur,1,default,0.09715691953897476,plural,plural,son,s,Los dios [MASK],"[CLS] , Los , dios , [MASK] , [SEP]",single-token,2.3314278803839756
+190,dio,dio##s,plur,2,artificial,0.0007059320923872292,singular,singular,es,s,Los dio##s [MASK],"[CLS] , Los , dio , ##s , [MASK] , [SEP]",single-token,7.255991511517598
+191,dio,dio##s,plur,2,artificial,0.13071246445178986,plural,plural,son,s,Los dio##s [MASK],"[CLS] , Los , dio , ##s , [MASK] , [SEP]",single-token,2.034755296014702
+192,mo,mo,sing,1,default,0.015910668298602104,singular,singular,es,s,El mo [MASK],"[CLS] , El , mo , [MASK] , [SEP]",single-token,4.140765432574203
+193,mo,mo,sing,1,default,0.0003621722280513495,plural,plural,son,s,El mo [MASK],"[CLS] , El , mo , [MASK] , [SEP]",single-token,7.923390691182609
+194,mo,mos,plur,1,default,0.0017837297637015581,singular,singular,es,s,Los mos [MASK],"[CLS] , Los , mos , [MASK] , [SEP]",single-token,6.329048734043996
+195,mo,mos,plur,1,default,0.1454753875732422,plural,plural,son,s,Los mos [MASK],"[CLS] , Los , mos , [MASK] , [SEP]",single-token,1.9277483642515643
+196,mo,mo##s,plur,2,artificial,0.0042436751537024975,singular,singular,es,s,Los mo##s [MASK],"[CLS] , Los , mo , ##s , [MASK] , [SEP]",single-token,5.462325603642843
+197,mo,mo##s,plur,2,artificial,0.057954758405685425,plural,plural,son,s,Los mo##s [MASK],"[CLS] , Los , mo , ##s , [MASK] , [SEP]",single-token,2.8480926003036346
+198,dia,dia,sing,1,default,0.014226450584828854,singular,singular,es,s,La dia [MASK],"[CLS] , La , dia , [MASK] , [SEP]",single-token,4.2526523298398535
+199,dia,dia,sing,1,default,0.00011458001972641796,plural,plural,son,s,La dia [MASK],"[CLS] , La , dia , [MASK] , [SEP]",single-token,9.074237116821019
+200,dia,dias,plur,1,default,0.007769680116325617,singular,singular,es,s,Las dias [MASK],"[CLS] , Las , dias , [MASK] , [SEP]",single-token,4.857526284520112
+201,dia,dias,plur,1,default,0.07405796647071838,plural,plural,son,s,Las dias [MASK],"[CLS] , Las , dias , [MASK] , [SEP]",single-token,2.6029071617359403
+202,dia,dia##s,plur,2,artificial,0.0025282655842602253,singular,singular,es,s,Las dia##s [MASK],"[CLS] , Las , dia , ##s , [MASK] , [SEP]",single-token,5.980221751150671
+203,dia,dia##s,plur,2,artificial,0.06241735443472862,plural,plural,son,s,Las dia##s [MASK],"[CLS] , Las , dia , ##s , [MASK] , [SEP]",single-token,2.7739119263326604
+204,na,na,sing,1,default,0.02071499265730381,singular,singular,es,s,La na [MASK],"[CLS] , La , na , [MASK] , [SEP]",single-token,3.8768975579156004
+205,na,na,sing,1,default,0.0002488506434019655,plural,plural,son,s,La na [MASK],"[CLS] , La , na , [MASK] , [SEP]",single-token,8.298657667161885
+206,na,nas,plur,1,default,0.003326176665723324,singular,singular,es,s,Las nas [MASK],"[CLS] , Las , nas , [MASK] , [SEP]",single-token,5.705931783048578
+207,na,nas,plur,1,default,0.08635178953409195,plural,plural,son,s,Las nas [MASK],"[CLS] , Las , nas , [MASK] , [SEP]",single-token,2.4493257504108867
+208,na,na##s,plur,2,artificial,0.001166843343526125,singular,singular,es,s,Las na##s [MASK],"[CLS] , Las , na , ##s , [MASK] , [SEP]",single-token,6.753453173312243
+209,na,na##s,plur,2,artificial,0.02767716534435749,plural,plural,son,s,Las na##s [MASK],"[CLS] , Las , na , ##s , [MASK] , [SEP]",single-token,3.587147561556304
+210,fo,fo,sing,1,default,0.005092846695333719,singular,singular,es,s,El fo [MASK],"[CLS] , El , fo , [MASK] , [SEP]",single-token,5.279918332586373
+211,fo,fo,sing,1,default,0.000995058100670576,plural,plural,son,s,El fo [MASK],"[CLS] , El , fo , [MASK] , [SEP]",single-token,6.9127094298767195
+212,fo,fos,plur,1,default,0.010884818620979786,singular,singular,es,s,Los fos [MASK],"[CLS] , Los , fos , [MASK] , [SEP]",single-token,4.520386247642564
+213,fo,fos,plur,1,default,0.03673500195145607,plural,plural,son,s,Los fos [MASK],"[CLS] , Los , fos , [MASK] , [SEP]",single-token,3.3040252467873694
+214,fo,fo##s,plur,2,artificial,0.0015046524349600077,singular,singular,es,s,Los fo##s [MASK],"[CLS] , Los , fo , ##s , [MASK] , [SEP]",single-token,6.499193347678006
+215,fo,fo##s,plur,2,artificial,0.06587529182434082,plural,plural,son,s,Los fo##s [MASK],"[CLS] , Los , fo , ##s , [MASK] , [SEP]",single-token,2.7199918421594047
+216,ra,ra,sing,1,default,0.011753561906516552,singular,singular,es,s,La ra [MASK],"[CLS] , La , ra , [MASK] , [SEP]",single-token,4.44359894334978
+217,ra,ra,sing,1,default,0.00011360424832673743,plural,plural,son,s,La ra [MASK],"[CLS] , La , ra , [MASK] , [SEP]",single-token,9.082789655134075
+218,ra,ras,plur,1,default,0.0020319712348282337,singular,singular,es,s,Las ras [MASK],"[CLS] , Las , ras , [MASK] , [SEP]",single-token,6.1987489054545675
+219,ra,ras,plur,1,default,0.045547351241111755,plural,plural,son,s,Las ras [MASK],"[CLS] , Las , ras , [MASK] , [SEP]",single-token,3.089002807546305
+220,ra,ra##s,plur,2,artificial,0.0038491373416036367,singular,singular,es,s,Las ra##s [MASK],"[CLS] , Las , ra , ##s , [MASK] , [SEP]",single-token,5.55990622290517
+221,ra,ra##s,plur,2,artificial,0.027494078502058983,plural,plural,son,s,Las ra##s [MASK],"[CLS] , Las , ra , ##s , [MASK] , [SEP]",single-token,3.593784624693696
+222,do,do,sing,1,default,0.011845412664115429,singular,singular,es,s,El do [MASK],"[CLS] , El , do , [MASK] , [SEP]",single-token,4.435814603302392
+223,do,do,sing,1,default,0.000672609661705792,plural,plural,son,s,El do [MASK],"[CLS] , El , do , [MASK] , [SEP]",single-token,7.304345394048532
+224,do,dos,plur,1,default,0.0022281091660261154,singular,singular,es,s,Los dos [MASK],"[CLS] , Los , dos , [MASK] , [SEP]",single-token,6.106601960798706
+225,do,dos,plur,1,default,0.08488890528678894,plural,plural,son,s,Los dos [MASK],"[CLS] , Los , dos , [MASK] , [SEP]",single-token,2.466411873982875
+226,do,do##s,plur,2,artificial,0.0010645258007571101,singular,singular,es,s,Los do##s [MASK],"[CLS] , Los , do , ##s , [MASK] , [SEP]",single-token,6.845225836482367
+227,do,do##s,plur,2,artificial,0.008131817914545536,plural,plural,son,s,Los do##s [MASK],"[CLS] , Los , do , ##s , [MASK] , [SEP]",single-token,4.811970774693294
+228,bla,bla,sing,1,default,0.029175302013754845,singular,singular,es,s,La bla [MASK],"[CLS] , La , bla , [MASK] , [SEP]",single-token,3.534432749063445
+229,bla,bla,sing,1,default,0.00014745219959877431,plural,plural,son,s,La bla [MASK],"[CLS] , La , bla , [MASK] , [SEP]",single-token,8.822006505223381
+230,bla,blas,plur,1,default,0.0036469995975494385,singular,singular,es,s,Las blas [MASK],"[CLS] , Las , blas , [MASK] , [SEP]",single-token,5.613850477506728
+231,bla,blas,plur,1,default,0.016030309721827507,plural,plural,son,s,Las blas [MASK],"[CLS] , Las , blas , [MASK] , [SEP]",single-token,4.133273991160712
+232,bla,bla##s,plur,2,artificial,0.0015656737377867103,singular,singular,es,s,Las bla##s [MASK],"[CLS] , Las , bla , ##s , [MASK] , [SEP]",single-token,6.459439044251924
+233,bla,bla##s,plur,2,artificial,0.04140416905283928,plural,plural,son,s,Las bla##s [MASK],"[CLS] , Las , bla , ##s , [MASK] , [SEP]",single-token,3.1843737014615474
+234,lo,lo,sing,1,default,0.0685882419347763,singular,singular,es,s,El lo [MASK],"[CLS] , El , lo , [MASK] , [SEP]",single-token,2.6796341593087116
+235,lo,lo,sing,1,default,0.002345677465200424,plural,plural,son,s,El lo [MASK],"[CLS] , El , lo , [MASK] , [SEP]",single-token,6.055181021066758
+236,lo,los,plur,1,default,0.004237068817019463,singular,singular,es,s,Los los [MASK],"[CLS] , Los , los , [MASK] , [SEP]",single-token,5.46388356554857
+237,lo,los,plur,1,default,0.02384781464934349,plural,plural,son,s,Los los [MASK],"[CLS] , Los , los , [MASK] , [SEP]",single-token,3.7360626948043203
+238,lo,lo##s,plur,2,artificial,0.0015503165777772665,singular,singular,es,s,Los lo##s [MASK],"[CLS] , Los , lo , ##s , [MASK] , [SEP]",single-token,6.469296125178624
+239,lo,lo##s,plur,2,artificial,0.061405833810567856,plural,plural,son,s,Los lo##s [MASK],"[CLS] , Los , lo , ##s , [MASK] , [SEP]",single-token,2.7902504351410777
+240,la,la,sing,1,default,0.006724994629621506,singular,singular,es,s,La la [MASK],"[CLS] , La , la , [MASK] , [SEP]",single-token,5.001924152063846
+241,la,la,sing,1,default,0.00010835461580427364,plural,plural,son,s,La la [MASK],"[CLS] , La , la , [MASK] , [SEP]",single-token,9.130101230019212
+242,la,las,plur,1,default,0.002719391603022814,singular,singular,es,s,Las las [MASK],"[CLS] , Las , las , [MASK] , [SEP]",single-token,5.907347099052555
+243,la,las,plur,1,default,0.028481701388955116,plural,plural,son,s,Las las [MASK],"[CLS] , Las , las , [MASK] , [SEP]",single-token,3.5584934544419844
+244,la,la##s,plur,2,artificial,0.002051095711067319,singular,singular,es,s,Las la##s [MASK],"[CLS] , Las , la , ##s , [MASK] , [SEP]",single-token,6.189381135418865
+245,la,la##s,plur,2,artificial,0.03929227963089943,plural,plural,son,s,Las la##s [MASK],"[CLS] , Las , la , ##s , [MASK] , [SEP]",single-token,3.236727226456076
+246,ma,ma,sing,1,default,0.0031532736029475927,singular,singular,es,s,La ma [MASK],"[CLS] , La , ma , [MASK] , [SEP]",single-token,5.759314126748654
+247,ma,ma,sing,1,default,0.00018024268501903862,plural,plural,son,s,La ma [MASK],"[CLS] , La , ma , [MASK] , [SEP]",single-token,8.621206365041353
+248,ma,mas,plur,1,default,0.00031365558970719576,singular,singular,es,s,Las mas [MASK],"[CLS] , Las , mas , [MASK] , [SEP]",single-token,8.067215022100342
+249,ma,mas,plur,1,default,0.005852008704096079,plural,plural,son,s,Las mas [MASK],"[CLS] , Las , mas , [MASK] , [SEP]",single-token,5.140970308454197
+250,ma,ma##s,plur,2,artificial,0.00043619718053378165,singular,singular,es,s,Las ma##s [MASK],"[CLS] , Las , ma , ##s , [MASK] , [SEP]",single-token,7.737416167918274
+251,ma,ma##s,plur,2,artificial,0.0014639905421063304,plural,plural,son,s,Las ma##s [MASK],"[CLS] , Las , ma , ##s , [MASK] , [SEP]",single-token,6.526589323773769
+252,da,da,sing,1,default,0.0033613189589232206,singular,singular,es,s,La da [MASK],"[CLS] , La , da , [MASK] , [SEP]",single-token,5.69542183473498
+253,da,da,sing,1,default,0.00010933547309832647,plural,plural,son,s,La da [MASK],"[CLS] , La , da , [MASK] , [SEP]",single-token,9.121089667418472
+254,da,das,plur,1,default,0.009244343265891075,singular,singular,es,s,Las das [MASK],"[CLS] , Las , das , [MASK] , [SEP]",single-token,4.6837434533465245
+255,da,das,plur,1,default,0.06166796013712883,plural,plural,son,s,Las das [MASK],"[CLS] , Las , das , [MASK] , [SEP]",single-token,2.7859907675952145
+256,da,da##s,plur,2,artificial,0.0035184104926884174,singular,singular,es,s,Las da##s [MASK],"[CLS] , Las , da , ##s , [MASK] , [SEP]",single-token,5.6497459559352725
+257,da,da##s,plur,2,artificial,0.0691312700510025,plural,plural,son,s,Las da##s [MASK],"[CLS] , Las , da , ##s , [MASK] , [SEP]",single-token,2.671748117271224
