@@ -1,7 +1,0 @@
-,Unnamed: 0,lemma,word_form,word_number,n_tokens,tokenization_type,article_probs,article_number,article_type,article,affix,sentence,model_token_inputs,source,surprisal,surprisal_shift,log_odds
-1,1,bo,bo,sing,1,default,0.0002916963421739,plural,definite,Los,s,[MASK] bo,"[CLS] , [MASK] , bo , [SEP]",single-token,8.139797220853952,2.420342351045048,-2.420342351045246
-3,3,bo,bos,plur,1,default,0.0002585561887826,plural,definite,Los,s,[MASK] bos,"[CLS] , [MASK] , bos , [SEP]",single-token,8.260397522906189,2.480199427109538,-2.480199427109821
-5,5,bo,bo##s,plur,2,artificial,0.0022935359738767,plural,definite,Los,s,[MASK] bo##s,"[CLS] , [MASK] , bo , ##s , [SEP]",single-token,6.077660558906516,-0.04305514417817058,0.04305514417819869
-7,7,bo,bo,sing,1,default,2.0006873455713503e-06,plural,indefinite,Unos,s,[MASK] bo,"[CLS] , [MASK] , bo , [SEP]",single-token,13.12201976366062,5.430845236872821,-5.4308452368727425
-9,9,bo,bos,plur,1,default,4.084600732312538e-06,plural,indefinite,Unos,s,[MASK] bos,"[CLS] , [MASK] , bos , [SEP]",single-token,12.408286574377138,4.573579272663024,-4.573579272662996
-11,11,bo,bo##s,plur,2,artificial,1.627752135391347e-05,plural,indefinite,Unos,s,[MASK] bo##s,"[CLS] , [MASK] , bo , ##s , [SEP]",single-token,11.025725459969356,3.619163467766855,-3.6191634677667825
